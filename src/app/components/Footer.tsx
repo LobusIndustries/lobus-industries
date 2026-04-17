@@ -22,10 +22,10 @@ export default function Footer() {
             FAQ
           </a>
           <a
-            href="mailto:hello@lobusindustries.com"
+            href="mailto:lobusindustries@gmail.com"
             className="hover:text-[var(--navy)]"
           >
-            hello@lobusindustries.com
+            lobusindustries@gmail.com
           </a>
         </div>
         <div className="text-xs text-[var(--muted)]">
