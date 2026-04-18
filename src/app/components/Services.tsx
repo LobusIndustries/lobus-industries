@@ -33,7 +33,11 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="py-24">
+    <section id="services" className="py-24 relative">
+      <div
+        className="glow-amber"
+        style={{ top: "20%", left: "-180px", width: "400px", height: "400px", opacity: 0.3 }}
+      />
       <div className="mx-auto max-w-6xl px-6">
         <SectionHeading
           eyebrow="What you get"

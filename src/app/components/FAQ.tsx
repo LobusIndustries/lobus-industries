@@ -29,7 +29,11 @@ const faqs = [
 
 export default function FAQ() {
   return (
-    <section id="faq" className="py-24">
+    <section id="faq" className="py-24 relative">
+      <div
+        className="glow-amber"
+        style={{ top: "30%", right: "-200px", width: "380px", height: "380px", opacity: 0.25 }}
+      />
       <div className="mx-auto max-w-6xl px-6">
         <SectionHeading
           eyebrow="FAQ"

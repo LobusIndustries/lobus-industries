@@ -20,7 +20,11 @@ const steps = [
 
 export default function Process() {
   return (
-    <section id="process" className="py-24">
+    <section id="process" className="py-24 relative">
+      <div
+        className="glow-navy"
+        style={{ bottom: "10%", right: "-150px", width: "420px", height: "420px", opacity: 0.25 }}
+      />
       <div className="mx-auto max-w-6xl px-6">
         <SectionHeading
           eyebrow="How it works"
