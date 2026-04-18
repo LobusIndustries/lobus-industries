@@ -20,29 +20,29 @@ const steps = [
 
 export default function Process() {
   return (
-    <section id="process" className="py-24 relative">
+    <section id="process" className="py-28 relative">
       <div
-        className="glow-navy"
-        style={{ bottom: "10%", right: "-150px", width: "420px", height: "420px", opacity: 0.25 }}
+        className="glow-amber"
+        style={{ bottom: "5%", right: "-160px", width: "440px", height: "440px" }}
       />
       <div className="mx-auto max-w-6xl px-6">
         <SectionHeading
           eyebrow="How it works"
           title="Three steps. No surprises."
         />
-        <div className="mt-14 grid md:grid-cols-3 gap-6">
+        <div className="mt-16 grid md:grid-cols-3 gap-6">
           {steps.map((s) => (
             <div key={s.n} className="card p-7 relative overflow-hidden">
-              <div className="text-5xl font-semibold text-[var(--accent)]/15 absolute top-4 right-5 select-none">
+              <div className="text-7xl font-semibold text-accent-gradient absolute top-2 right-5 select-none opacity-20">
                 {s.n}
               </div>
-              <div className="text-sm font-semibold text-[var(--accent)]">
+              <div className="text-[11px] font-semibold tracking-[0.22em] uppercase text-[var(--accent)]">
                 Step {s.n}
               </div>
-              <h3 className="mt-2 text-xl font-semibold text-[var(--navy)]">
+              <h3 className="mt-2 text-xl font-semibold text-white">
                 {s.title}
               </h3>
-              <p className="mt-3 text-[var(--muted)] leading-relaxed text-sm">
+              <p className="mt-3 text-[var(--muted-strong)] leading-relaxed text-sm">
                 {s.body}
               </p>
             </div>

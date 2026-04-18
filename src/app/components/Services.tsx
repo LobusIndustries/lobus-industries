@@ -33,10 +33,10 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="py-24 relative">
+    <section id="services" className="py-28 relative">
       <div
         className="glow-amber"
-        style={{ top: "20%", left: "-180px", width: "400px", height: "400px", opacity: 0.3 }}
+        style={{ top: "10%", left: "-180px", width: "460px", height: "460px" }}
       />
       <div className="mx-auto max-w-6xl px-6">
         <SectionHeading
@@ -44,16 +44,16 @@ export default function Services() {
           title="Everything you need to look serious online."
           subtitle="No template-of-the-month. Every site is built around your business and the way your customers actually find you."
         />
-        <div className="mt-14 grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div className="mt-16 grid md:grid-cols-2 lg:grid-cols-3 gap-5">
           {services.map((s) => (
             <div key={s.title} className="card p-7">
-              <div className="h-10 w-10 rounded-xl bg-[var(--navy)] text-[var(--accent)] grid place-items-center text-lg font-semibold">
+              <div className="h-11 w-11 rounded-xl bg-gradient-to-br from-[var(--accent)] to-[var(--accent-strong)] text-white grid place-items-center text-lg font-semibold shadow-[0_8px_24px_-8px_rgba(251,146,60,0.6)]">
                 {s.icon}
               </div>
-              <h3 className="mt-5 text-lg font-semibold text-[var(--navy)]">
+              <h3 className="mt-5 text-lg font-semibold text-white">
                 {s.title}
               </h3>
-              <p className="mt-2 text-[var(--muted)] leading-relaxed text-sm">
+              <p className="mt-2 text-[var(--muted-strong)] leading-relaxed text-sm">
                 {s.body}
               </p>
             </div>
@@ -75,14 +75,14 @@ export function SectionHeading({
 }) {
   return (
     <div className="max-w-2xl">
-      <div className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold">
+      <div className="text-[11px] uppercase tracking-[0.22em] text-[var(--accent)] font-semibold">
         {eyebrow}
       </div>
-      <h2 className="mt-3 text-3xl md:text-4xl font-semibold tracking-tight text-[var(--navy)] leading-tight">
+      <h2 className="mt-3 text-3xl md:text-5xl font-semibold tracking-tight text-white leading-[1.1]">
         {title}
       </h2>
       {subtitle && (
-        <p className="mt-4 text-[var(--muted)] text-lg leading-relaxed">
+        <p className="mt-5 text-[var(--muted-strong)] text-lg leading-relaxed">
           {subtitle}
         </p>
       )}

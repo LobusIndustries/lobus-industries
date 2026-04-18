@@ -29,10 +29,10 @@ const faqs = [
 
 export default function FAQ() {
   return (
-    <section id="faq" className="py-24 relative">
+    <section id="faq" className="py-28 relative">
       <div
         className="glow-amber"
-        style={{ top: "30%", right: "-200px", width: "380px", height: "380px", opacity: 0.25 }}
+        style={{ top: "30%", right: "-180px", width: "400px", height: "400px" }}
       />
       <div className="mx-auto max-w-6xl px-6">
         <SectionHeading
@@ -43,14 +43,14 @@ export default function FAQ() {
           {faqs.map((f) => (
             <details key={f.q} className="group py-5">
               <summary className="flex items-start justify-between gap-6 cursor-pointer list-none">
-                <span className="text-base md:text-lg font-medium text-[var(--navy)]">
+                <span className="text-base md:text-lg font-medium text-white">
                   {f.q}
                 </span>
-                <span className="mt-1 h-6 w-6 shrink-0 rounded-full border border-[var(--border)] grid place-items-center text-[var(--muted)] group-open:rotate-45 transition-transform">
+                <span className="mt-1 h-6 w-6 shrink-0 rounded-full border border-[var(--border-strong)] grid place-items-center text-[var(--muted-strong)] group-open:rotate-45 group-open:bg-[var(--accent-soft)] group-open:text-[var(--accent)] group-open:border-[var(--accent)] transition-all">
                   +
                 </span>
               </summary>
-              <p className="mt-3 text-[var(--muted)] leading-relaxed text-[15px]">
+              <p className="mt-3 text-[var(--muted-strong)] leading-relaxed text-[15px]">
                 {f.a}
               </p>
             </details>

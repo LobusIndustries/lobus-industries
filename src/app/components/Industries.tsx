@@ -11,23 +11,24 @@ const industries = [
 
 export default function Industries() {
   return (
-    <section id="industries" className="py-24 bg-white border-y border-[var(--border)]">
+    <section id="industries" className="py-28 relative">
+      <div
+        className="glow-cool"
+        style={{ top: "20%", right: "-180px", width: "460px", height: "460px" }}
+      />
       <div className="mx-auto max-w-6xl px-6">
         <SectionHeading
           eyebrow="Who we serve"
           title="If you sell time, expertise, or a trade — we build for you."
           subtitle="Service businesses don't need a 50-page e-commerce site. They need to look credible, get found, and convert. That's all we build."
         />
-        <div className="mt-14 grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div className="mt-16 grid md:grid-cols-2 lg:grid-cols-3 gap-5">
           {industries.map((i) => (
-            <div
-              key={i.name}
-              className="rounded-2xl border border-[var(--border)] bg-[var(--background)] p-6 hover:border-[var(--navy)] transition-colors"
-            >
-              <div className="text-base font-semibold text-[var(--navy)]">
+            <div key={i.name} className="card p-6">
+              <div className="text-base font-semibold text-white">
                 {i.name}
               </div>
-              <p className="mt-1.5 text-sm text-[var(--muted)] leading-relaxed">
+              <p className="mt-1.5 text-sm text-[var(--muted-strong)] leading-relaxed">
                 {i.examples}
               </p>
             </div>

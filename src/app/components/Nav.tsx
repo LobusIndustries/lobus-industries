@@ -11,11 +11,11 @@ const links = [
 
 export default function Nav() {
   return (
-    <header className="sticky top-0 z-50 backdrop-blur-md bg-[var(--background)]/80 border-b border-[var(--border)]">
+    <header className="sticky top-0 z-50 backdrop-blur-xl bg-[var(--background)]/60 border-b border-[var(--border)]">
       <div className="mx-auto max-w-6xl px-6 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2.5">
           <Logo className="h-7 w-7" />
-          <span className="font-semibold tracking-tight text-[var(--navy)]">
+          <span className="font-semibold tracking-tight text-white">
             Lobus Industries
           </span>
         </Link>
@@ -24,7 +24,7 @@ export default function Nav() {
             <a
               key={l.href}
               href={l.href}
-              className="hover:text-[var(--navy)] transition-colors"
+              className="hover:text-white transition-colors"
             >
               {l.label}
             </a>
@@ -32,7 +32,7 @@ export default function Nav() {
         </nav>
         <a
           href="#contact"
-          className="btn-primary text-sm font-medium px-4 py-2 rounded-full"
+          className="btn-accent text-sm px-4 py-2 rounded-full"
         >
           Get started
         </a>
