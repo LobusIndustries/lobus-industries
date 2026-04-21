@@ -71,6 +71,9 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+  verification: {
+    google: "eupOwkjzlCyvpROc7LtjXeiaOCEbTnWFvd1THp7Lmkk",
+  },
   other: {
     // Geo hints for local-service discovery
     "geo.region": "US",
