@@ -1,0 +1,25 @@
+{
+  "name": "Lobus Industries — Websites for Service Businesses",
+  "short_name": "Lobus Industries",
+  "description": "Professional websites for service-based small businesses. Free to build. $100/month to host. Launch in about a week.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07080d",
+  "theme_color": "#07080d",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-icon.svg",
+      "sizes": "180x180",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "lang": "en-US"
+}

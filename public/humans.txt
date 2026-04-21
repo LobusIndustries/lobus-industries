@@ -1,0 +1,14 @@
+/* TEAM */
+Lobus Industries
+Contact: lobusindustries@gmail.com
+Site: https://www.lobusindustries.com
+Location: United States
+
+/* THANKS */
+Next.js, Vercel, Tailwind CSS, Formspree
+
+/* SITE */
+Last update: 2026/04
+Language: English
+Doctype: HTML5
+Components: Next.js 16, Tailwind v4, TypeScript
