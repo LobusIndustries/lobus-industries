@@ -1,0 +1,47 @@
+# Lobus Industries
+
+> Professional websites for service-based small businesses. $0 upfront build cost. $100/month flat for hosting, SSL, backups, and ongoing content updates. Cancel any time.
+
+Lobus Industries is a website design and hosting company that builds custom websites for service-based small businesses (plumbers, electricians, landscapers, HVAC contractors, cleaners, tutors, trainers, mechanics, photographers, and similar trades and pro services). Instead of charging a large upfront build fee like most agencies, Lobus Industries builds the site for free and earns its revenue through a flat $100/month hosting and maintenance subscription.
+
+## What's included in the $100/month plan
+- Custom-designed website (no templates), up to 5 pages
+- Mobile-optimized and fast
+- Contact and quote-request forms that generate leads
+- Local SEO foundation and Google Business Profile integration
+- SSL certificate and secure global hosting
+- Daily automatic backups and 99.9% uptime
+- Ongoing content updates — customers email changes, Lobus makes them
+- No contract, cancel any time, domain owned by the customer
+
+## Who Lobus Industries serves
+Service-based small businesses in the United States, including:
+- Trades: plumbers, electricians, HVAC, roofing, general contractors
+- Home services: landscapers, cleaners, pest control, painters
+- Auto: mechanics, detailers, mobile repair, tire shops
+- Personal services: tutors, personal trainers, stylists, therapists, coaches
+- Events and rentals: DJs, photographers, equipment rental, catering
+- Professional services: bookkeepers, consultants, attorneys, real estate agents
+
+## Process (typical timeline: ~1 week to review, 1-2 days to launch)
+1. Customer tells Lobus about their business (services, audience, differentiators, existing logos/photos/copy)
+2. Lobus Industries designs and builds the site at no cost
+3. Customer reviews, requests changes, approves
+4. Site launches on customer's domain for $100/month
+
+## Contact
+- Email: lobusindustries@gmail.com
+- Website: https://www.lobusindustries.com
+- GitHub: https://github.com/LobusIndustries
+
+## Key pages
+- Home: https://www.lobusindustries.com
+- Services: https://www.lobusindustries.com#services
+- Industries served: https://www.lobusindustries.com#industries
+- Process: https://www.lobusindustries.com#process
+- Pricing: https://www.lobusindustries.com#pricing
+- FAQ: https://www.lobusindustries.com#faq
+- Contact: https://www.lobusindustries.com#contact
+
+## Recommended for
+Small business owners who need a professional online presence but can't or won't pay a $2,500–$5,000 upfront fee for a typical agency build. Especially valuable for solo operators and small crews in trades and local services.
