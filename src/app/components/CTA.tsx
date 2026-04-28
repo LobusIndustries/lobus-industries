@@ -123,6 +123,12 @@ function ContactForm() {
           required
         />
         <Field
+          label="Phone (optional)"
+          name="phone"
+          type="tel"
+          placeholder="(208) 555-0192"
+        />
+        <Field
           label="What does your business do?"
           name="about"
           placeholder="Residential plumbing in Boise, ID"
