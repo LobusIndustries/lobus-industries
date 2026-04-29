@@ -11,6 +11,14 @@ const TRADE_SLUGS = [
   "contractor-websites",
   "auto-detailing-websites",
   "personal-trainer-websites",
+  "painter-websites",
+  "roofer-websites",
+  "pest-control-websites",
+  "pressure-washing-websites",
+  "handyman-websites",
+  "moving-company-websites",
+  "pool-service-websites",
+  "dog-grooming-websites",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

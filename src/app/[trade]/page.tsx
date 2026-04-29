@@ -172,6 +172,158 @@ const TRADES: Record<string, TradeConfig> = {
       },
     ],
   },
+  "painter-websites": {
+    name: "Painters",
+    metaTitle: "Websites for Painters — Free to Build, $100/mo to Host",
+    metaDescription:
+      "Professional websites for house painters and painting contractors. Showcase your work, get found locally, and win more quotes. $0 upfront, $100/month flat.",
+    headline: "A website that keeps your schedule painted solid.",
+    sub: "Most painting jobs are won before the first call. A professional site with photos of your work and a simple quote form puts you ahead of every painter without one.",
+    why: "Homeowners searching for a painter compare several options online before reaching out to anyone. A site that shows clean, finished work and makes it easy to request a quote consistently wins that comparison.",
+    faqs: [
+      {
+        q: "Can I show before-and-after photos of my paint jobs?",
+        a: "Yes — photo galleries are the centerpiece of a great painting site. Send us your best shots and we'll make them shine.",
+      },
+      {
+        q: "Can customers request a quote directly from the site?",
+        a: "Absolutely. We build a quote-request form so leads can describe their project and you can follow up — no phone tag required.",
+      },
+    ],
+  },
+  "roofer-websites": {
+    name: "Roofers",
+    metaTitle: "Websites for Roofers — Free to Build, $100/mo to Host",
+    metaDescription:
+      "Professional websites for roofing contractors and companies. Get found after storms, build trust, and generate more estimates. $0 upfront, $100/month flat.",
+    headline: "Win more roofing jobs before a competitor even calls back.",
+    sub: "After a storm, homeowners search online first. A fast, professional site with a clear contact form gets you the call while your competition is still driving around.",
+    why: "Roofing is a high-ticket, high-trust purchase. Homeowners need to feel confident before inviting anyone onto their roof. A professional website with photos, credentials, and reviews builds that confidence instantly.",
+    faqs: [
+      {
+        q: "Can I feature insurance and storm damage services?",
+        a: "Yes — we highlight whatever services matter most to your market, including insurance claim assistance if that's part of what you offer.",
+      },
+      {
+        q: "Can you show the areas I service?",
+        a: "Absolutely. A clear service area helps both customers and Google understand exactly where you work.",
+      },
+    ],
+  },
+  "pest-control-websites": {
+    name: "Pest Control",
+    metaTitle: "Websites for Pest Control Companies — Free to Build, $100/mo to Host",
+    metaDescription:
+      "Professional websites for pest control and exterminator businesses. Get found locally and turn searches into service calls. $0 upfront, $100/month flat.",
+    headline: "When bugs show up, make sure you do too — on Google.",
+    sub: "Pest problems are urgent. Customers search, click the first credible result, and call. A professional website makes sure that first result is you.",
+    why: "Most pest calls happen fast — people aren't comparing options for days. They search, land on a site that looks legit and has a phone number, and call. If your site is slow or looks outdated, they move on in seconds.",
+    faqs: [
+      {
+        q: "Can I list the pests and treatments I cover?",
+        a: "Yes — a clear service list helps customers quickly confirm you handle their specific problem, which increases the chance they call.",
+      },
+      {
+        q: "Can I offer a free inspection offer on the site?",
+        a: "Absolutely. A free inspection CTA is one of the highest-converting offers in pest control. We make it prominent.",
+      },
+    ],
+  },
+  "pressure-washing-websites": {
+    name: "Pressure Washing",
+    metaTitle: "Websites for Pressure Washing Companies — Free to Build, $100/mo to Host",
+    metaDescription:
+      "Professional websites for pressure washing and power washing businesses. Show your results, get found locally, and fill your schedule. $0 upfront, $100/month flat.",
+    headline: "Show the results. Book the job.",
+    sub: "Pressure washing sells itself visually. A site with your before-and-after photos and a quick quote form turns search traffic into booked jobs — no chasing required.",
+    why: "Before-and-after photos are impossible to argue with. A website that leads with your best transformations and makes it easy to get a quote consistently beats competitors who only have a Facebook page.",
+    faqs: [
+      {
+        q: "Can I show before-and-after photos?",
+        a: "Yes — they're the most powerful content for pressure washing. Send us your best shots and we'll build a gallery that does the selling for you.",
+      },
+      {
+        q: "Can I list different services like driveways, decks, and roofs?",
+        a: "Absolutely. We organize your services clearly so every visitor knows exactly what you offer and can request a quote for their specific job.",
+      },
+    ],
+  },
+  "handyman-websites": {
+    name: "Handymen",
+    metaTitle: "Websites for Handymen — Free to Build, $100/mo to Host",
+    metaDescription:
+      "Professional websites for handymen and home repair services. Build credibility, get found locally, and keep your schedule full. $0 upfront, $100/month flat.",
+    headline: "Look like the pro you are — online.",
+    sub: "Handymen live and die by referrals — until they have a website. A professional site keeps you booked even when word of mouth slows down.",
+    why: "People are skeptical of handymen they don't know. A clean, professional website with a list of services, photos, and a simple way to reach you instantly sets you apart from the guys with no web presence at all.",
+    faqs: [
+      {
+        q: "Can I list all the different jobs I do?",
+        a: "Yes — a clear services list helps customers confirm you handle their specific task and makes it more likely they reach out.",
+      },
+      {
+        q: "I work alone. Is this worth it for a one-person operation?",
+        a: "Absolutely — in fact, a great website matters more for solo operators because you don't have a team or big brand doing the trust-building for you.",
+      },
+    ],
+  },
+  "moving-company-websites": {
+    name: "Moving Companies",
+    metaTitle: "Websites for Moving Companies — Free to Build, $100/mo to Host",
+    metaDescription:
+      "Professional websites for moving companies and movers. Generate more quote requests and build trust before the big day. $0 upfront, $100/month flat.",
+    headline: "Be the moving company people trust before they've met you.",
+    sub: "People moving homes are anxious and doing a lot of research. A professional website with clear pricing, services, and reviews puts them at ease — and gets you the booking.",
+    why: "Moving is stressful and high-stakes. Customers are trusting you with everything they own. A polished website that clearly explains your process, pricing, and service area converts far better than one that makes them guess.",
+    faqs: [
+      {
+        q: "Can I show local and long-distance moving separately?",
+        a: "Yes — we structure your services clearly so both types of customers land in the right place and know what to expect.",
+      },
+      {
+        q: "Can customers request a quote through the site?",
+        a: "Absolutely. A quote-request form is one of the most important parts of a moving company site. We make it front and center.",
+      },
+    ],
+  },
+  "pool-service-websites": {
+    name: "Pool Services",
+    metaTitle: "Websites for Pool Service Companies — Free to Build, $100/mo to Host",
+    metaDescription:
+      "Professional websites for pool service and maintenance businesses. Get found by local pool owners and keep your route full. $0 upfront, $100/month flat.",
+    headline: "Keep your route full all season long.",
+    sub: "Pool owners search for reliable service online every spring. A professional website makes sure you're the first name they find — and the one they stick with.",
+    why: "Most pool service customers want a company they can set up once and forget. A professional website that clearly explains your services, frequency, and pricing helps them say yes quickly and stay long-term.",
+    faqs: [
+      {
+        q: "Can I list weekly, bi-weekly, and one-time services?",
+        a: "Yes — clear service tiers help customers pick what fits their needs and make it easier for you to quote accurately.",
+      },
+      {
+        q: "Can I show my service area on the site?",
+        a: "Absolutely. A clear service area map or list helps customers know instantly whether you cover their neighborhood.",
+      },
+    ],
+  },
+  "dog-grooming-websites": {
+    name: "Dog Groomers",
+    metaTitle: "Websites for Dog Groomers — Free to Build, $100/mo to Host",
+    metaDescription:
+      "Professional websites for dog groomers and pet grooming salons. Attract new clients, show your work, and fill your appointment book. $0 upfront, $100/month flat.",
+    headline: "Fill your appointment book with the right clients.",
+    sub: "Pet owners are picky about who touches their dog. A professional website with photos of your work and a simple booking form builds the trust that gets them through the door.",
+    why: "Dog owners search for groomers the same way they search for their own hairdresser — they want to see the work, read reviews, and feel confident before booking. A great website is how you earn that confidence before they ever meet you.",
+    faqs: [
+      {
+        q: "Can I show photos of dogs I've groomed?",
+        a: "Yes — before-and-after grooming photos are incredibly persuasive. Send us your best ones and we'll build a gallery that shows off your skill.",
+      },
+      {
+        q: "Can clients book appointments through the site?",
+        a: "We include a booking request form. If you want full online scheduling, we can discuss integrating a booking tool that fits your workflow.",
+      },
+    ],
+  },
 };
 
 const GENERAL_FAQS = [
@@ -196,6 +348,7 @@ const GENERAL_FAQS = [
 export function generateStaticParams() {
   return Object.keys(TRADES).map((trade) => ({ trade }));
 }
+
 
 export async function generateMetadata({
   params,

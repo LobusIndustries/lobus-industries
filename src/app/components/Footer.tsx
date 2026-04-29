@@ -9,6 +9,14 @@ const tradeLinks = [
   { href: "/contractor-websites", label: "Contractor websites" },
   { href: "/auto-detailing-websites", label: "Auto detailer websites" },
   { href: "/personal-trainer-websites", label: "Personal trainer websites" },
+  { href: "/painter-websites", label: "Painter websites" },
+  { href: "/roofer-websites", label: "Roofer websites" },
+  { href: "/pest-control-websites", label: "Pest control websites" },
+  { href: "/pressure-washing-websites", label: "Pressure washing websites" },
+  { href: "/handyman-websites", label: "Handyman websites" },
+  { href: "/moving-company-websites", label: "Moving company websites" },
+  { href: "/pool-service-websites", label: "Pool service websites" },
+  { href: "/dog-grooming-websites", label: "Dog grooming websites" },
 ];
 
 export default function Footer() {
@@ -21,7 +29,7 @@ export default function Footer() {
           <div className="text-[10px] uppercase tracking-[0.2em] text-[var(--muted)] mb-4 font-medium">
             By industry
           </div>
-          <div className="flex flex-wrap gap-x-6 gap-y-2">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-x-6 gap-y-2.5">
             {tradeLinks.map((l) => (
               <a
                 key={l.href}
