@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { posts } from "./blog/posts";
+import { cities } from "./website-design/cities";
 
 const SITE_URL = "https://www.lobusindustries.com";
 
@@ -56,5 +57,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...homeSections, ...tradePages, ...blogIndex, ...blogPosts];
+  const locationIndex = [{ url: `${SITE_URL}/website-design`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.8 }];
+
+  const cityPages = cities.map((c) => ({
+    url: `${SITE_URL}/website-design/${c.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.75,
+  }));
+
+  return [...homeSections, ...tradePages, ...blogIndex, ...blogPosts, ...locationIndex, ...cityPages];
 }

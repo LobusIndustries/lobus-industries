@@ -1,5 +1,20 @@
 import Logo from "./Logo";
 
+const topCities = [
+  { href: "/website-design/new-york-ny", label: "New York, NY" },
+  { href: "/website-design/los-angeles-ca", label: "Los Angeles, CA" },
+  { href: "/website-design/chicago-il", label: "Chicago, IL" },
+  { href: "/website-design/houston-tx", label: "Houston, TX" },
+  { href: "/website-design/phoenix-az", label: "Phoenix, AZ" },
+  { href: "/website-design/dallas-tx", label: "Dallas, TX" },
+  { href: "/website-design/austin-tx", label: "Austin, TX" },
+  { href: "/website-design/atlanta-ga", label: "Atlanta, GA" },
+  { href: "/website-design/denver-co", label: "Denver, CO" },
+  { href: "/website-design/seattle-wa", label: "Seattle, WA" },
+  { href: "/website-design/miami-fl", label: "Miami, FL" },
+  { href: "/website-design/nashville-tn", label: "Nashville, TN" },
+];
+
 const tradeLinks = [
   { href: "/plumber-websites", label: "Plumber websites" },
   { href: "/electrician-websites", label: "Electrician websites" },
@@ -24,6 +39,31 @@ export default function Footer() {
   return (
     <footer className="border-t border-[var(--border)] mt-10">
       <div className="mx-auto max-w-6xl px-6 py-12">
+        {/* City links */}
+        <div className="mb-8">
+          <div className="flex items-center justify-between mb-4">
+            <div className="text-[10px] uppercase tracking-[0.2em] text-[var(--muted)] font-medium">
+              Cities we serve
+            </div>
+            <a href="/website-design" className="text-[10px] text-[var(--accent)] hover:underline">
+              View all →
+            </a>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-x-6 gap-y-2">
+            {topCities.map((l) => (
+              <a
+                key={l.href}
+                href={l.href}
+                className="text-xs text-[var(--muted-strong)] hover:text-white transition-colors"
+              >
+                {l.label}
+              </a>
+            ))}
+          </div>
+        </div>
+
+        <div className="divider-line mb-8" />
+
         {/* Trade links */}
         <div className="mb-10">
           <div className="text-[10px] uppercase tracking-[0.2em] text-[var(--muted)] mb-4 font-medium">
