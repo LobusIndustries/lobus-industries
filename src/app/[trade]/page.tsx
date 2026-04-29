@@ -326,6 +326,25 @@ const TRADES: Record<string, TradeConfig> = {
   },
 };
 
+const RELATED: Record<string, string[]> = {
+  "plumber-websites": ["electrician-websites", "hvac-websites", "contractor-websites", "handyman-websites"],
+  "electrician-websites": ["plumber-websites", "hvac-websites", "contractor-websites", "handyman-websites"],
+  "landscaper-websites": ["pressure-washing-websites", "pool-service-websites", "painter-websites", "contractor-websites"],
+  "cleaning-websites": ["dog-grooming-websites", "handyman-websites", "pressure-washing-websites", "pest-control-websites"],
+  "hvac-websites": ["plumber-websites", "electrician-websites", "contractor-websites", "handyman-websites"],
+  "contractor-websites": ["plumber-websites", "electrician-websites", "roofer-websites", "painter-websites"],
+  "auto-detailing-websites": ["pressure-washing-websites", "handyman-websites", "moving-company-websites", "painter-websites"],
+  "personal-trainer-websites": ["dog-grooming-websites", "cleaning-websites", "moving-company-websites", "handyman-websites"],
+  "painter-websites": ["contractor-websites", "pressure-washing-websites", "handyman-websites", "roofer-websites"],
+  "roofer-websites": ["contractor-websites", "painter-websites", "hvac-websites", "handyman-websites"],
+  "pest-control-websites": ["cleaning-websites", "handyman-websites", "pool-service-websites", "landscaper-websites"],
+  "pressure-washing-websites": ["painter-websites", "landscaper-websites", "handyman-websites", "contractor-websites"],
+  "handyman-websites": ["contractor-websites", "plumber-websites", "electrician-websites", "painter-websites"],
+  "moving-company-websites": ["cleaning-websites", "handyman-websites", "auto-detailing-websites", "dog-grooming-websites"],
+  "pool-service-websites": ["landscaper-websites", "pest-control-websites", "pressure-washing-websites", "cleaning-websites"],
+  "dog-grooming-websites": ["personal-trainer-websites", "cleaning-websites", "moving-company-websites", "auto-detailing-websites"],
+};
+
 const GENERAL_FAQS = [
   {
     q: "What's the catch? Why is the build free?",
@@ -388,10 +407,54 @@ export default async function TradePage({
   if (!config) notFound();
 
   const allFaqs = [...config.faqs, ...GENERAL_FAQS];
+  const relatedSlugs = (RELATED[trade] ?? []).slice(0, 4);
+
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        name: `Website Design for ${config.name}`,
+        description: config.metaDescription,
+        provider: {
+          "@type": "ProfessionalService",
+          name: "Lobus Industries",
+          url: SITE_URL,
+        },
+        offers: {
+          "@type": "Offer",
+          price: "100",
+          priceCurrency: "USD",
+          description: "$0 upfront build cost. $100/month for hosting, SSL, backups, and updates.",
+        },
+        areaServed: { "@type": "Country", name: "United States" },
+        url: `${SITE_URL}/${trade}`,
+      },
+      {
+        "@type": "FAQPage",
+        mainEntity: allFaqs.map((f) => ({
+          "@type": "Question",
+          name: f.q,
+          acceptedAnswer: { "@type": "Answer", text: f.a },
+        })),
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+          { "@type": "ListItem", position: 2, name: config.name, item: `${SITE_URL}/${trade}` },
+        ],
+      },
+    ],
+  };
 
   return (
     <>
       <Nav />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
       <main className="flex-1">
         {/* Hero */}
         <section className="relative overflow-hidden">
@@ -496,6 +559,37 @@ export default async function TradePage({
             </div>
           </div>
         </section>
+
+        {/* Related industries */}
+        {relatedSlugs.length > 0 && (
+          <section className="py-20">
+            <div className="mx-auto max-w-6xl px-6">
+              <div className="text-[11px] uppercase tracking-[0.22em] text-[var(--muted)] font-semibold mb-6">
+                We also build for
+              </div>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                {relatedSlugs.map((slug) => {
+                  const related = TRADES[slug];
+                  if (!related) return null;
+                  return (
+                    <a
+                      key={slug}
+                      href={`/${slug}`}
+                      className="card p-5 hover:border-[var(--accent)]/40 transition-colors group"
+                    >
+                      <div className="text-sm font-semibold text-white group-hover:text-[var(--accent)] transition-colors">
+                        {related.name}
+                      </div>
+                      <div className="text-xs text-[var(--muted)] mt-1">
+                        View page →
+                      </div>
+                    </a>
+                  );
+                })}
+              </div>
+            </div>
+          </section>
+        )}
 
         <CTA />
       </main>

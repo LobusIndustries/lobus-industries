@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { posts } from "./blog/posts";
 
 const SITE_URL = "https://www.lobusindustries.com";
 
@@ -46,5 +47,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...homeSections, ...tradePages];
+  const blogIndex = [{ url: `${SITE_URL}/blog`, lastModified: now, changeFrequency: "weekly" as const, priority: 0.8 }];
+
+  const blogPosts = posts.map((p) => ({
+    url: `${SITE_URL}/blog/${p.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
+  return [...homeSections, ...tradePages, ...blogIndex, ...blogPosts];
 }
