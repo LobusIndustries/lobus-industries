@@ -47,7 +47,7 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="py-28 relative">
+    <section className="py-28 relative" data-fade>
       <div
         className="glow-cool"
         style={{ top: "10%", left: "-160px", width: "420px", height: "420px" }}

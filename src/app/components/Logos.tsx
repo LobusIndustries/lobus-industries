@@ -10,7 +10,7 @@ export default function Logos() {
     "Tutoring",
   ];
   return (
-    <section className="py-10">
+    <section className="py-10" data-fade>
       <div className="mx-auto max-w-6xl px-6">
         <div className="divider-line mb-10" />
         <p className="text-center text-[11px] uppercase tracking-[0.22em] text-[var(--muted)] mb-7">

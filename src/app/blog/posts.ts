@@ -320,6 +320,257 @@ export const posts: Post[] = [
       },
     ],
   },
+  {
+    slug: "local-seo-for-service-businesses",
+    title: "Local SEO for Service Businesses: What Actually Works",
+    metaTitle: "Local SEO for Service Businesses: What Actually Works (2026)",
+    metaDescription:
+      "A plain-English guide to local SEO for plumbers, electricians, landscapers, and other service businesses. What moves the needle — and what's a waste of time.",
+    publishDate: "April 24, 2026",
+    readTime: "5 min read",
+    excerpt:
+      "Most local SEO advice is written for marketing agencies, not for service businesses. Here's what actually gets you found by local customers.",
+    sections: [
+      {
+        paragraphs: [
+          "If you've ever Googled 'local SEO for plumbers' and come back with a list of 47 tactics involving domain authority, backlink profiles, and content clusters — you've experienced the problem. Most SEO advice is written for companies with marketing teams, not for a landscaper trying to show up when someone in their city searches 'landscaper near me.'",
+          "Here's what actually moves the needle for local service businesses.",
+        ],
+      },
+      {
+        heading: "What local SEO actually means",
+        paragraphs: [
+          "Local SEO is about showing up when people in your area search for what you do. There are two main places this happens: Google's map pack (the three businesses shown on a map at the top of search results) and regular organic search results below it.",
+          "For most service businesses, the map pack is where you want to be. It shows up above all the organic results, it's mobile-first, and it has a click-to-call button. Getting into the map pack is mostly about your Google Business Profile.",
+        ],
+      },
+      {
+        heading: "The four things that actually move the needle",
+        list: [
+          {
+            title: "Google Business Profile",
+            body: "This is the single highest-leverage thing you can do. A complete, verified GBP with accurate hours, services, photos, and a link to your website dramatically improves your chance of appearing in the local map pack. If you haven't set one up, do it today.",
+          },
+          {
+            title: "Consistent NAP across the web",
+            body: "NAP stands for Name, Address, Phone. Google cross-references your business info across dozens of sites (Yelp, Yellow Pages, BBB, etc.). If your name is 'Smith Plumbing LLC' in one place and 'Smith Plumbing' in another, it creates confusion. Pick one format and use it everywhere.",
+          },
+          {
+            title: "Your city name in your website content",
+            body: "Google needs to know where you operate. Your city name should appear in your page title, in your headings, and naturally throughout your content. 'Licensed plumber serving Austin, TX' beats 'Licensed plumber serving the local area' every time.",
+          },
+          {
+            title: "Reviews",
+            body: "Reviews are one of the most significant ranking signals for local search — and the most overlooked. A business with 50 Google reviews outranks an identical competitor with 5 almost every time. Ask every happy customer for a review. Most will leave one if you make it easy.",
+          },
+        ],
+      },
+      {
+        heading: "What doesn't matter as much as people think",
+        list: [
+          {
+            title: "Domain authority",
+            body: "For local service businesses, you don't need high domain authority to rank locally. Google knows you're a local plumber — you don't need to compete with national websites.",
+          },
+          {
+            title: "Backlinks",
+            body: "Building backlinks matters for national SEO. For local SEO, it's much less important than your GBP and on-page signals. Don't pay anyone to 'build links' for your small service business.",
+          },
+          {
+            title: "Posting on social media for SEO",
+            body: "Social signals are not a ranking factor. Posting on Instagram doesn't help your Google rankings. It might help your brand awareness, but don't do it thinking it helps SEO.",
+          },
+        ],
+      },
+      {
+        heading: "How fast can you expect results?",
+        paragraphs: [
+          "Google Business Profile improvements can show results in weeks. A newly verified GBP with complete info and a handful of reviews can start appearing in map pack results surprisingly fast — especially in markets that aren't heavily competitive.",
+          "Organic website rankings take longer — typically 2-4 months before you see meaningful movement. The key is to start now, because the work you do today compounds.",
+        ],
+        callout:
+          "Every Lobus Industries website is built with local SEO foundations already in place — city-specific copy, structured data, Google Business Profile setup, and mobile optimization. $0 to build, $100/month to host.",
+      },
+    ],
+  },
+  {
+    slug: "why-word-of-mouth-isnt-enough",
+    title: "Why Word of Mouth Isn't Enough Anymore for Service Businesses",
+    metaTitle: "Why Word of Mouth Isn't Enough for Service Businesses (2026)",
+    metaDescription:
+      "If your service business runs on referrals, you're one slow season away from a problem. Here's why a website matters even when business is good.",
+    publishDate: "April 23, 2026",
+    readTime: "4 min read",
+    excerpt:
+      "Referrals are great — until they slow down. Here's why every service business needs a website even when word of mouth seems to be working.",
+    sections: [
+      {
+        paragraphs: [
+          "The most common thing we hear from service business owners who don't have a website: 'I get all my work from referrals, so I don't really need one.'",
+          "It makes sense on the surface. But it misunderstands what a website does — and what word of mouth can't do.",
+        ],
+      },
+      {
+        heading: "Referrals have a ceiling",
+        paragraphs: [
+          "Referral networks are finite. Your happy customers refer their friends, those friends refer their neighbors, and eventually the network saturates. People move. They forget to mention you. Their circle doesn't overlap with the people who need you.",
+          "A website has no ceiling. It works for anyone searching Google in your area, 24 hours a day, whether they know you or not. That's new business you'd never see from referrals alone.",
+        ],
+      },
+      {
+        heading: "Referred customers Google you before they call",
+        paragraphs: [
+          "Here's something most service business owners don't realize: even when someone is referred to you, there's a very high probability they Google your name before picking up the phone.",
+          "They want to make sure you're real. They want to see your work. They want to read reviews. If they search your name and find nothing — or a bare Facebook page from two years ago — it plants doubt. That doubt doesn't always stop them from calling, but it starts the conversation at a disadvantage.",
+        ],
+      },
+      {
+        heading: "You're invisible to everyone outside your network",
+        paragraphs: [
+          "New residents move into your service area every month. People who just bought a house and need a landscaper. A business owner who needs an electrician. A family whose AC just went out.",
+          "These people have money to spend and a real need — but they don't know you. They're not in your referral network. They open Google and search. If you're not there, someone else gets the job.",
+        ],
+      },
+      {
+        heading: "One bad season without referrals is all it takes",
+        paragraphs: [
+          "Referral businesses feel secure right up until they don't. A key referral source moves away. A slow economy makes people put off projects. A bad review spreads through your network.",
+          "The service businesses that weather slow periods best are the ones with diversified lead sources — and a website is the most reliable of all of them.",
+        ],
+        callout:
+          "Lobus Industries builds websites for service businesses for $0 upfront. If you've been putting it off because referrals are working, that's exactly when to start — before you need it.",
+      },
+    ],
+  },
+  {
+    slug: "what-makes-a-good-contractor-website",
+    title: "What Makes a Good Contractor Website? (7 Must-Haves)",
+    metaTitle: "What Makes a Good Contractor Website? 7 Must-Haves for 2026",
+    metaDescription:
+      "A contractor website that actually wins jobs needs more than a logo and a phone number. Here are the 7 elements that separate the sites that convert from the ones that don't.",
+    publishDate: "April 22, 2026",
+    readTime: "5 min read",
+    excerpt:
+      "Most contractor websites fail at the same things. Here's what a site needs to actually win jobs — not just exist on the internet.",
+    sections: [
+      {
+        paragraphs: [
+          "A contractor website that just 'exists' isn't the same as one that wins jobs. Most contractor sites fail not because they look terrible, but because they're missing the specific elements that move a homeowner from 'interested' to 'contacting you.'",
+          "Here's what actually matters.",
+        ],
+      },
+      {
+        heading: "1. A headline that says what you do and where",
+        paragraphs: [
+          "The most important text on your site is the first thing people read. 'Welcome to Johnson Construction' tells them nothing. 'General Contractor Serving the Dallas–Fort Worth Metroplex' tells them everything they need to know in under two seconds.",
+          "Your city or service area should be in the headline. It's one of the highest-impact local SEO moves you can make, and it immediately filters in the right customers.",
+        ],
+      },
+      {
+        heading: "2. A project portfolio with real photos",
+        paragraphs: [
+          "No element of a contractor site converts better than a real portfolio. Not stock photos. Not renders. Photos of your actual completed work — kitchens, additions, decks, bathrooms, whatever you build.",
+          "Homeowners deciding between two contractors will almost always choose the one whose past work they can see. If your site has no photos, you lose that comparison every time.",
+        ],
+      },
+      {
+        heading: "3. Your services listed explicitly",
+        paragraphs: [
+          "Don't make visitors guess what you do. List your services clearly — remodeling, additions, decks, new construction, commercial work, whatever applies. If you specialize in something, say so.",
+          "Customers who can quickly confirm you do their specific type of job are significantly more likely to contact you.",
+        ],
+      },
+      {
+        heading: "4. License and insurance info",
+        paragraphs: [
+          "For a contractor doing $20,000+ jobs, customers want to know you're licensed and insured before they even consider calling. Put your license number on the site. Mention that you're fully insured.",
+          "This one piece of information removes a major objection before it's ever raised.",
+        ],
+      },
+      {
+        heading: "5. A prominent quote request form",
+        paragraphs: [
+          "Not everyone wants to call. Many potential clients — especially for larger jobs — prefer to describe their project in writing first. A well-designed quote form captures these leads before they move on to the next contractor in their search results.",
+        ],
+      },
+      {
+        heading: "6. Mobile optimization",
+        paragraphs: [
+          "Over half of local service searches happen on a phone. If your site is slow to load, hard to navigate, or has tiny tap targets on mobile, you're losing a majority of your potential leads before they ever read a word.",
+        ],
+      },
+      {
+        heading: "7. Local SEO signals",
+        paragraphs: [
+          "Your city name in the page title, in the headings, and in the body copy. A linked Google Business Profile. Structured data that tells Google you're a local contractor. These signals are what get you in front of people who are actively searching for a contractor in your area.",
+        ],
+        callout:
+          "Every Lobus Industries contractor site includes all seven of these by default. $0 to build, $100/month to host. We'll have you live in about a week.",
+      },
+    ],
+  },
+  {
+    slug: "how-to-get-more-customers-service-business",
+    title: "How to Get More Customers for Your Service Business",
+    metaTitle: "How to Get More Customers for Your Service Business (What Works in 2026)",
+    metaDescription:
+      "The highest-leverage moves for getting more customers as a plumber, electrician, landscaper, cleaner, or any service business. No fluff.",
+    publishDate: "April 21, 2026",
+    readTime: "5 min read",
+    excerpt:
+      "Most marketing advice for service businesses is either too expensive or too complicated. Here's what actually works — ranked by impact.",
+    sections: [
+      {
+        paragraphs: [
+          "There's no shortage of people telling service business owners how to get more customers. Most of it is expensive, complicated, or designed for businesses 10x your size.",
+          "Here's what actually works, ranked by the return you can expect on your time and money.",
+        ],
+      },
+      {
+        heading: "1. Show up on Google (website + Google Business Profile)",
+        paragraphs: [
+          "The single highest-leverage move for a service business is being findable on Google when local customers search for what you do. This means two things: a professional website with local SEO, and a complete Google Business Profile.",
+          "When both are in place and optimized, you're visible to every person in your area who searches for your service — not just the ones who already know you. That's new business at zero ongoing cost.",
+        ],
+      },
+      {
+        heading: "2. Ask every happy customer for a Google review",
+        paragraphs: [
+          "Google reviews are one of the most powerful drivers of new business for local service companies — and one of the most ignored.",
+          "A business with 40 five-star reviews gets dramatically more calls than one with 5, even if the service quality is identical. After every completed job you're proud of, send the customer a direct link to your Google review page and ask them to share their experience. Most people who had a good experience will do it if you make it easy.",
+        ],
+      },
+      {
+        heading: "3. Respond to every inquiry fast",
+        paragraphs: [
+          "Speed of response is one of the biggest factors in whether a lead converts, especially for service businesses. Studies consistently show that calling or responding to a lead within 5 minutes makes you dramatically more likely to win the job than responding hours later.",
+          "Service customers often contact multiple businesses at once. The first one to respond professionally almost always wins.",
+        ],
+      },
+      {
+        heading: "4. Keep your existing customers coming back",
+        paragraphs: [
+          "Acquiring a new customer costs significantly more than retaining an existing one. For service businesses with repeat potential — cleaning, HVAC maintenance, landscaping, pest control — a simple follow-up email or text when it's time for their next service can generate consistent revenue with zero marketing cost.",
+        ],
+      },
+      {
+        heading: "5. Make it easy to refer you",
+        paragraphs: [
+          "Most referrals happen because someone asks. After a great job, tell your customer directly: 'If you know anyone who needs [your service], I'd really appreciate the referral.' Give them a card. Make sure your business name is searchable so when they mention you, the person can find you immediately.",
+        ],
+      },
+      {
+        heading: "What to skip",
+        list: [
+          { title: "Paid ads before you have a website", body: "Running ads to a bad website or no website wastes every dollar. Fix the destination first." },
+          { title: "Social media posting as a primary strategy", body: "Organic reach on social is near zero for business accounts. It's a support channel, not a growth channel." },
+          { title: "SEO agencies charging $1,500+/month", body: "For a local service business, you don't need an agency. You need a good website and a complete GBP. That's 90% of the battle." },
+        ],
+        callout:
+          "Lobus Industries handles the website and local SEO foundation — the highest-leverage piece. $0 to build, $100/month to host. Get your site working for you while you focus on the work.",
+      },
+    ],
+  },
 ];
 
 export function getPost(slug: string): Post | undefined {

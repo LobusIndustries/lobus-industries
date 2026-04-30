@@ -14,7 +14,7 @@ const included = [
 
 export default function Pricing() {
   return (
-    <section id="pricing" className="py-28 relative">
+    <section id="pricing" className="py-28 relative" data-fade>
       <div
         className="glow-cool"
         style={{ top: "20%", left: "-150px", width: "420px", height: "420px" }}

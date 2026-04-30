@@ -66,5 +66,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.75,
   }));
 
-  return [...homeSections, ...tradePages, ...blogIndex, ...blogPosts, ...locationIndex, ...cityPages];
+  const TOP_TRADE_SLUGS = [
+    "plumber-websites", "electrician-websites", "landscaper-websites",
+    "cleaning-websites", "hvac-websites", "contractor-websites",
+    "painter-websites", "roofer-websites", "pressure-washing-websites", "handyman-websites",
+  ];
+  const TOP_CITY_SLUGS = [
+    "new-york-ny", "los-angeles-ca", "chicago-il", "houston-tx", "phoenix-az",
+    "dallas-tx", "san-antonio-tx", "san-diego-ca", "austin-tx", "jacksonville-fl",
+    "san-francisco-ca", "seattle-wa", "denver-co", "nashville-tn", "atlanta-ga",
+    "miami-fl", "charlotte-nc", "minneapolis-mn", "tampa-fl", "orlando-fl",
+  ];
+  const comboPages = TOP_TRADE_SLUGS.flatMap((trade) =>
+    TOP_CITY_SLUGS.map((city) => ({
+      url: `${SITE_URL}/${trade}/${city}`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    }))
+  );
+
+  return [...homeSections, ...tradePages, ...blogIndex, ...blogPosts, ...locationIndex, ...cityPages, ...comboPages];
 }

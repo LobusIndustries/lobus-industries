@@ -11,7 +11,7 @@ const industries = [
 
 export default function Industries() {
   return (
-    <section id="industries" className="py-28 relative">
+    <section id="industries" className="py-28 relative" data-fade>
       <div
         className="glow-cool"
         style={{ top: "20%", right: "-180px", width: "460px", height: "460px" }}

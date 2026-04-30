@@ -29,7 +29,7 @@ const faqs = [
 
 export default function FAQ() {
   return (
-    <section id="faq" className="py-28 relative">
+    <section id="faq" className="py-28 relative" data-fade>
       <div
         className="glow-amber"
         style={{ top: "30%", right: "-180px", width: "400px", height: "400px" }}

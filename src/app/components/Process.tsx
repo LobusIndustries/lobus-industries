@@ -20,7 +20,7 @@ const steps = [
 
 export default function Process() {
   return (
-    <section id="process" className="py-28 relative">
+    <section id="process" className="py-28 relative" data-fade>
       <div
         className="glow-amber"
         style={{ bottom: "5%", right: "-160px", width: "440px", height: "440px" }}

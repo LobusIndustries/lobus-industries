@@ -33,7 +33,7 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="py-28 relative">
+    <section id="services" className="py-28 relative" data-fade>
       <div
         className="glow-amber"
         style={{ top: "10%", left: "-180px", width: "460px", height: "460px" }}
