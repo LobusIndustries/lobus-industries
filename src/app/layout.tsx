@@ -9,7 +9,8 @@ import "./globals.css";
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
-  display: "swap",
+  display: "optional", // no render-blocking swap; font loads from cache on repeat visits
+  preload: true,
 });
 
 const SITE_URL = "https://www.lobusindustries.com";
