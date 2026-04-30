@@ -64,6 +64,12 @@ function ContactForm() {
     const form = e.currentTarget;
     const data = new FormData(form);
 
+    // Honeypot: bots fill hidden fields, humans don't
+    if (data.get("_gotcha")) {
+      setStatus("success");
+      return;
+    }
+
     try {
       const res = await fetch(FORMSPREE_ENDPOINT, {
         method: "POST",
@@ -107,6 +113,8 @@ function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit} className="card p-7" noValidate>
+      {/* Honeypot field — hidden from real users, bots fill it */}
+      <input type="text" name="_gotcha" tabIndex={-1} aria-hidden="true" className="hidden" autoComplete="off" />
       <div className="grid gap-4">
         <Field label="Your name" name="name" placeholder="Jane Smith" required />
         <Field

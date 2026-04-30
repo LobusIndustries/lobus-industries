@@ -571,6 +571,465 @@ export const posts: Post[] = [
       },
     ],
   },
+  {
+    slug: "how-to-get-more-google-reviews",
+    title: "How to Get More Google Reviews for Your Service Business",
+    metaTitle: "How to Get More Google Reviews for Your Service Business (2026)",
+    metaDescription:
+      "Google reviews are the fastest way to build trust and rank higher in local search. Here's exactly how service businesses get more of them — without begging.",
+    publishDate: "April 25, 2026",
+    readTime: "5 min read",
+    excerpt:
+      "Reviews are the single most powerful trust signal for local service businesses. Here's the system that actually works for getting them.",
+    sections: [
+      {
+        paragraphs: [
+          "If you've ever lost a job to a competitor with more Google reviews, you already understand the problem. Reviews aren't just vanity — they directly influence whether you show up in the Local Pack and whether customers choose you over the alternative.",
+          "The good news: getting more reviews isn't complicated. It just requires a consistent system and the right timing.",
+        ],
+      },
+      {
+        heading: "Why Google reviews matter more than any other platform",
+        paragraphs: [
+          "Yelp, Facebook, Houzz — all useful. But Google reviews have the highest direct impact on local search rankings and customer conversion for service businesses. When someone searches 'plumber near me' or 'best landscaper in [city],' the businesses in the Local Pack almost always have more reviews than everyone else.",
+          "Reviews also influence click-through rate. A business with 4.8 stars and 47 reviews will get more clicks than a business with 5.0 stars and 3 reviews. Volume and recency both matter.",
+        ],
+      },
+      {
+        heading: "The single best time to ask for a review",
+        paragraphs: [
+          "Ask immediately after the job is done — while the customer is still in front of you or within an hour of completion. That's when satisfaction is highest and the experience is fresh.",
+          "Don't wait until the next day to send a follow-up email. The window closes fast. A quick text or verbal ask the moment they express satisfaction is your best shot.",
+        ],
+      },
+      {
+        heading: "What to actually say",
+        paragraphs: [
+          "Keep it simple and specific. \"We really appreciate your business. Would you mind leaving us a Google review? It only takes two minutes and it helps us a lot.\" Then hand them your phone with the review page already open, or text them a direct link.",
+          "Never say 'if you're happy' — that creates an out. Just ask directly. Most satisfied customers will say yes.",
+        ],
+      },
+      {
+        heading: "How to make it easy for them",
+        list: [
+          { title: "Create a short Google review link", body: "Go to your Google Business Profile, click 'Get more reviews,' and copy the short URL. Save it as a contact in your phone so you can text it in seconds." },
+          { title: "Add the link to your receipts or invoices", body: "Print or include your review link on any paperwork you leave behind. Customers who liked your work may follow up when they get home." },
+          { title: "Add a QR code to your vehicle or work shirts", body: "A QR code that links directly to your Google review page lets customers scan and review without finding you manually." },
+          { title: "Send a follow-up text 2 hours after the job", body: "If you didn't get a review at the time: 'Hi [Name], thanks for having us out today. If you have 2 minutes, a Google review would mean the world — here's the link: [URL].'" },
+        ],
+      },
+      {
+        heading: "Responding to reviews (including bad ones)",
+        paragraphs: [
+          "Respond to every review — positive and negative. Thank people who leave positive reviews by name. For negative reviews, respond professionally, acknowledge the issue, and offer to make it right. A thoughtful response to a 1-star review often impresses potential customers more than the negative review hurts you.",
+          "Never argue with a reviewer publicly. Even if they're wrong, other customers are watching how you handle it.",
+        ],
+        callout:
+          "Your website is the next thing customers check after they see your reviews. Lobus Industries builds sites that convert that trust into contact form submissions — for $0 upfront and $100/month.",
+      },
+    ],
+  },
+  {
+    slug: "why-your-competitor-ranks-higher",
+    title: "Why Your Competitor's Website Ranks Higher Than Yours",
+    metaTitle: "Why Your Competitor's Website Ranks Higher on Google (And How to Fix It)",
+    metaDescription:
+      "If a local competitor keeps showing up above you on Google, here are the most common reasons why — and what you can actually do about it.",
+    publishDate: "April 24, 2026",
+    readTime: "6 min read",
+    excerpt:
+      "It's frustrating to Google your own trade and see a competitor you know is no better than you ranking above your business. Here's what's actually going on.",
+    sections: [
+      {
+        paragraphs: [
+          "You've been doing this work for years. You have great reviews and happy customers. And yet someone who started their business two years ago is beating you on Google. What gives?",
+          "Local search rankings come down to a handful of factors that have nothing to do with how good your work is. Here's what's actually driving the gap.",
+        ],
+      },
+      {
+        heading: "Their Google Business Profile is more complete",
+        paragraphs: [
+          "Google Business Profile (formerly Google My Business) is the single most important factor in local search rankings — more than your website. A complete profile with accurate business hours, services listed, photos uploaded, and regular posts will outrank an incomplete one almost every time.",
+          "Check your competitor's GBP versus yours. Are they posting updates? Do they have more photos? Are all their service categories filled in? That's often all there is to it.",
+        ],
+      },
+      {
+        heading: "Their website has more locally relevant content",
+        paragraphs: [
+          "Google looks for signals that your business actually serves a specific area. If your competitor's website mentions their city, service areas, and local landmarks more consistently than yours, they get the local relevance boost.",
+          "A site that says 'Plumbing services in Denver, CO — serving Cherry Creek, Highlands, and Capitol Hill' will outrank a generic 'plumbing services' page every time.",
+        ],
+      },
+      {
+        heading: "Their site is faster and mobile-friendly",
+        paragraphs: [
+          "Google uses page experience as a ranking factor. A site that loads in under 2 seconds on a phone will outrank one that takes 6 seconds. If your competitor has a faster, cleaner site — especially on mobile — that's a real advantage.",
+          "Test your site at PageSpeed Insights (search for it) and compare your score to what a well-built site produces. The difference is often dramatic.",
+        ],
+      },
+      {
+        heading: "They have more reviews — and more recent ones",
+        paragraphs: [
+          "Review volume and recency are ranking signals. A business with 60 reviews averaging 4.7 stars will almost always outrank one with 12 reviews at 5.0 stars. And if your last review was eight months ago while theirs was last week, Google treats them as more active.",
+          "Building a consistent review-asking habit is one of the highest-ROI activities for local rankings.",
+        ],
+      },
+      {
+        heading: "Their website earns more local links",
+        paragraphs: [
+          "Backlinks from local sites — a chamber of commerce listing, a local news mention, a neighborhood association directory — are still powerful ranking signals. If your competitor has been listed in local business directories and you haven't, that gap compounds over time.",
+          "Start with the basics: get listed in your local chamber, BBB, Houzz, Angi, HomeAdvisor, and any trade-specific directories for your industry.",
+        ],
+      },
+      {
+        heading: "What you can actually do",
+        list: [
+          { title: "Audit and complete your GBP", body: "Fill every field, add at least 10 photos, list every service you offer, and set up weekly posts." },
+          { title: "Add location-specific content to your site", body: "Your homepage should mention your city and service areas explicitly. Create dedicated pages for the neighborhoods or cities you serve." },
+          { title: "Get more reviews consistently", body: "Ask every satisfied customer within an hour of job completion. Volume and recency both matter." },
+          { title: "Speed up your website", body: "A professionally built site on modern infrastructure is faster than DIY builders by default." },
+        ],
+        callout:
+          "Lobus Industries builds websites with local SEO structure baked in — city and service content, fast hosting, and proper schema markup. $0 upfront, $100/month.",
+      },
+    ],
+  },
+  {
+    slug: "how-long-does-it-take-to-build-a-website",
+    title: "How Long Does It Take to Build a Website for a Service Business?",
+    metaTitle: "How Long Does It Take to Build a Service Business Website? (Real Timelines)",
+    metaDescription:
+      "DIY builders, freelancers, agencies, and done-for-you services all have different timelines. Here's what to actually expect — and what causes delays.",
+    publishDate: "April 23, 2026",
+    readTime: "4 min read",
+    excerpt:
+      "The range is one afternoon to six months, depending on who's building it and how ready you are. Here's how to plan.",
+    sections: [
+      {
+        paragraphs: [
+          "One of the most common questions service business owners ask before starting a website project is: how long will this take? The answer depends entirely on how the site gets built and how quickly you can provide what's needed.",
+          "Here's a realistic look at timelines across different approaches.",
+        ],
+      },
+      {
+        heading: "DIY on Wix, Squarespace, or GoDaddy",
+        list: [
+          { title: "Time to first draft", body: "1–3 days if you block out time to do it. Realistically, 2–4 weeks for most business owners who fit it in around actual work." },
+          { title: "Time to something you're happy with", body: "4–8 weeks. Getting the copy right, choosing photos, and iterating on the design takes longer than people expect." },
+          { title: "The real blocker", body: "Your own time. Most service business owners underestimate how long it takes to write good copy and lay out a professional-looking site." },
+        ],
+      },
+      {
+        heading: "Hiring a freelancer",
+        list: [
+          { title: "Finding and vetting someone", body: "1–3 weeks to search, compare, review portfolios, and sign a contract." },
+          { title: "Build time (once started)", body: "2–5 weeks for a typical 5-page site. Depends on the freelancer's workload and how quickly you provide feedback." },
+          { title: "Total elapsed time", body: "6–10 weeks from first contact to a live site. Sometimes longer if the freelancer is juggling other clients." },
+        ],
+      },
+      {
+        heading: "Hiring an agency",
+        list: [
+          { title: "Discovery and proposal", body: "1–3 weeks before work even begins. Agencies have processes." },
+          { title: "Design and development", body: "6–12 weeks depending on scope, revisions, and internal approvals." },
+          { title: "Total elapsed time", body: "2–4 months is typical. Larger agencies sometimes run 6 months for a complex project." },
+        ],
+      },
+      {
+        heading: "Done-for-you services (like Lobus Industries)",
+        list: [
+          { title: "What you provide upfront", body: "Basic info about your business: services, location, phone number, any photos you have, and a sense of what you want." },
+          { title: "Build time", body: "About a week to a first draft, sometimes faster." },
+          { title: "Total to go live", body: "Most clients are live within 7–10 days of providing their information. The whole process is handled for you." },
+        ],
+      },
+      {
+        heading: "What actually causes delays",
+        paragraphs: [
+          "Across every approach, the biggest source of delays isn't the build — it's waiting on the client. Getting logo files, writing copy, providing photos, approving drafts, and registering a domain name all take time when you're running a business simultaneously.",
+          "The fastest path to a live site is having your core info ready: what you do, where you serve, how to contact you, and 3–5 photos of your work. That's honestly all you need to get started.",
+        ],
+        callout:
+          "Lobus Industries handles everything — design, copy, hosting, and launch. Tell us about your business and we'll have a site ready to review in about a week. $0 upfront, $100/month.",
+      },
+    ],
+  },
+  {
+    slug: "how-to-write-a-service-business-homepage",
+    title: "How to Write the Perfect Homepage for a Service Business",
+    metaTitle: "How to Write a Service Business Homepage That Converts Visitors into Calls",
+    metaDescription:
+      "Most service business websites lose customers in the first 5 seconds. Here's exactly what your homepage needs — and what most people get wrong.",
+    publishDate: "April 22, 2026",
+    readTime: "5 min read",
+    excerpt:
+      "Your homepage has about 5 seconds to convince a visitor to stick around. Here's what every service business homepage needs to accomplish — in order.",
+    sections: [
+      {
+        paragraphs: [
+          "Most service business websites lose visitors within five seconds. Not because the work isn't good, but because the homepage doesn't quickly answer the three questions every visitor has: What do you do? Do you serve my area? How do I contact you?",
+          "Here's how to structure a homepage that answers those questions fast and converts visitors into calls.",
+        ],
+      },
+      {
+        heading: "1. A clear headline that says what you do and where",
+        paragraphs: [
+          "The headline is the first thing visitors read. It should say exactly what your business does and where — in plain language. 'Professional Plumbing in Denver, CO' beats 'Your Home, Our Commitment' every time.",
+          "Avoid clever taglines that sacrifice clarity. Visitors don't want to wonder what you do. Tell them in the headline.",
+        ],
+      },
+      {
+        heading: "2. A prominent phone number or contact button",
+        paragraphs: [
+          "The goal of a service business website is to generate a contact. Make it easy. Put your phone number in the top right corner and a 'Get a Free Quote' or 'Call Now' button above the fold — visible without scrolling on both desktop and mobile.",
+          "Every second a visitor spends hunting for contact information is a second they might leave.",
+        ],
+      },
+      {
+        heading: "3. A short description of what makes you the right choice",
+        paragraphs: [
+          "Below your headline, add 2–3 sentences that go beyond what you do and say who you do it for and why customers choose you. 'We serve Denver homeowners with same-day plumbing repairs, licensed technicians, and upfront pricing. Family-owned since 2009.'",
+          "This is your credibility paragraph. Specific details (years in business, license info, turnaround time) outperform vague claims ('quality you can trust') every time.",
+        ],
+      },
+      {
+        heading: "4. Your key services — briefly",
+        paragraphs: [
+          "List 4–8 of your most common services by name. Don't describe each one in depth on the homepage — just name them so visitors can confirm you handle their need. 'Drain clearing · Water heater installation · Emergency repairs · Bathroom remodels.'",
+          "A visitor looking for water heater help wants to see those words on the page before they scroll further.",
+        ],
+      },
+      {
+        heading: "5. Social proof (reviews or testimonials)",
+        paragraphs: [
+          "Put 2–3 short customer quotes on the homepage, ideally with names and locations. Or embed your Google review count and star rating if you have a strong profile. Social proof is what turns a curious visitor into someone who actually reaches out.",
+        ],
+      },
+      {
+        heading: "6. A second call to action at the bottom",
+        paragraphs: [
+          "By the time a visitor reaches the bottom of your homepage, they've decided whether they're interested. Give them an easy next step — a contact form, a quote request button, or a direct phone number. Don't make them scroll back to the top.",
+        ],
+        callout:
+          "Lobus Industries builds service business websites with all of this built in — clear copy, contact forms, service lists, and local SEO. $0 to build, $100/month to host.",
+      },
+    ],
+  },
+  {
+    slug: "mobile-first-web-design-service-businesses",
+    title: "Mobile-First Web Design: Why It Matters for Service Businesses",
+    metaTitle: "Mobile-First Web Design for Service Businesses: What You Need to Know",
+    metaDescription:
+      "Over 70% of local service searches happen on a phone. If your website doesn't work great on mobile, you're losing jobs. Here's what mobile-first means in practice.",
+    publishDate: "April 21, 2026",
+    readTime: "4 min read",
+    excerpt:
+      "Most people searching for a plumber, cleaner, or electrician are doing it on their phone. Your site needs to be built for that — not adapted for it.",
+    sections: [
+      {
+        paragraphs: [
+          "More than 70% of searches for local services happen on a mobile device. Someone's AC breaks on a Sunday afternoon, they pull out their phone, and they search for an HVAC technician. Whoever's site loads fast and looks good on that phone gets the call.",
+          "Mobile-first isn't a design trend — it's a business requirement for service businesses.",
+        ],
+      },
+      {
+        heading: "What mobile-first actually means",
+        paragraphs: [
+          "Most websites are still designed desktop-first: laid out for a computer screen, then adjusted to work on a phone. Mobile-first flips this — you design for the smallest screen first, then expand for larger ones.",
+          "The difference matters because desktop-first sites often have problems on mobile that aren't obvious to the person who built them: text too small to read, buttons too close together, images that overflow, contact forms that are hard to fill out with thumbs.",
+        ],
+      },
+      {
+        heading: "What Google thinks about mobile-friendliness",
+        paragraphs: [
+          "Google uses mobile-first indexing — meaning it crawls and ranks your site based on the mobile version, not the desktop version. If your site is hard to use on a phone, it will rank lower in search results, even for desktop searches.",
+          "Google also penalizes slow mobile load times. A site that takes 6 seconds to load on a phone will rank significantly lower than one that loads in under 2 seconds.",
+        ],
+      },
+      {
+        heading: "Signs your site isn't mobile-friendly",
+        list: [
+          { title: "Text is too small without zooming", body: "If visitors have to pinch to read your content, they'll leave. Body text should be at least 16px on mobile." },
+          { title: "Buttons are too small to tap", body: "Touch targets should be at least 44×44 pixels. Small buttons lead to mis-taps and frustration." },
+          { title: "Content is wider than the screen", body: "Horizontal scrolling is a failure mode on mobile. All content should fit within the viewport width." },
+          { title: "Phone number isn't clickable", body: "On mobile, a phone number should be a tap-to-call link. If it's just plain text, you're adding friction." },
+          { title: "Forms are hard to fill out", body: "Long forms with tiny inputs and no mobile keyboard support (number pad for phone fields, etc.) frustrate mobile visitors." },
+        ],
+      },
+      {
+        heading: "How to check your site",
+        paragraphs: [
+          "Open your website on your own phone. Actually try to use it as a customer would. Search for your contact information, try to fill out the form, check that your phone number is tappable. Then hand it to a non-technical friend and watch where they struggle.",
+          "You can also search for 'Google Mobile-Friendly Test' and run your URL through it — it gives you a pass/fail with specific issues to fix.",
+        ],
+        callout:
+          "Every site Lobus Industries builds is designed mobile-first from the ground up — fast load times, tap-friendly buttons, and click-to-call phone numbers. $0 upfront, $100/month.",
+      },
+    ],
+  },
+  {
+    slug: "what-is-local-seo",
+    title: "What Is Local SEO and Why Does It Matter for Your Service Business?",
+    metaTitle: "What Is Local SEO? A Plain-English Guide for Service Business Owners",
+    metaDescription:
+      "Local SEO is how your business shows up when customers in your area search for what you do. Here's exactly how it works — and what you can do about it.",
+    publishDate: "April 20, 2026",
+    readTime: "5 min read",
+    excerpt:
+      "Local SEO is the practice of getting your business to show up when nearby customers search for what you offer. Here's how it works in plain English.",
+    sections: [
+      {
+        paragraphs: [
+          "When someone searches 'electrician near me' or 'best plumber in Austin,' Google shows a map with three local businesses — called the Local Pack — before any other results. Getting your business into that Local Pack is what local SEO is about.",
+          "For service businesses, local SEO is often worth more than any other form of marketing. These are high-intent searches — people looking for exactly what you offer, right now, near them.",
+        ],
+      },
+      {
+        heading: "The two sides of local SEO",
+        paragraphs: [
+          "Local SEO has two distinct components that work together: your Google Business Profile and your website. Both need to be in good shape.",
+          "Your Google Business Profile is what shows up in the map results and the Local Pack. Your website is what customers land on when they click through — and also influences your overall ranking.",
+        ],
+      },
+      {
+        heading: "Google Business Profile (GBP)",
+        list: [
+          { title: "Claim and verify your listing", body: "Go to business.google.com, find or create your listing, and complete the verification process. An unverified listing can't rank." },
+          { title: "Complete every field", body: "Business name, address, phone, hours, category, services, and website. Incomplete profiles rank lower." },
+          { title: "Add photos", body: "Businesses with photos get significantly more clicks. Add your team, your work, and your location." },
+          { title: "Collect reviews", body: "Review volume and recency are major ranking factors. Ask every satisfied customer to leave one." },
+          { title: "Post updates regularly", body: "Monthly posts signal to Google that your business is active and engaged." },
+        ],
+      },
+      {
+        heading: "Your website's role in local SEO",
+        paragraphs: [
+          "Your website reinforces and extends your GBP. Google looks for consistency between the two — same name, address, and phone number (called NAP consistency). It also looks for local signals in your content: city names, neighborhoods, and service area references.",
+          "A website that clearly states 'Plumbing services in Denver, CO — serving Highlands, Capitol Hill, and Stapleton' will outrank one that just says 'plumbing services' with no location context.",
+        ],
+      },
+      {
+        heading: "What local SEO doesn't require",
+        paragraphs: [
+          "You don't need to hire an SEO agency at $1,500/month. You don't need to buy backlinks. You don't need to blog every week. For most service businesses, getting your GBP complete and your website properly structured covers 90% of what matters.",
+          "The remaining 10% is review volume and citations — getting listed in local directories (Yelp, Angi, Houzz, BBB, your local chamber) so your NAP information is consistent across the web.",
+        ],
+        callout:
+          "Lobus Industries builds websites with local SEO structure built in — city content, proper schema markup, and NAP consistency. $0 upfront, $100/month.",
+      },
+    ],
+  },
+  {
+    slug: "how-to-choose-a-domain-name",
+    title: "How to Choose the Right Domain Name for Your Service Business",
+    metaTitle: "How to Choose a Domain Name for Your Service Business (2026 Guide)",
+    metaDescription:
+      "Your domain name is one of the first things customers and Google see. Here's how to pick one that's professional, memorable, and good for local SEO.",
+    publishDate: "April 19, 2026",
+    readTime: "4 min read",
+    excerpt:
+      "Your domain name is your business's permanent address on the internet. Here's how to choose one you won't regret — and avoid the mistakes most people make.",
+    sections: [
+      {
+        paragraphs: [
+          "Most service business owners overthink this decision. Your domain name matters — but not in the way people assume. It doesn't need to be clever. It doesn't need to contain keywords. It needs to be easy to remember, easy to spell, and professional.",
+          "Here's a practical framework for choosing one.",
+        ],
+      },
+      {
+        heading: "Start with your business name",
+        paragraphs: [
+          "The simplest domain is just your business name. SmithPlumbing.com. AccurateLandscaping.com. BrightCleaningServices.com. If your business name is available as a .com, that's almost always the best choice.",
+          "Stick with .com if at all possible. Customers default to .com and may end up on the wrong site if you use .net or .biz.",
+        ],
+      },
+      {
+        heading: "What if my business name is taken?",
+        list: [
+          { title: "Add your city", body: "SmithPlumbingDenver.com or SmithPlumbingCO.com adds local context and is usually available." },
+          { title: "Add your trade", body: "If your name is too common, add what you do: JohnsonElectrical.com or JohnsonElectricians.com." },
+          { title: "Try slight variations", body: "GetSmithPlumbing.com or CallSmithPlumbing.com work fine and are often available." },
+          { title: "Consider a descriptive name", body: "DenverFastPlumber.com or BoiseCleaningPro.com — less personal but clear and available." },
+        ],
+      },
+      {
+        heading: "What to avoid",
+        list: [
+          { title: "Hyphens", body: "Smith-Plumbing.com looks unprofessional and is hard to dictate over the phone. 'Is that with a hyphen?' is a question you don't want to answer." },
+          { title: "Numbers", body: "1stChoicePlumbing.com or Number1Landscaping.com are hard to spell and look dated." },
+          { title: "Long names", body: "Under 15 characters is ideal. Anything over 20 is hard to remember and easy to mistype." },
+          { title: "Trendy spellings", body: "Kreative Kleen or Xpert Handymen might seem distinctive but look unprofessional in an email address." },
+        ],
+      },
+      {
+        heading: "Where to register it",
+        paragraphs: [
+          "Namecheap, Google Domains (now Squarespace Domains), and Cloudflare Registrar are reliable and fairly priced — typically $10–$15/year for a .com. GoDaddy is popular but tends to upsell aggressively.",
+          "Whoever registers it should be you, or someone who you fully control. Your domain name is a business asset. Don't let a web designer or agency register it in their name.",
+        ],
+        callout:
+          "Lobus Industries helps you choose and register the right domain as part of the setup process. If you already have one, we connect it for you. $0 to build, $100/month to host.",
+      },
+    ],
+  },
+  {
+    slug: "website-for-new-service-business",
+    title: "Do You Need a Website Before You Launch Your Service Business?",
+    metaTitle: "Should You Build a Website Before Launching Your Service Business?",
+    metaDescription:
+      "Starting a new service business? Here's whether you need a website on day one — and what a good launch-ready site actually needs to include.",
+    publishDate: "April 18, 2026",
+    readTime: "4 min read",
+    excerpt:
+      "You don't need to wait until your business is established to get a website. In fact, launching with one puts you ahead of most competitors from day one.",
+    sections: [
+      {
+        paragraphs: [
+          "One of the most common questions from new service business owners is whether they should build a website before they launch or wait until they have some customers first.",
+          "The answer is: get the website up before you launch, or as close to it as possible. Here's why.",
+        ],
+      },
+      {
+        heading: "Your first customers will Google you",
+        paragraphs: [
+          "Even if your first clients come from word of mouth, referrals, or in-person networking — they will Google your business name before they call. If they find nothing, that creates doubt. A basic professional site resolves that doubt immediately.",
+          "This is true even when someone was just referred to you by a friend. People verify online. Give them something reassuring to find.",
+        ],
+      },
+      {
+        heading: "Google takes time to index and rank sites",
+        paragraphs: [
+          "Google doesn't rank a new site immediately. It can take weeks to months for your pages to appear in search results for local queries. The sooner you launch your site, the sooner that clock starts.",
+          "A business that launches with a website in January will be indexed and gaining local SEO momentum by March. A business that waits until March to build one won't see search traffic until May or later.",
+        ],
+      },
+      {
+        heading: "What a new business website actually needs",
+        list: [
+          { title: "What you do", body: "A clear description of your services, ideally with a short list of what you offer." },
+          { title: "Where you serve", body: "Your city or service area. 'Serving Austin, TX and surrounding areas' is enough." },
+          { title: "How to contact you", body: "Phone number, email, and a simple contact form." },
+          { title: "Why customers should choose you", body: "Even one or two sentences about your background, certifications, or approach builds credibility." },
+        ],
+      },
+      {
+        heading: "What you don't need at launch",
+        paragraphs: [
+          "You don't need testimonials (you can add those as you collect them). You don't need a portfolio (add photos as you complete jobs). You don't need a blog. You don't need complex pricing calculators or booking systems.",
+          "Launch with a clean, professional, fast-loading site that does the basics well. You can add to it over time.",
+        ],
+      },
+      {
+        heading: "The cost argument for getting a site early",
+        paragraphs: [
+          "Every month you operate without a website is a month competitors with websites are capturing the Google searches you could have answered. The cost of delay isn't zero — it's the leads you didn't get.",
+          "A site that costs nothing to build and $100/month to host pays for itself with a single new customer in almost any service trade.",
+        ],
+        callout:
+          "Lobus Industries is built for exactly this situation — new and growing service businesses that need a professional site fast, without a big upfront cost. $0 to build, $100/month to host.",
+      },
+    ],
+  },
 ];
 
 export function getPost(slug: string): Post | undefined {

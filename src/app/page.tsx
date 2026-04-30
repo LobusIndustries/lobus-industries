@@ -4,6 +4,7 @@ import Logos from "./components/Logos";
 import Services from "./components/Services";
 import Industries from "./components/Industries";
 import Testimonials from "./components/Testimonials";
+import Portfolio from "./components/Portfolio";
 import Process from "./components/Process";
 import Pricing from "./components/Pricing";
 import FAQ from "./components/FAQ";
@@ -20,6 +21,7 @@ export default function Home() {
         <Services />
         <Industries />
         <Testimonials />
+        <Portfolio />
         <Process />
         <Pricing />
         <FAQ />

@@ -108,13 +108,73 @@ const TOP_TRADES: Record<string, TradeInfo> = {
       { q: "Is a website worth it for a one-person handyman in [city]?", a: "Absolutely — especially in [city] where customers have options. A professional site builds the trust that gets you the call over someone with no web presence." },
     ],
   },
+  "auto-detailing-websites": {
+    name: "Auto Detailers",
+    singular: "auto detailer",
+    why: "Car owners in [city] are choosy about who touches their vehicle. A professional website with before-and-after photos of your best details and clear service packages builds the credibility that turns searchers into bookings — before anyone else gets the call.",
+    faqs: [
+      { q: "Can I show before-and-after photos for [city] customers?", a: "Yes — detailing is all about the visual transformation. Send us your best work and we'll build a gallery that sells your skills to [city] car owners." },
+      { q: "Can I list mobile and in-shop options for [city] customers?", a: "Absolutely. We make it clear whether you're mobile, shop-based, or both so [city] customers know exactly what to expect when they book." },
+    ],
+  },
+  "personal-trainer-websites": {
+    name: "Personal Trainers",
+    singular: "personal trainer",
+    why: "People searching for a personal trainer in [city] want to feel confident before they commit. A professional site that shows your credentials, training philosophy, and client transformations builds that trust online — before a single consultation.",
+    faqs: [
+      { q: "Can I show client results and testimonials for [city] visitors?", a: "Yes — transformation stories and testimonials are your most powerful content. We make them prominent so [city] prospects connect with your results." },
+      { q: "Can I offer online and in-person training on the same site?", a: "Absolutely. We structure your services clearly so [city] visitors know their options — whether they want to train at a gym, at home, or remotely." },
+    ],
+  },
+  "pest-control-websites": {
+    name: "Pest Control Companies",
+    singular: "pest control company",
+    why: "When [city] homeowners have a pest problem, they search Google immediately and call whoever looks most trustworthy. A fast, professional site with clear service options and a visible phone number wins those calls while competitors wait to be discovered.",
+    faqs: [
+      { q: "Can I list the specific pests I treat in [city]?", a: "Yes — a detailed service list helps [city] customers confirm you handle their exact problem and reduces time-wasting inquiries." },
+      { q: "Can [city] customers request emergency or same-day service?", a: "Absolutely. We make your contact options prominent so [city] customers can reach you fast when they have an urgent pest problem." },
+    ],
+  },
+  "moving-company-websites": {
+    name: "Moving Companies",
+    singular: "moving company",
+    why: "People moving in [city] compare multiple companies before committing to someone handling their belongings. A professional website with clear pricing, service areas, and reviews closes that comparison in your favor before you've spoken to them.",
+    faqs: [
+      { q: "Can I list my service areas in and around [city]?", a: "Yes — a clear service area helps [city] customers confirm you cover their move and helps Google show you for local searches." },
+      { q: "Can I offer flat-rate and hourly options on my [city] website?", a: "Absolutely. We present your pricing clearly so [city] customers understand their options without having to ask — which builds trust and reduces friction." },
+    ],
+  },
+  "pool-service-websites": {
+    name: "Pool Service Companies",
+    singular: "pool service company",
+    why: "Pool owners in [city] want a reliable, trustworthy company maintaining something they've invested heavily in. A professional website with your certifications, service plans, and customer reviews builds that confidence before they ever make contact.",
+    faqs: [
+      { q: "Can I list my pool service plans for [city] homeowners?", a: "Yes — clear service tiers (weekly cleaning, repairs, openings/closings) help [city] customers find the right plan and come to you ready to commit." },
+      { q: "Can I show my certifications on my [city] pool service site?", a: "Absolutely. Your CPO certification and experience are trust signals that matter. We make them prominent so [city] homeowners know you're the real deal." },
+    ],
+  },
+  "dog-grooming-websites": {
+    name: "Dog Groomers",
+    singular: "dog groomer",
+    why: "Pet owners in [city] are protective — they want to know their dog is in good hands before booking. A professional website with your grooming style, before-and-after photos, and reviews builds that confidence and brings in bookings without relying on referrals alone.",
+    faqs: [
+      { q: "Can I show before-and-after grooming photos for [city] customers?", a: "Yes — they're your most persuasive content. Send your cutest transformations and we'll make them the centerpiece of your [city] grooming site." },
+      { q: "Can [city] customers book appointments through my website?", a: "We can integrate with booking tools like Vagaro, GlossGenius, or a simple contact form so [city] pet owners can request appointments directly." },
+    ],
+  },
 };
 
 const TOP_CITY_SLUGS = [
   "new-york-ny", "los-angeles-ca", "chicago-il", "houston-tx", "phoenix-az",
-  "dallas-tx", "san-antonio-tx", "san-diego-ca", "austin-tx", "jacksonville-fl",
-  "san-francisco-ca", "seattle-wa", "denver-co", "nashville-tn", "atlanta-ga",
-  "miami-fl", "charlotte-nc", "minneapolis-mn", "tampa-fl", "orlando-fl",
+  "philadelphia-pa", "san-antonio-tx", "san-diego-ca", "dallas-tx", "austin-tx",
+  "jacksonville-fl", "fort-worth-tx", "columbus-oh", "charlotte-nc", "indianapolis-in",
+  "san-francisco-ca", "seattle-wa", "denver-co", "nashville-tn", "las-vegas-nv",
+  "portland-or", "atlanta-ga", "kansas-city-mo", "raleigh-nc", "minneapolis-mn",
+  "tampa-fl", "miami-fl", "orlando-fl", "sacramento-ca", "st-louis-mo",
+  "pittsburgh-pa", "cincinnati-oh", "cleveland-oh", "colorado-springs-co", "omaha-ne",
+  "louisville-ky", "virginia-beach-va", "memphis-tn", "tucson-az", "washington-dc",
+  "baltimore-md", "milwaukee-wi", "albuquerque-nm", "oklahoma-city-ok", "salt-lake-city-ut",
+  "boise-id", "richmond-va", "spokane-wa", "fresno-ca", "new-orleans-la",
 ];
 
 const GENERAL_FAQS = [
