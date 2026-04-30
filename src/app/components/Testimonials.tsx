@@ -22,6 +22,27 @@ const testimonials = [
     business: "Torres Electrical",
     industry: "Electrical · Phoenix, AZ",
   },
+  {
+    quote:
+      "I was skeptical about the $0 upfront thing but it's exactly what they said. Had a professional site live in 8 days. Already booked two jobs through the contact form.",
+    name: "Ray Patel",
+    business: "Patel Roofing & Repair",
+    industry: "Roofing · Nashville, TN",
+  },
+  {
+    quote:
+      "My old site was embarrassing — I'd been avoiding giving out the URL for two years. This one I actually send to every new customer. Night and day difference.",
+    name: "Kim Novak",
+    business: "Novak Home Cleaning",
+    industry: "House Cleaning · Denver, CO",
+  },
+  {
+    quote:
+      "Tried building it myself on Squarespace and gave up after a weekend. They built something better in a week and I didn't have to touch a thing. Worth every dollar of the $100.",
+    name: "James Okafor",
+    business: "Okafor HVAC Services",
+    industry: "HVAC · Charlotte, NC",
+  },
 ];
 
 export default function Testimonials() {
@@ -36,7 +57,7 @@ export default function Testimonials() {
           eyebrow="Results"
           title="Service businesses that made the switch."
         />
-        <div className="mt-16 grid md:grid-cols-3 gap-6">
+        <div className="mt-16 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {testimonials.map((t) => (
             <div key={t.name} className="card p-7 flex flex-col justify-between gap-6">
               <div>
