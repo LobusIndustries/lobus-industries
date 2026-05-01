@@ -53,6 +53,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/squarespace-alternative`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.8 },
   ];
 
+  const staticPages = [
+    { url: `${SITE_URL}/about`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
+    { url: `${SITE_URL}/pricing`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${SITE_URL}/referral`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
+  ];
+
   const blogIndex = [{ url: `${SITE_URL}/blog`, lastModified: now, changeFrequency: "weekly" as const, priority: 0.8 }];
 
   const blogPosts = posts.map((p) => ({
@@ -81,5 +87,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
-  return [...homeSections, ...tradePages, ...comparisonPages, ...blogIndex, ...blogPosts, ...locationIndex, ...cityPages, ...comboPages];
+  return [...homeSections, ...tradePages, ...comparisonPages, ...staticPages, ...blogIndex, ...blogPosts, ...locationIndex, ...cityPages, ...comboPages];
 }

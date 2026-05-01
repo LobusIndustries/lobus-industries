@@ -93,11 +93,14 @@ export default function Footer() {
           </div>
           <div className="text-xs text-[var(--muted-strong)] flex flex-wrap items-center gap-x-6 gap-y-2">
             <a href="/#services" className="hover:text-white transition-colors">Services</a>
-            <a href="/#pricing" className="hover:text-white transition-colors">Pricing</a>
+            <a href="/pricing" className="hover:text-white transition-colors">Pricing</a>
             <a href="/#faq" className="hover:text-white transition-colors">FAQ</a>
+            <a href="/about" className="hover:text-white transition-colors">About</a>
             <a href="/blog" className="hover:text-white transition-colors">Blog</a>
+            <a href="/referral" className="hover:text-white transition-colors">Referral program</a>
             <a href="/wix-alternative" className="hover:text-white transition-colors">Wix alternative</a>
             <a href="/squarespace-alternative" className="hover:text-white transition-colors">Squarespace alternative</a>
+            <a href="/feed.xml" className="hover:text-white transition-colors">RSS</a>
             <a href="/privacy" className="hover:text-white transition-colors">Privacy</a>
             <a href="/tos" className="hover:text-white transition-colors">Terms</a>
             <a

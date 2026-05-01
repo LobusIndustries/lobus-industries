@@ -10,6 +10,8 @@ const links = [
   { href: "#process", label: "Process" },
   { href: "#pricing", label: "Pricing" },
   { href: "#faq", label: "FAQ" },
+  { href: "/about", label: "About" },
+  { href: "/blog", label: "Blog" },
 ];
 
 export default function Nav() {
@@ -26,15 +28,17 @@ export default function Nav() {
         </Link>
 
         <nav className="hidden md:flex items-center gap-8 text-sm text-[var(--muted)]">
-          {links.map((l) => (
-            <a
-              key={l.href}
-              href={l.href}
-              className="hover:text-white transition-colors"
-            >
-              {l.label}
-            </a>
-          ))}
+          {links.map((l) =>
+            l.href.startsWith("#") ? (
+              <a key={l.href} href={l.href} className="hover:text-white transition-colors">
+                {l.label}
+              </a>
+            ) : (
+              <Link key={l.href} href={l.href} className="hover:text-white transition-colors">
+                {l.label}
+              </Link>
+            )
+          )}
         </nav>
 
         <div className="flex items-center gap-3">
@@ -65,16 +69,27 @@ export default function Nav() {
       {open && (
         <div className="md:hidden border-t border-[var(--border)] bg-[var(--background)]/95 backdrop-blur-xl">
           <nav className="mx-auto max-w-6xl px-6 py-4 flex flex-col gap-1">
-            {links.map((l) => (
-              <a
-                key={l.href}
-                href={l.href}
-                onClick={() => setOpen(false)}
-                className="text-sm text-[var(--muted-strong)] hover:text-white transition-colors py-2.5 border-b border-[var(--border)] last:border-0"
-              >
-                {l.label}
-              </a>
-            ))}
+            {links.map((l) =>
+              l.href.startsWith("#") ? (
+                <a
+                  key={l.href}
+                  href={l.href}
+                  onClick={() => setOpen(false)}
+                  className="text-sm text-[var(--muted-strong)] hover:text-white transition-colors py-2.5 border-b border-[var(--border)] last:border-0"
+                >
+                  {l.label}
+                </a>
+              ) : (
+                <Link
+                  key={l.href}
+                  href={l.href}
+                  onClick={() => setOpen(false)}
+                  className="text-sm text-[var(--muted-strong)] hover:text-white transition-colors py-2.5 border-b border-[var(--border)] last:border-0"
+                >
+                  {l.label}
+                </Link>
+              )
+            )}
             <a
               href="#contact"
               onClick={() => setOpen(false)}

@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Nav from "../../components/Nav";
 import Footer from "../../components/Footer";
+import BlogNewsletter from "../../components/BlogNewsletter";
 import { posts, getPost } from "../posts";
 
 const SITE_URL = "https://www.lobusindustries.com";
@@ -154,7 +155,24 @@ export default async function BlogPost({
             ))}
           </div>
 
-          <div className="divider-line mt-16 mb-12" />
+          <div className="divider-line mt-16 mb-10" />
+
+          {/* Related trade link */}
+          {post.relatedTrade && (
+            <div className="mb-10">
+              <Link
+                href={post.relatedTrade.href}
+                className="inline-flex items-center gap-2 text-sm font-medium text-[var(--accent)] hover:underline"
+              >
+                {post.relatedTrade.label}
+              </Link>
+            </div>
+          )}
+
+          {/* Newsletter */}
+          <div className="mb-12">
+            <BlogNewsletter />
+          </div>
 
           {/* More articles */}
           {otherPosts.length > 0 && (

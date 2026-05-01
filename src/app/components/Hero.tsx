@@ -1,3 +1,5 @@
+import Counter from "./Counter";
+
 export default function Hero() {
   return (
     <section className="relative overflow-hidden">
@@ -43,11 +45,11 @@ export default function Hero() {
           </div>
 
           <div className="mt-14 flex flex-wrap items-center gap-x-10 gap-y-6 text-sm">
-            <Stat value="$0" label="Build cost" />
+            <Counter value="$0" label="Build cost" />
             <Divider />
-            <Stat value="$100" label="Monthly hosting" />
+            <Counter value="$100" label="Monthly hosting" />
             <Divider />
-            <Stat value="7 days" label="Typical launch" />
+            <Counter value="7 days" label="Typical launch" />
           </div>
         </div>
       </div>
@@ -55,18 +57,6 @@ export default function Hero() {
   );
 }
 
-function Stat({ value, label }: { value: string; label: string }) {
-  return (
-    <div>
-      <div className="text-3xl font-semibold text-white tracking-tight">
-        {value}
-      </div>
-      <div className="text-[11px] uppercase tracking-[0.18em] mt-1 text-[var(--muted)]">
-        {label}
-      </div>
-    </div>
-  );
-}
 
 function Divider() {
   return <div className="hidden sm:block h-10 w-px bg-[var(--border-strong)]" />;

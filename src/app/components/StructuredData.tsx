@@ -44,6 +44,13 @@ const professionalService = {
   url: SITE_URL,
   image: LOGO,
   priceRange: "$100/month",
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "5.0",
+    reviewCount: "6",
+    bestRating: "5",
+    worstRating: "1",
+  },
   description:
     "Professional website design, development, hosting, and ongoing maintenance for service-based small businesses. No build fee. Flat monthly hosting.",
   areaServed: {
