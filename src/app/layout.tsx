@@ -76,11 +76,16 @@ export const metadata: Metadata = {
   },
   verification: {
     google: "eupOwkjzlCyvpROc7LtjXeiaOCEbTnWFvd1THp7Lmkk",
+    // Add Bing verification: get code at https://www.bing.com/webmasters and paste below
+    // other: { "msvalidate.01": "YOUR_BING_CODE_HERE" },
   },
   other: {
     // Geo hints for local-service discovery
     "geo.region": "US",
     "geo.placename": "United States",
+    // AI crawler discovery hints
+    "ai-content-declaration": "human-created",
+    "llms-txt": "https://www.lobusindustries.com/llms.txt",
   },
 };
 

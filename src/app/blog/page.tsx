@@ -21,9 +21,29 @@ export const metadata: Metadata = {
 };
 
 export default function BlogIndex() {
+  const itemListSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Lobus Industries Blog — Website Tips for Service Businesses",
+    description: "Practical advice on websites, local SEO, and getting found online for service businesses.",
+    url: `${SITE_URL}/blog`,
+    numberOfItems: posts.length,
+    itemListElement: posts.map((post, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      url: `${SITE_URL}/blog/${post.slug}`,
+      name: post.title,
+      description: post.metaDescription,
+    })),
+  };
+
   return (
     <>
       <Nav />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+      />
       <main className="flex-1">
         <section className="relative overflow-hidden">
           <div className="absolute inset-0 bg-grid pointer-events-none" />

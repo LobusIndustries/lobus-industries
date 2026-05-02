@@ -1202,6 +1202,128 @@ export const posts: Post[] = [
     ],
   },
   {
+    slug: "best-website-service-for-small-businesses",
+    title: "Best Website Service for Small Service Businesses in 2026",
+    metaTitle: "Best Website Service for Small Service Businesses (2026 Comparison)",
+    metaDescription: "Comparing the best ways to get a website for your service business in 2026 — agencies, freelancers, DIY builders, and managed services. Which one is actually right for you?",
+    publishDate: "April 25, 2026",
+    readTime: "6 min read",
+    excerpt: "There's no single right answer — but there is one that's right for most service businesses. Here's an honest comparison of every option available to you.",
+    sections: [
+      {
+        paragraphs: [
+          "If you run a service business — plumbing, landscaping, cleaning, HVAC, electrical, whatever — and you're trying to figure out the best way to get a professional website, you've probably gotten wildly different advice. Hire an agency. Use Wix. Pay a freelancer. Build it yourself.",
+          "The right answer depends on your situation. Here's a clear breakdown of every option, who it's actually right for, and what most service businesses end up choosing.",
+        ],
+      },
+      {
+        heading: "Option 1: DIY website builders (Wix, Squarespace, GoDaddy Website Builder)",
+        list: [
+          { title: "Cost", body: "$0–$45/month plus your time" },
+          { title: "What you get", body: "Drag-and-drop editor, pre-made templates, basic hosting" },
+          { title: "Who it's right for", body: "Someone with several hours to spend learning the tool, comfort with design decisions, and willingness to maintain it themselves" },
+          { title: "The real problem", body: "Most service business owners are busy running their business. They start a Wix site, get frustrated halfway through, and end up with something half-finished that makes them look less professional than having no site at all. Template sites also tend to look like template sites — customers notice." },
+        ],
+      },
+      {
+        heading: "Option 2: Hire a web agency",
+        list: [
+          { title: "Cost", body: "$2,500–$8,000 upfront, plus $50–$200/month hosting" },
+          { title: "What you get", body: "A custom-designed site built by professionals" },
+          { title: "Who it's right for", body: "Established businesses with marketing budgets, or businesses where the website is the core of the business model (e-commerce, SaaS)" },
+          { title: "The real problem", body: "The upfront cost is a major barrier for solo operators and small crews. Most agencies also hand you the keys after launch and charge separately for any updates — so you end up paying again every time your phone number changes or you add a service." },
+        ],
+      },
+      {
+        heading: "Option 3: Hire a freelancer",
+        list: [
+          { title: "Cost", body: "$500–$3,000 upfront" },
+          { title: "What you get", body: "Variable — depends heavily on the individual freelancer" },
+          { title: "Who it's right for", body: "Businesses that have a specific person they already trust, or that want a middle ground between DIY and agency quality" },
+          { title: "The real problem", body: "Freelancers are hard to vet. Quality is unpredictable. And like agencies, most hand off the site after launch. If your freelancer is unavailable when you need a change, you're on your own." },
+        ],
+      },
+      {
+        heading: "Option 4: Managed website services like Lobus Industries",
+        list: [
+          { title: "Cost", body: "$0 upfront, $100/month" },
+          { title: "What you get", body: "A custom-designed website built by professionals, plus hosting, SSL, backups, and ongoing content updates — all in one flat monthly fee" },
+          { title: "Who it's right for", body: "Service business owners who want a professional website without a large upfront cost and without managing anything themselves" },
+          { title: "Why it works", body: "The managed service model aligns incentives. Lobus Industries only earns revenue as long as the site works well for you. That means they're motivated to keep it fast, keep it updated, and keep you as a customer." },
+        ],
+        callout: "Lobus Industries builds custom websites for service businesses — $0 to build, $100/month for everything else. Most sites launch in about a week.",
+      },
+      {
+        heading: "How to choose",
+        paragraphs: [
+          "If you have the time and design confidence to DIY, Squarespace is the best of the template builders. If you have a $3,000+ budget and want total control, hire a reputable local agency.",
+          "If you want a professional custom site with no upfront cost, no management overhead, and included updates, a managed service is the right call. For most service businesses — plumbers, electricians, landscapers, cleaners, HVAC, contractors — that's the answer.",
+          "The website that gets you customers is the one that actually gets built and stays maintained. Choose the option you'll actually follow through on.",
+        ],
+      },
+    ],
+    relatedTrade: { label: "See what Lobus Industries builds →", href: "/" },
+  },
+  {
+    slug: "does-my-service-business-need-a-website",
+    title: "Does My Service Business Actually Need a Website?",
+    metaTitle: "Does a Service Business Need a Website? (Plumbers, HVAC, Landscapers)",
+    metaDescription: "Word of mouth works — until it doesn't. Here's an honest answer to whether your plumbing, landscaping, cleaning, or HVAC business actually needs a website in 2026.",
+    publishDate: "April 22, 2026",
+    readTime: "5 min read",
+    excerpt: "A lot of service business owners wonder if a website is even worth it when most of their jobs come from referrals. The honest answer might surprise you.",
+    sections: [
+      {
+        paragraphs: [
+          "If you run a plumbing, HVAC, landscaping, cleaning, or other service business, you've probably wondered: do I actually need a website? You're busy. You get work from referrals. You've survived this long without one.",
+          "The honest answer is: it depends on where you are in your business — and where you want to be.",
+        ],
+      },
+      {
+        heading: "The referral trap",
+        paragraphs: [
+          "Referrals are the best source of leads. They come pre-sold, they trust you, and they're more likely to become repeat customers. The problem is that referrals alone are fragile.",
+          "When work dries up — seasonally, economically, or because your best referral source retired or moved — you have nothing to fall back on. A business that lives entirely on word-of-mouth is one recession or slow season away from a serious problem.",
+          "A website is your insurance policy. It works when referrals don't.",
+        ],
+      },
+      {
+        heading: "What happens when someone Googles your business",
+        paragraphs: [
+          "Even customers who were referred to you by a friend will often Google your name before calling. They want to confirm you're real. They want to see photos of your work. They want to read reviews.",
+          "If they find nothing — no website, no reviews, no presence — some of them will choose someone else. Not because you're not good at what you do, but because the other contractor gave them more confidence.",
+          "A basic website answers the questions a referred customer has before they call: What services do you offer? Where do you work? What do your jobs look like? How do I reach you?",
+        ],
+      },
+      {
+        heading: "When a website matters most",
+        list: [
+          { title: "You want to grow beyond your current referral network", body: "New customers who don't know anyone who's used you will find you through Google. No website means no Google." },
+          { title: "You're entering a competitive market", body: "If there are 10 other HVAC companies in your city, customers will research their options. The ones with professional websites win more of those comparisons." },
+          { title: "You offer higher-ticket services", body: "The more someone is spending, the more they research before deciding. A $5,000 HVAC system replacement or a $2,000 landscaping project warrants serious vetting." },
+          { title: "You want to command higher prices", body: "A professional website signals that you're an established, serious business. That perception lets you charge more than the guy with just a Facebook page." },
+          { title: "You're planning to sell or exit someday", body: "A business with documented online presence, reviews, and a professional website is worth more than one that runs entirely on the owner's personal relationships." },
+        ],
+      },
+      {
+        heading: "When you can probably wait",
+        paragraphs: [
+          "If you're booked solid for the next six months and turning down work, your immediate priority isn't more leads — it's capacity. In that case, a website can wait.",
+          "If you're just starting out and every dollar matters, focus on getting your first five customers through direct outreach and subcontracting. Then build the website once you have photos and testimonials to put on it.",
+        ],
+      },
+      {
+        heading: "What a minimal effective website looks like",
+        paragraphs: [
+          "You don't need anything fancy. A homepage with your services, your service area, a few photos of completed jobs, a short paragraph about your experience, and a contact form is enough to convert most visitors.",
+          "That's what Lobus Industries builds. It's not a 10-page content site with a blog and social media integration. It's a professional, fast-loading website that makes your phone ring.",
+        ],
+        callout: "Lobus Industries builds no-nonsense service business websites. $0 to build, $100/month for hosting, SSL, and ongoing updates. Most sites launch in about a week.",
+      },
+    ],
+    relatedTrade: { label: "See what Lobus Industries builds →", href: "/" },
+  },
+  {
     slug: "dog-grooming-website",
     title: "Dog Grooming Website: What Pet Owners Want to See Before Booking",
     metaTitle: "Dog Grooming Website: What Pet Owners Check Before Booking (2026)",
@@ -1221,6 +1343,343 @@ export const posts: Post[] = [
         { title: "Reviews from pet owners", body: "Grooming reviews are gold. Detailed reviews mentioning specific dogs and how happy owners were convert new visitors better than any other content." },
       ], callout: "Lobus Industries builds dog grooming websites with photo galleries, service lists, and booking forms — designed to convert the researching pet owner into a loyal client. $0 to build, $100/month." },
     ],
+  },
+  {
+    slug: "how-to-get-your-business-on-google",
+    title: "How to Get Your Service Business to Show Up on Google",
+    metaTitle: "How to Get Your Service Business on Google (2026 Guide)",
+    metaDescription: "A practical guide to getting your plumbing, HVAC, landscaping, or cleaning business to show up when local customers search Google. No jargon.",
+    publishDate: "April 30, 2026",
+    readTime: "6 min read",
+    excerpt: "Most service businesses don't show up on Google because they skip three basic steps. Here's exactly what to do — in order.",
+    sections: [
+      {
+        paragraphs: [
+          "When a homeowner in your city searches 'plumber near me' or 'HVAC repair [city name]', you want your business to appear. Most service businesses don't show up — not because Google dislikes them, but because they haven't done three basic things.",
+          "None of this requires technical knowledge. It just requires doing it.",
+        ],
+      },
+      {
+        heading: "Step 1: Claim and complete your Google Business Profile",
+        paragraphs: [
+          "Google Business Profile (formerly Google My Business) is the single most important thing you can do to show up in local search. It's the listing that appears in the map pack — the three businesses shown at the top of local search results.",
+          "Go to business.google.com and claim your business. Fill out every field: business name, category, phone number, address or service area, hours, services you offer, and photos. The more complete your profile, the higher Google ranks it.",
+          "Most important: get reviews. Ask every satisfied customer to leave a Google review. A business with 20 reviews will almost always rank above one with 3, everything else being equal.",
+        ],
+      },
+      {
+        heading: "Step 2: Have a website with the right content",
+        paragraphs: [
+          "Google uses your website to understand what you do and where you do it. A website that doesn't mention your city, your specific services, and your service area leaves Google guessing.",
+          "Your website should include: the name of your city and surrounding areas on the homepage, a clear list of every service you offer, your phone number in text (not just an image), and a contact form.",
+          "Speed matters too. Google ranks fast websites higher. A slow-loading site — especially on mobile — actively hurts your search ranking.",
+        ],
+      },
+      {
+        heading: "Step 3: Be consistent everywhere",
+        paragraphs: [
+          "Google cross-references your business information across the web. If your phone number on your website doesn't match the one on your Google Business Profile, Google loses confidence in your listing and ranks it lower.",
+          "Check that your business name, address, and phone number (NAP) are identical on your website, Google Business Profile, Facebook page, Yelp, and any other directory you're listed on.",
+        ],
+      },
+      {
+        heading: "What not to worry about",
+        list: [
+          { title: "Paying for Google Ads right away", body: "Paid ads can work, but they cost money every time someone clicks. Fix your organic presence first — it compounds over time without per-click costs." },
+          { title: "Complex SEO tactics", body: "Link building, keyword density, and technical audits matter eventually. But for a local service business, a complete Google Business Profile and a solid website beat 90% of competitors without any of that." },
+          { title: "Social media as a substitute", body: "Facebook and Instagram posts don't help you show up on Google. They're separate. Google rewards your website and your GBP — not your social following." },
+        ],
+        callout: "Lobus Industries builds websites with local SEO built in from day one — city-specific content, structured data, fast load times, and Google Business Profile connection. $0 to build, $100/month.",
+      },
+    ],
+  },
+  {
+    slug: "local-seo-for-service-businesses",
+    title: "Local SEO for Service Businesses: What Actually Works",
+    metaTitle: "Local SEO for Service Businesses: What Actually Works in 2026",
+    metaDescription: "A no-fluff guide to local SEO for plumbers, electricians, HVAC, landscapers, and other service businesses. Focus on what moves the needle.",
+    publishDate: "April 29, 2026",
+    readTime: "7 min read",
+    excerpt: "The local SEO advice you'll find online is written for marketers. This is written for plumbers, electricians, and landscapers who just want more calls.",
+    sections: [
+      {
+        paragraphs: [
+          "Local SEO means showing up when someone in your area searches for what you do. For a plumber in Dallas, that's 'plumber Dallas' or 'emergency plumber near me.' For a landscaper in Seattle, it's 'lawn care Seattle' or 'landscaping company near me.'",
+          "The internet is full of advice about local SEO. Most of it is written for marketing agencies, not for the person who runs a four-person HVAC crew. Here's what actually matters.",
+        ],
+      },
+      {
+        heading: "The Google Map Pack is the prize",
+        paragraphs: [
+          "When someone searches for a local service on Google, the first thing they see (after ads) is the map pack — three business listings with a map. These get more clicks than everything below them combined.",
+          "Getting into the map pack requires a strong Google Business Profile. That means a complete profile with accurate info, photos of your work, your service categories set correctly, your service area defined, and — most importantly — Google reviews.",
+          "There's no shortcut here. More legitimate reviews from real customers equals higher ranking. This is worth building a habit around: after every completed job, send a one-sentence text asking for a Google review.",
+        ],
+      },
+      {
+        heading: "Your website's role in local SEO",
+        list: [
+          { title: "Mention your city and service area explicitly", body: "Google reads your website. If it doesn't mention Dallas (or wherever you work), Google doesn't know to show you for Dallas searches. Name your city, state, and surrounding areas you serve." },
+          { title: "Create a page for each major service", body: "A plumber shouldn't have one page that says 'we do plumbing.' They should have separate pages for drain cleaning, water heater installation, leak repair, etc. More specific pages rank for more specific searches." },
+          { title: "Load fast on mobile", body: "Over 60% of local service searches happen on phones. Google penalizes slow mobile sites. Your site should load in under 3 seconds on a cell connection." },
+          { title: "Use structured data markup", body: "JSON-LD schema tells Google exactly what your business is, what you charge, and what your customers say about you. This directly feeds Google's AI Overviews and rich results." },
+        ],
+      },
+      {
+        heading: "Citations and directory listings",
+        paragraphs: [
+          "A citation is any mention of your business name, address, and phone number on another website. Yelp, BBB, Angi, Houzz, and local chamber of commerce directories are all citations.",
+          "Citations help because Google uses them to confirm your business is real and where you say it is. The key is consistency — your NAP (name, address, phone) must match exactly across every listing.",
+          "You don't need to be on hundreds of directories. Claiming your listing on the top 10–15 (Google, Yelp, BBB, Facebook, Bing, Apple Maps, Angi, and a few local ones) makes a meaningful difference.",
+        ],
+      },
+      {
+        heading: "How long does local SEO take?",
+        paragraphs: [
+          "Honest answer: 3–6 months to see meaningful results from organic work. Google Business Profile improvements show up faster — sometimes within weeks — especially in less competitive markets.",
+          "The businesses that rank well didn't do anything clever. They got their Google Business Profile right, built a solid website, got reviews consistently, and were patient. That's the entire playbook.",
+        ],
+        callout: "Lobus Industries builds websites with structured data, fast load times, and city-specific content — the local SEO foundation every service business needs. $0 to build, $100/month.",
+      },
+    ],
+  },
+  {
+    slug: "website-vs-facebook-page-for-service-business",
+    title: "Website vs. Facebook Page: Which Does Your Service Business Need?",
+    metaTitle: "Website vs. Facebook Page for a Service Business (2026)",
+    metaDescription: "A lot of service business owners wonder if a Facebook page is enough. Here's an honest answer about what each one does — and what you actually need.",
+    publishDate: "April 27, 2026",
+    readTime: "5 min read",
+    excerpt: "Facebook pages are free and easy to set up. But they don't do what a website does. Here's the difference — and why most service businesses need both.",
+    sections: [
+      {
+        paragraphs: [
+          "A lot of service business owners ask whether they need a website if they already have a Facebook page. It's a fair question — Facebook is free, it's where customers are, and it's easier to set up than a website.",
+          "The short answer: a Facebook page is not a substitute for a website. They do different things. Here's why.",
+        ],
+      },
+      {
+        heading: "What a Facebook page does well",
+        list: [
+          { title: "Social proof and community", body: "Facebook reviews and recommendations carry real weight. When someone asks 'who's a good plumber around here?' in a neighborhood group, having an active Facebook page helps." },
+          { title: "Direct messaging", body: "Customers can message you directly on Facebook, which some people prefer over calling or emailing." },
+          { title: "Before-and-after content", body: "Posting photos of completed jobs is easy on Facebook and gets organic engagement from followers." },
+          { title: "Retargeting ads", body: "Facebook's advertising platform lets you reach specific audiences, which is harder to do through organic search." },
+        ],
+      },
+      {
+        heading: "What a Facebook page cannot do",
+        list: [
+          { title: "Show up on Google", body: "When someone searches 'electrician near me' on Google, Facebook pages rarely appear in local search results. A website does. This is the core problem." },
+          { title: "Give you control", body: "Facebook can change its algorithm, reduce your organic reach, or suspend your page for any reason. You own your website. You own nothing on Facebook." },
+          { title: "Build long-term SEO", body: "Every blog post, service page, and testimonial on your website compounds over time. Facebook posts have a lifespan of hours." },
+          { title: "Look fully professional", body: "A Facebook page communicates 'I have a social media account.' A professional website communicates 'I run a real business.'" },
+        ],
+      },
+      {
+        heading: "The right approach: use both",
+        paragraphs: [
+          "Facebook and a website serve different functions. Facebook is where you maintain community and collect social proof. Your website is where you show up on Google and convert strangers into leads.",
+          "If you had to choose one, choose the website — it's the only one that reliably puts you in front of customers who are actively searching for what you do.",
+          "If you have both, link them together. Put your website URL on your Facebook page. Embed your Facebook reviews on your website. Cross-pollinate so each one strengthens the other.",
+        ],
+        callout: "Lobus Industries builds professional websites for service businesses — $0 to build, $100/month for hosting, SSL, and ongoing updates. Most sites launch in about a week.",
+      },
+    ],
+  },
+  {
+    slug: "how-much-does-website-maintenance-cost",
+    title: "How Much Does Website Maintenance Cost for a Small Business?",
+    metaTitle: "How Much Does Website Maintenance Cost? (Small Business Guide 2026)",
+    metaDescription: "Website maintenance pricing for small businesses — what's included, what's not, and how to avoid overpaying for things you don't need.",
+    publishDate: "April 26, 2026",
+    readTime: "5 min read",
+    excerpt: "Most small businesses either pay too much for maintenance they don't need, or pay nothing and let their site slowly break. Here's what you should actually be paying.",
+    sections: [
+      {
+        paragraphs: [
+          "After a website launches, most small business owners don't think about maintenance until something breaks — a form stops working, the site goes down, or they realize the content is two years out of date.",
+          "Website maintenance covers a range of things, and the cost varies wildly depending on who does it and what's included. Here's a realistic breakdown.",
+        ],
+      },
+      {
+        heading: "What website maintenance actually includes",
+        list: [
+          { title: "Hosting", body: "Your site has to live somewhere. Hosting costs $10–$50/month for basic shared hosting, up to $100+ for managed or enterprise hosting. This is non-negotiable — no hosting, no website." },
+          { title: "SSL certificate", body: "The 'HTTPS' padlock that makes your site secure. Usually bundled with hosting now. Free through most hosts, or ~$10–$100/year if purchased separately." },
+          { title: "Security and backups", body: "Automated daily backups protect you if something goes wrong. Security monitoring catches malware and intrusion attempts. Often bundled with better hosting plans." },
+          { title: "Content updates", body: "Every time you add a service, change your phone number, or update pricing, someone has to do it. If you do it yourself, your time is the cost. If someone else does it, expect $50–$150/hour or a monthly retainer." },
+          { title: "Plugin and software updates", body: "WordPress sites in particular require regular plugin updates. Outdated plugins are the #1 cause of small business website hacks. This is manual work or a managed maintenance plan." },
+        ],
+      },
+      {
+        heading: "Typical maintenance costs by setup",
+        list: [
+          { title: "DIY (Wix, Squarespace)", body: "$17–$45/month for hosting. Content updates and maintenance are your responsibility — no dollar cost, but real time cost." },
+          { title: "WordPress with freelancer", body: "$20–$50/month hosting plus $50–$150/hour for any updates or fixes. Unpredictable — a broken plugin or hacked site can cost hundreds." },
+          { title: "Agency retainer", body: "$100–$500+/month depending on the agency and scope. Often overkill for a simple service business site." },
+          { title: "Managed service (Lobus Industries model)", body: "$100/month flat — includes hosting, SSL, backups, security, and unlimited content updates. Predictable cost, zero management overhead." },
+        ],
+      },
+      {
+        heading: "What most service businesses actually need",
+        paragraphs: [
+          "A plumber or landscaper doesn't need a WordPress developer on retainer. They need: reliable hosting, automatic backups, and someone to update the site when their phone number changes or they add a new service.",
+          "The biggest mistake small business owners make is launching a site and then doing nothing — no updates, no maintenance, no backup strategy. Sites break, get hacked, or become outdated. Any of those things cost you customers.",
+          "The simplest solution is a managed service where maintenance is included in a flat monthly fee. You know exactly what you're paying, and you never have to think about it.",
+        ],
+        callout: "Lobus Industries includes hosting, SSL, daily backups, and unlimited content updates in one $100/month fee. No surprise bills. No maintenance headaches.",
+      },
+    ],
+  },
+  {
+    slug: "how-to-get-more-leads-for-service-business",
+    title: "How to Get More Leads for Your Service Business",
+    metaTitle: "How to Get More Leads for a Service Business (2026 Guide)",
+    metaDescription: "Practical lead generation strategies for plumbers, electricians, HVAC, landscapers, and other service businesses. What works, what doesn't, and where to start.",
+    publishDate: "April 24, 2026",
+    readTime: "7 min read",
+    excerpt: "More leads means more jobs. Here's what actually works for service businesses — ranked by cost, effort, and how long results take to show up.",
+    sections: [
+      {
+        paragraphs: [
+          "Every service business owner wants more leads. The challenge is that lead generation advice is usually written for software companies or e-commerce stores — not for plumbers, electricians, or lawn care crews.",
+          "Here's what actually works for service businesses, ranked from quickest-payoff to longest-term.",
+        ],
+      },
+      {
+        heading: "1. Google Business Profile (fastest, most impactful)",
+        paragraphs: [
+          "A complete, review-rich Google Business Profile puts you in front of people actively searching for your service in your city. This is the single highest-ROI move for most service businesses.",
+          "Complete every field, add photos, set your service area, and then build a habit of asking satisfied customers for reviews. Businesses with 20+ reviews dominate local search. It compounds — every new review increases your ranking.",
+        ],
+      },
+      {
+        heading: "2. A professional website with a contact form",
+        paragraphs: [
+          "Your website is open 24/7. A homeowner searching for a plumber at 10pm can find you, read about your services, and submit a quote request — all without you doing anything.",
+          "The website needs to be fast, mobile-friendly, and have a visible contact form. A lead form that works on a phone and takes 30 seconds to fill out converts far better than one that requires calling during business hours.",
+        ],
+      },
+      {
+        heading: "3. Referral system",
+        paragraphs: [
+          "Referrals are the highest-quality leads because they come pre-trusting you. But most businesses leave them to chance. Build a system: after every completed job, send a one-sentence text asking the customer to refer you to anyone they know who needs your service.",
+          "Some businesses offer a small incentive — a discount on the next service, a gift card — for referrals that turn into jobs. Even without an incentive, simply asking doubles your referral rate.",
+        ],
+      },
+      {
+        heading: "4. Lead generation platforms (short-term)",
+        list: [
+          { title: "Angi (formerly Angie's List)", body: "Generates leads but charges per lead. Works well in the short term while you build organic presence. Margins are thin." },
+          { title: "Thumbtack", body: "Similar model to Angi. Good for filling the calendar when you're new. Wean off as your Google ranking improves." },
+          { title: "Nextdoor", body: "Hyperlocal. A completed job in a neighborhood generates neighbor inquiries. Free to have a business page." },
+          { title: "HomeAdvisor", body: "High lead volume but also high competition. Leads are often sold to multiple contractors simultaneously." },
+        ],
+      },
+      {
+        heading: "5. Content and SEO (longest-term, most durable)",
+        paragraphs: [
+          "Blog posts and service pages that answer the questions your customers are typing into Google bring in leads for years without ongoing cost. A post titled 'How much does a water heater installation cost in [city]?' that ranks on page one sends qualified leads every month indefinitely.",
+          "This takes 6–12 months to show results. Do it alongside the other strategies, not instead of them.",
+        ],
+        callout: "Lobus Industries builds websites that generate leads — fast load times, contact forms, local SEO, and structured data. $0 to build, $100/month.",
+      },
+    ],
+  },
+  {
+    slug: "hvac-website-design-what-to-include",
+    title: "HVAC Website Design: What to Include to Win More Customers",
+    metaTitle: "HVAC Website Design: What to Include (2026 Guide)",
+    metaDescription: "What an HVAC company website needs to convert visitors into customers — from emergency service CTAs to trust signals and local SEO basics.",
+    publishDate: "April 23, 2026",
+    readTime: "5 min read",
+    excerpt: "HVAC customers are often stressed and deciding fast. Your website has about 8 seconds to convince them you're the right call. Here's what needs to be on it.",
+    sections: [
+      {
+        paragraphs: [
+          "When someone searches for HVAC service, they're usually not casually browsing. Their AC died in July. Their furnace stopped working on a cold night. They need someone fast, and they're going to call the first company that seems trustworthy and available.",
+          "Your website has about 8 seconds to make that case. Here's what it needs.",
+        ],
+      },
+      {
+        heading: "Emergency availability front and center",
+        paragraphs: [
+          "The first thing a stressed HVAC customer wants to know is: can you come now? Your phone number should be visible at the top of every page. If you offer emergency or same-day service, say it in the hero section — not buried in the footer.",
+          "A click-to-call phone number on mobile is essential. Most HVAC searches happen on phones. One tap to call is the difference between a lead and a bounce.",
+        ],
+      },
+      {
+        heading: "What to include on your HVAC website",
+        list: [
+          { title: "Service list with specifics", body: "Don't just say 'HVAC services.' List AC installation, AC repair, furnace installation, furnace repair, heat pump service, duct cleaning, maintenance plans, and emergency service separately. Each one can rank for its own search term." },
+          { title: "Brands you service", body: "Customers search 'Carrier AC repair [city]' or 'Lennox furnace service near me.' Listing the brands you work on captures these specific searches." },
+          { title: "Service area map or city list", body: "Be explicit about where you work. A list of cities or neighborhoods tells Google and your customers exactly who you serve." },
+          { title: "Licenses and certifications", body: "NATE certification, EPA 608 certification, state licensing — display these prominently. HVAC is a high-trust service. Credentials reduce friction." },
+          { title: "Financing options", body: "HVAC replacements are expensive. If you offer financing, say so on the homepage. It's often the deciding factor for a customer comparing two companies." },
+          { title: "Reviews and testimonials", body: "Screenshot or embed your best Google reviews. Hearing from other homeowners is more persuasive than anything you can write about yourself." },
+        ],
+      },
+      {
+        heading: "The maintenance plan opportunity",
+        paragraphs: [
+          "If you offer annual maintenance plans or service agreements, your website should explain them clearly. A maintenance plan customer is worth 3–5x a one-time repair customer — they provide recurring revenue and priority booking.",
+          "Give the maintenance plan its own section on the homepage or its own page. Explain what's included, how much it costs, and how to sign up.",
+        ],
+        callout: "Lobus Industries builds HVAC company websites with emergency CTAs, service area pages, and local SEO built in. $0 to build, $100/month.",
+      },
+    ],
+    relatedTrade: { label: "HVAC company websites →", href: "/hvac-websites" },
+  },
+  {
+    slug: "cleaning-business-marketing",
+    title: "Cleaning Business Marketing: How to Get More Clients Without Spending a Fortune",
+    metaTitle: "Cleaning Business Marketing: Get More Clients in 2026",
+    metaDescription: "Practical marketing for cleaning businesses — house cleaning, commercial cleaning, and specialty services. What actually brings in new clients.",
+    publishDate: "April 21, 2026",
+    readTime: "6 min read",
+    excerpt: "Cleaning businesses live and die on recurring clients. Here's how to get them — without blowing your budget on ads that don't convert.",
+    sections: [
+      {
+        paragraphs: [
+          "A cleaning business is one of the best businesses to own because the best clients are recurring — they hire you every two weeks, every month, and they pay reliably. The challenge is finding those clients in the first place.",
+          "Here's what actually works for cleaning business marketing in 2026, from fastest to most durable.",
+        ],
+      },
+      {
+        heading: "Start with your Google Business Profile",
+        paragraphs: [
+          "When someone searches 'house cleaner near me' or 'cleaning service [your city]', the map pack is what they click first. Claiming and completing your Google Business Profile is free and is the highest-ROI marketing move available to you.",
+          "Fill out every field. Add photos of your equipment, your team (with permission), and before-and-after shots of cleaned spaces. Get reviews from every client — even a handful of five-star reviews will put you above competitors with none.",
+        ],
+      },
+      {
+        heading: "Your website is your 24/7 salesperson",
+        paragraphs: [
+          "Most cleaning companies either have no website, or a generic one that could belong to any cleaner in any city. A specific, professional website that mentions your city, your services (standard cleaning, deep cleaning, move-in/move-out, Airbnb turnovers), and your pricing range will outperform both.",
+          "The most important element is your contact form. Make it easy to request a quote — name, email, phone, type of cleaning needed, approximate square footage. Keep it short. Long forms kill conversions.",
+        ],
+      },
+      {
+        heading: "What actually brings in cleaning clients",
+        list: [
+          { title: "Nextdoor and neighborhood Facebook groups", body: "Cleaning clients care enormously about trust. Neighborhood recommendations are the highest-converting leads you can get. A satisfied client posting in the neighborhood group is worth more than any ad." },
+          { title: "Referral incentives", body: "Offer existing clients a free cleaning or discount in exchange for a referral that books. A referred client is more likely to become a long-term recurring client than one who found you through a directory." },
+          { title: "Move-in / move-out cleaning partnerships", body: "Real estate agents, property managers, and short-term rental hosts need reliable cleaning on a consistent basis. One good partnership with an active agent can fill your calendar." },
+          { title: "Airbnb and VRBO cleaners", body: "Short-term rental hosts need fast, reliable turnovers. These are recurring, predictable bookings. Reach out to hosts in your area directly through the platforms or local hosting groups." },
+          { title: "Yelp and Angi listings", body: "Keep a presence on both, especially in the early months. They generate leads while you build organic presence. Respond to every review." },
+        ],
+      },
+      {
+        heading: "What to avoid",
+        paragraphs: [
+          "Facebook and Google ads can work for cleaning businesses but require a budget and ongoing optimization. Don't start there — build your organic foundation first (GBP, website, reviews) and use paid ads as an amplifier once the fundamentals are in place.",
+          "Groupon and heavy discount marketing attracts deal-seekers, not recurring clients. Competing on price is a race to the bottom. Compete on professionalism, reliability, and trust instead.",
+        ],
+        callout: "Lobus Industries builds cleaning business websites with quote request forms, service area pages, and local SEO. $0 to build, $100/month.",
+      },
+    ],
+    relatedTrade: { label: "Cleaning business websites →", href: "/cleaning-websites" },
   },
 ];
 

@@ -51,11 +51,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const comparisonPages = [
     { url: `${SITE_URL}/wix-alternative`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${SITE_URL}/squarespace-alternative`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${SITE_URL}/godaddy-alternative`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${SITE_URL}/wordpress-alternative`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.8 },
   ];
 
   const staticPages = [
     { url: `${SITE_URL}/about`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
     { url: `${SITE_URL}/pricing`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${SITE_URL}/testimonials`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${SITE_URL}/referral`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
   ];
 
