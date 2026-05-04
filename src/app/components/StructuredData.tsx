@@ -330,10 +330,12 @@ const speakable = {
   cssSelector: ["h1", "h2", ".speakable"],
 };
 
+export { faqPage };
+
 export default function StructuredData() {
   const graph = {
     "@context": "https://schema.org",
-    "@graph": [organization, professionalService, website, faqPage, breadcrumb, howTo, speakable],
+    "@graph": [organization, professionalService, website, breadcrumb, howTo, speakable],
   };
   return (
     <script

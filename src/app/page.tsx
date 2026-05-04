@@ -10,6 +10,7 @@ import Process from "./components/Process";
 import Pricing from "./components/Pricing";
 import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
+import { faqPage } from "./components/StructuredData";
 
 // CTA is a client component below the fold — defer its JS until needed
 const CTA = dynamic(() => import("./components/CTA"));
@@ -18,6 +19,10 @@ export default function Home() {
   return (
     <>
       <Nav />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqPage) }}
+      />
       <main className="flex-1">
         <Hero />
         <Logos />
