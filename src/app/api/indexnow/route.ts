@@ -31,6 +31,10 @@ const URLS = [
   `${SITE_URL}/moving-company-websites`,
   `${SITE_URL}/pool-service-websites`,
   `${SITE_URL}/dog-grooming-websites`,
+  `${SITE_URL}/blog/thumbtack-vs-angi-vs-own-website`,
+  `${SITE_URL}/blog/google-business-profile-guide`,
+  `${SITE_URL}/blog/personal-trainer-website-design`,
+  `${SITE_URL}/blog/auto-detailing-business-marketing`,
 ];
 
 // GET /api/indexnow — ping Bing IndexNow with all key URLs

@@ -1681,6 +1681,304 @@ export const posts: Post[] = [
     ],
     relatedTrade: { label: "Cleaning business websites →", href: "/cleaning-websites" },
   },
+  {
+    slug: "thumbtack-vs-angi-vs-own-website",
+    title: "Thumbtack vs. Angi vs. Your Own Website: What Actually Gets You More Customers",
+    metaTitle: "Thumbtack vs Angi vs Your Own Website (2026 Comparison)",
+    metaDescription:
+      "Honest comparison of Thumbtack, Angi, and having your own website for service businesses. Which one actually brings in more customers — and which is just renting customers from someone else?",
+    publishDate: "May 4, 2026",
+    readTime: "6 min read",
+    excerpt:
+      "Thumbtack and Angi will send you leads — but you're renting their audience. Here's what each option actually costs, and when owning your own website wins.",
+    sections: [
+      {
+        paragraphs: [
+          "If you run a service business, you've almost certainly been pitched on Thumbtack, Angi, or both. They promise easy leads. You pay per quote, per click, or a monthly subscription, and customers appear. It sounds simple.",
+          "But a lot of contractors and service pros get burned — paying for leads that go nowhere, or building a pipeline that evaporates the moment they stop paying. Here's an honest breakdown of how each option actually works.",
+        ],
+      },
+      {
+        heading: "How Thumbtack works",
+        paragraphs: [
+          "Thumbtack connects customers with local service pros by letting customers post a job and receive quotes. You pay per lead — typically $5–$75 depending on the job type and your market. You're competing against 3–5 other pros on the same job, and the customer often picks whoever responds fastest and cheapest.",
+          "The math can work in your favor early on, especially if you're fast to respond and your reviews are solid. But the cost per lead tends to rise over time as more competitors enter your category. And you never actually own the customer relationship — Thumbtack does.",
+        ],
+        list: [
+          { title: "Cost", body: "$5–$75 per lead, or a credits-based subscription" },
+          { title: "Competition", body: "You're quoted alongside 3–5 other pros per job" },
+          { title: "Best for", body: "New businesses with no existing client base, looking for quick early jobs" },
+          { title: "The problem", body: "You're renting leads. Stop paying, the leads stop. No residual value." },
+        ],
+      },
+      {
+        heading: "How Angi works",
+        paragraphs: [
+          "Angi (formerly Angie's List, now merged with HomeAdvisor) operates on a similar model but charges more aggressively. Subscription plans run $100–$300/month on top of per-lead fees. Leads are often sold to multiple contractors simultaneously, which means you're immediately competing on price.",
+          "Angi has a larger consumer brand, which helps in some markets. But the complaint you'll hear repeatedly from service pros: lead quality is inconsistent, and the platform heavily favors whoever bids lowest.",
+        ],
+        list: [
+          { title: "Cost", body: "$100–$300/month subscription plus $15–$80+ per lead" },
+          { title: "Competition", body: "Same lead often sold to 3+ contractors" },
+          { title: "Best for", body: "High-ticket jobs like roofing or HVAC where one lead can justify the cost" },
+          { title: "The problem", body: "Race-to-the-bottom pricing. Many pros report paying $500+/month with mixed results." },
+        ],
+      },
+      {
+        heading: "How your own website works",
+        paragraphs: [
+          "A website doesn't send you leads on day one. That's the honest answer. It takes weeks or months to start ranking on Google. But once it does, the economics are completely different.",
+          "A customer who finds you through Google Search — especially one who searched '[your trade] in [your city]' — is already looking to hire. They land on your site, see your work, read your reviews, and contact you directly. No platform taking a cut. No competition from other quotes. Just an inbound call or form submission from someone who found you.",
+          "The compounding effect matters too. Every month that passes, your site gets more authority, more reviews, and more page views. The leads you got 18 months ago are still arriving — for free.",
+        ],
+        list: [
+          { title: "Cost", body: "$0–$100/month depending on how you build and host it" },
+          { title: "Competition", body: "None — leads come directly to you, not via a shared marketplace" },
+          { title: "Best for", body: "Any business planning to operate for more than 12 months" },
+          { title: "The tradeoff", body: "Slower to start. Takes 2–6 months before Google traffic is meaningful." },
+        ],
+      },
+      {
+        heading: "The real comparison: what you're actually buying",
+        paragraphs: [
+          "Thumbtack and Angi sell you access to their audience. The moment you stop paying, that access disappears. There's no residual — no page that keeps ranking, no brand that keeps building. You're on a treadmill.",
+          "A website builds equity. Every blog post, every review, every month of age on your domain compounds. After two years, a well-built website typically outperforms what you'd spend on lead platforms — and keeps performing without ongoing spend.",
+        ],
+      },
+      {
+        heading: "The right strategy: use both, then transition",
+        paragraphs: [
+          "For a brand-new service business, using Thumbtack or Angi in the first 3–6 months while your website gains traction is a reasonable bridge. Get early jobs. Collect reviews. Build your portfolio.",
+          "Then gradually shift budget from paid leads to organic. Once your site is ranking and the calls are coming in, most service pros find they no longer need the platforms at all. The ones who stay on Thumbtack and Angi forever are usually the ones who never built the asset that would free them from it.",
+        ],
+        callout:
+          "Lobus Industries builds websites for service businesses that are designed to rank on Google and replace paid lead platforms over time. $0 to build, $100/month.",
+      },
+    ],
+  },
+  {
+    slug: "google-business-profile-guide",
+    title: "Google Business Profile: Complete Setup Guide for Service Businesses",
+    metaTitle: "Google Business Profile Setup Guide for Service Businesses (2026)",
+    metaDescription:
+      "Step-by-step guide to setting up and optimizing your Google Business Profile as a service business. What to fill out, what photos to upload, and what actually moves the needle on Google Maps.",
+    publishDate: "May 4, 2026",
+    readTime: "7 min read",
+    excerpt:
+      "Your Google Business Profile is the single highest-leverage free tool for local visibility. Here's exactly how to set it up and what most service businesses miss.",
+    sections: [
+      {
+        paragraphs: [
+          "If you're a service business and you're only going to do one thing for your online presence this month, it should be this: claim and optimize your Google Business Profile.",
+          "A complete GBP is what puts you on Google Maps, generates the review stars that appear in search results, and makes your business show up in the local pack — those 3 business listings that appear at the top of results when someone searches 'plumber near me' or 'landscaper in [your city].'",
+          "Here's exactly what to do, in order.",
+        ],
+      },
+      {
+        heading: "Step 1: Claim your profile",
+        paragraphs: [
+          "Go to business.google.com and sign in with a Google account you'll keep. Search for your business name. If it already exists (Google sometimes auto-generates profiles), claim it. If it doesn't, create a new one.",
+          "During setup, you'll choose a primary category (e.g., 'Plumber', 'Electrician', 'House Cleaning Service'). This is the most important SEO decision in the whole form — Google uses it heavily to decide when to show you. Pick the most specific category that fits your main service. You can add secondary categories later.",
+        ],
+      },
+      {
+        heading: "Step 2: Verify your business",
+        paragraphs: [
+          "Google needs to confirm you're real and at the location you claim. For service-area businesses (you go to customers, not the reverse), you can hide your home address and set a service area instead.",
+          "Verification typically happens via a postcard mailed to your address with a 5-digit code. Some newer businesses get instant verification by phone or video. Don't skip this step — an unverified profile won't rank.",
+        ],
+      },
+      {
+        heading: "Step 3: Fill out every field",
+        paragraphs: [
+          "Most service businesses leave their GBP half-empty. That's a ranking mistake. Here's what to complete:",
+        ],
+        list: [
+          { title: "Business name", body: "Your actual business name. Don't keyword-stuff it (e.g., 'Best Plumber NYC Jones Plumbing') — Google will penalize that." },
+          { title: "Address / service area", body: "For service businesses, add every city and zip code you regularly work in. Be specific — more areas = more visibility across more searches." },
+          { title: "Phone number", body: "Use your primary business number. Make sure it matches your website exactly." },
+          { title: "Website", body: "Link to your actual homepage. This is how Google connects your GBP to your website's authority." },
+          { title: "Hours", body: "Set real hours. Update them for holidays. Customers check this before calling." },
+          { title: "Business description", body: "160 characters to describe what you do and who you serve. Mention your city and your main service. Write for humans, not just keywords." },
+          { title: "Services", body: "Add every service you offer with individual descriptions. This is underused and very effective for appearing in searches for specific services." },
+          { title: "Products", body: "Even for service businesses, you can list service packages as 'products' with prices if you want to showcase pricing." },
+        ],
+      },
+      {
+        heading: "Step 4: Upload photos (this matters more than you think)",
+        paragraphs: [
+          "Profiles with photos get dramatically more clicks than those without. Upload at least 10 before you consider the profile 'done.'",
+        ],
+        list: [
+          { title: "Logo", body: "Square format, clean background. Used as your profile photo in Maps and Search." },
+          { title: "Cover photo", body: "Your best work photo or a photo that represents your business well." },
+          { title: "Work photos", body: "Before-and-after shots, completed jobs, your truck or equipment. Real photos from real jobs convert better than stock images." },
+          { title: "Team photos", body: "A photo of you or your crew adds credibility and humanizes the business." },
+        ],
+      },
+      {
+        heading: "Step 5: Start collecting reviews immediately",
+        paragraphs: [
+          "Reviews are the single biggest factor in how well your GBP ranks in the local pack. Volume, recency, and average rating all matter.",
+          "The easiest way: after every completed job, text the customer a direct link to your Google review page. Google provides a short URL in your GBP dashboard under 'Get more reviews.' Save it as a contact in your phone so you can send it in seconds.",
+          "Respond to every review — positive or negative. Responses signal to Google that you're an active, engaged business. For negative reviews, respond calmly and professionally. Other potential customers are reading how you handle complaints.",
+        ],
+      },
+      {
+        heading: "Step 6: Post updates weekly",
+        paragraphs: [
+          "Google Business Posts are short updates (similar to social posts) that appear on your profile. Most businesses ignore them. That's your advantage.",
+          "Post once a week: a recent job, a seasonal promotion, a tip for homeowners, a reminder of your services. Posts expire after 7 days in Google's UI but signal activity to the algorithm. Active profiles rank better than dormant ones.",
+        ],
+      },
+      {
+        heading: "What actually moves the needle",
+        paragraphs: [
+          "In order of impact: reviews (volume + recency), profile completeness, proximity to the searcher, and relevance of your category and services to the search query.",
+          "The businesses that dominate the local pack aren't always the biggest — they're usually the ones with the most reviews, the most complete profile, and a website that reinforces the same name, address, and phone number (NAP consistency).",
+        ],
+        callout:
+          "Lobus Industries connects your Google Business Profile to your new website and makes sure your NAP is consistent across your online presence. $0 to build, $100/month.",
+      },
+    ],
+  },
+  {
+    slug: "personal-trainer-website-design",
+    title: "Personal Trainer Website Design: What to Include to Get More Clients",
+    metaTitle: "Personal Trainer Website Design: What You Need to Get Clients (2026)",
+    metaDescription:
+      "What should a personal trainer's website actually include? This guide covers the pages, copy, and features that turn visitors into paying clients for fitness businesses.",
+    publishDate: "May 4, 2026",
+    readTime: "5 min read",
+    excerpt:
+      "Most personal trainer websites either say too little or bury the point. Here's what to include — and how to structure it so visitors actually reach out.",
+    sections: [
+      {
+        paragraphs: [
+          "Personal training is a trust business. Before someone commits to training with you three times a week, they want to know who you are, what your approach is, and whether they'll feel comfortable. Your website is the first place that trust either gets built — or doesn't.",
+          "Here's what actually works.",
+        ],
+      },
+      {
+        heading: "1. A clear statement of who you train and what you do",
+        paragraphs: [
+          "The biggest mistake on trainer websites: being generic. 'I help you reach your fitness goals' tells a visitor nothing. Be specific.",
+          "'I work with busy professionals in their 40s and 50s who want to get strong without destroying their joints' — that speaks to someone. They recognize themselves. They read on.",
+          "Your homepage headline should name your niche (if you have one), your method, and your location or format (in-person, virtual, or both). Clarity converts better than trying to appeal to everyone.",
+        ],
+      },
+      {
+        heading: "2. Your credentials and experience — without overdoing it",
+        paragraphs: [
+          "Certifications matter to clients who don't know you. List your cert (NASM, ACE, NSCA, CSCS, etc.) prominently, along with any specializations (corrective exercise, sports performance, pre/postnatal, etc.).",
+          "A short bio that includes how long you've been training, your own fitness background, and why you got into personal training builds rapport without reading like a resume. Keep it to 3–4 sentences. People want to know who you are, not your full CV.",
+        ],
+      },
+      {
+        heading: "3. Services and pricing",
+        paragraphs: [
+          "One of the top reasons potential clients leave a trainer's website without contacting them: no pricing information. People want to know if they can afford you before they invest time in an inquiry.",
+          "You don't have to publish exact session rates if you customize packages. But showing a range ('Sessions from $80') or a clear package structure sets expectations and pre-qualifies the right clients. Clients who are surprised by pricing after an initial call waste everyone's time.",
+        ],
+        list: [
+          { title: "1-on-1 in-person training", body: "Describe your typical session, location (gym, client's home, outdoor), and session length." },
+          { title: "Online coaching", body: "If you offer remote programming or virtual sessions, explain exactly what clients get — weekly check-ins, app access, nutrition guidance, etc." },
+          { title: "Small group or semi-private", body: "If relevant, describe group format and max size. Many clients prefer the price point and social energy of small groups." },
+        ],
+      },
+      {
+        heading: "4. Client results and testimonials",
+        paragraphs: [
+          "Social proof is essential. Before-and-after photos are powerful if you have them (and clients consent to share). Written testimonials work nearly as well — especially when they're specific.",
+          "'I lost 22 pounds over 4 months and finally don't dread the gym' is more convincing than 'Great trainer, highly recommend.' Ask happy clients for specific, detailed testimonials. One paragraph from a real person beats five generic sentences.",
+        ],
+      },
+      {
+        heading: "5. A simple, low-friction way to reach you",
+        paragraphs: [
+          "Most trainer sites put a contact form at the very bottom of a long page — or only have a link to Instagram. Both lose clients.",
+          "Put a contact option — form, phone number, or direct email — near the top of every page, and definitely at the end of your services section. A short form asking for name, email, goals, and availability is enough. The shorter the form, the more people complete it.",
+        ],
+      },
+      {
+        heading: "6. Location and availability signals",
+        paragraphs: [
+          "If you train in-person, mention your city and the neighborhoods or gym(s) you work in. Someone searching 'personal trainer in [your city]' should see their city in your headline and copy. This is how Google decides your site is relevant to that search.",
+          "A note about your current availability — 'currently accepting new clients' or 'limited spots for summer' — creates gentle urgency and signals you're active.",
+        ],
+        callout:
+          "Lobus Industries builds personal trainer websites that include all of the above — designed to rank locally and convert visitors into clients. $0 to build, $100/month.",
+      },
+    ],
+    relatedTrade: { label: "Personal trainer websites →", href: "/personal-trainer-websites" },
+  },
+  {
+    slug: "auto-detailing-business-marketing",
+    title: "Auto Detailing Business Marketing: How to Get More Clients Online",
+    metaTitle: "Auto Detailing Business Marketing: How to Get More Clients (2026)",
+    metaDescription:
+      "Practical marketing guide for auto detailers. How to use your website, Google Business Profile, and before-and-after content to consistently book more jobs.",
+    publishDate: "May 4, 2026",
+    readTime: "6 min read",
+    excerpt:
+      "Auto detailing is one of the most visual service businesses there is — which means the right online strategy sells itself. Here's how to use that to your advantage.",
+    sections: [
+      {
+        paragraphs: [
+          "Auto detailing has a natural marketing advantage that most detailers don't fully use: the results are immediately, dramatically visible. A car that goes from winter-dirty to showroom-clean is a before-and-after photo that sells itself.",
+          "The problem is that most detailers rely entirely on word of mouth, Craigslist posts, or a Facebook page — and then wonder why they're slow in October. Here's a system that generates consistent bookings.",
+        ],
+      },
+      {
+        heading: "Start with Google Business Profile",
+        paragraphs: [
+          "When someone needs their car detailed, they search 'auto detailing near me' or 'car detailing [city].' The businesses that show up in the map results at the top of that search are winning the majority of those calls.",
+          "Claim your Google Business Profile, fill out every field, and upload 10–20 photos of your best work. The detailers ranking in the top 3 in any local market almost always have 30+ reviews and a complete profile. That's the target.",
+          "Respond to every review. If someone leaves a negative review, respond professionally. Other potential customers are watching how you handle it.",
+        ],
+      },
+      {
+        heading: "Your website: the 24/7 sales tool",
+        paragraphs: [
+          "A Facebook page is not a substitute for a website. Facebook controls your reach, owns the audience, and can change the rules at any time. A website is an asset you own.",
+          "For an auto detailer, your website should do three things: show your work (before-and-after gallery), explain your packages and pricing, and make it easy to book or request a quote. That's it. You don't need a blog, a podcast, or a newsletter. You need a clean, fast site with your best photos and a clear call to action.",
+        ],
+        list: [
+          { title: "Before-and-after gallery", body: "Your best transformations. Interior and exterior. Lead with your most dramatic results." },
+          { title: "Package descriptions", body: "Express wash, full detail, paint correction, ceramic coating — describe each clearly with what's included and starting price." },
+          { title: "Service area", body: "List the cities and zip codes you serve. If you're mobile, say so prominently — mobile detailing is a selling point." },
+          { title: "Booking or quote form", body: "Make it easy to reach you. Name, phone or email, vehicle type, and desired service. Simple." },
+          { title: "Reviews", body: "Pull in your Google review count or copy 4–5 of your best reviews with the customer's name." },
+        ],
+      },
+      {
+        heading: "Build a content system around before-and-afters",
+        paragraphs: [
+          "Every job is a content opportunity. Take a before photo when the car arrives and an after photo when it's done. This costs you 30 seconds per job.",
+          "Post those photos consistently — Google Business Posts weekly, Instagram if you have it. The visual nature of detailing means your content gets saved, shared, and used as proof. Customers show your Instagram to friends who need a detail. That's organic word-of-mouth at scale.",
+          "If you do a particularly impressive transformation — severe water spots removed, heavy pet hair extraction, paint correction on an exotic car — take video. A 30-second before-and-after reel gets more reach than almost any other type of content you could create.",
+        ],
+      },
+      {
+        heading: "Focus on recurring customers and referrals",
+        paragraphs: [
+          "The best auto detailing businesses have a core of recurring clients — customers who come in every 3–6 months, year after year. These clients are worth far more than one-time jobs.",
+          "After every job, send a follow-up text with a review request. After they leave a review, mention that you have a referral discount — '$20 off their next detail for anyone they send your way.' Set a reminder to reach out to past customers 3–4 months after their last appointment.",
+          "A customer who books 3 times a year and refers 2 friends is worth $500–$1,500+ in annual revenue. Treat them like VIPs.",
+        ],
+      },
+      {
+        heading: "Paid ads: when (and when not) to use them",
+        paragraphs: [
+          "Google Local Services Ads (the 'Google Guaranteed' listings that appear above search results) can work well for detailers because you pay per lead, not per click. If your GBP is complete and your reviews are solid, this can be a cost-effective way to fill gaps in your schedule.",
+          "Avoid Facebook and Instagram ads until your organic presence is established. Most local service businesses spend $500/month on social ads and see minimal ROI compared to the same investment in organic search and review generation.",
+        ],
+        callout:
+          "Lobus Industries builds auto detailer websites with before-and-after galleries, package pages, and booking forms — designed to rank locally and generate consistent leads. $0 to build, $100/month.",
+      },
+    ],
+    relatedTrade: { label: "Auto detailer websites →", href: "/auto-detailing-websites" },
+  },
 ];
 
 export function getPost(slug: string): Post | undefined {
