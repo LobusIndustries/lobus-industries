@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import StructuredData from "./components/StructuredData";
 import ScrollAnimations from "./components/ScrollAnimations";
 import FloatingCTA from "./components/FloatingCTA";
@@ -114,6 +115,7 @@ export default function RootLayout({
         <FloatingCTA />
         <Analytics />
         <SpeedInsights />
+        <GoogleAnalytics gaId="G-9ZN2L9N6J6" />
       </body>
     </html>
   );
