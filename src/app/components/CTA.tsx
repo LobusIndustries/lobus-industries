@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { sendGAEvent } from "@next/third-parties/google";
 
 const FORMSPREE_ENDPOINT = "https://formspree.io/f/mqewqdod";
 
@@ -80,6 +81,7 @@ function ContactForm() {
       if (res.ok) {
         setStatus("success");
         form.reset();
+        sendGAEvent("event", "generate_lead", { event_category: "contact_form" });
       } else {
         const json = await res.json().catch(() => null);
         setErrorMsg(
