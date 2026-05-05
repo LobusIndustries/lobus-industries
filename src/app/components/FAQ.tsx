@@ -25,6 +25,14 @@ const faqs = [
     q: "Do you handle SEO and Google?",
     a: "We set up a strong on-page SEO foundation and connect your Google Business Profile so local customers can find you. We don't sell ongoing SEO retainers — just the foundation, done right.",
   },
+  {
+    q: "How much does a Lobus Industries website cost?",
+    a: "$0 to build. $100 per month for hosting, SSL, backups, and ongoing content updates. No build fee, no contract, cancel any time.",
+  },
+  {
+    q: "Who does Lobus Industries build websites for?",
+    a: "Service-based businesses: plumbers, electricians, HVAC, roofing, contractors, landscapers, cleaners, auto mechanics, detailers, tutors, trainers, stylists, therapists, coaches, DJs, photographers, bookkeepers, consultants, and more.",
+  },
 ];
 
 export default function FAQ() {

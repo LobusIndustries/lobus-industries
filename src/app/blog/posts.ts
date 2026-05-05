@@ -1265,7 +1265,7 @@ export const posts: Post[] = [
     relatedTrade: { label: "See what Lobus Industries builds →", href: "/" },
   },
   {
-    slug: "does-my-service-business-need-a-website",
+    slug: "do-service-businesses-need-a-website",
     title: "Does My Service Business Actually Need a Website?",
     metaTitle: "Does a Service Business Need a Website? (Plumbers, HVAC, Landscapers)",
     metaDescription: "Word of mouth works — until it doesn't. Here's an honest answer to whether your plumbing, landscaping, cleaning, or HVAC business actually needs a website in 2026.",
@@ -1394,7 +1394,7 @@ export const posts: Post[] = [
     ],
   },
   {
-    slug: "local-seo-for-service-businesses",
+    slug: "local-seo-guide-for-service-businesses",
     title: "Local SEO for Service Businesses: What Actually Works",
     metaTitle: "Local SEO for Service Businesses: What Actually Works in 2026",
     metaDescription: "A no-fluff guide to local SEO for plumbers, electricians, HVAC, landscapers, and other service businesses. Focus on what moves the needle.",
@@ -1632,7 +1632,7 @@ export const posts: Post[] = [
     relatedTrade: { label: "HVAC company websites →", href: "/hvac-websites" },
   },
   {
-    slug: "cleaning-business-marketing",
+    slug: "cleaning-company-marketing-guide",
     title: "Cleaning Business Marketing: How to Get More Clients Without Spending a Fortune",
     metaTitle: "Cleaning Business Marketing: Get More Clients in 2026",
     metaDescription: "Practical marketing for cleaning businesses — house cleaning, commercial cleaning, and specialty services. What actually brings in new clients.",

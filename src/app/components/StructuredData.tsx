@@ -323,11 +323,19 @@ const breadcrumb = {
   ],
 };
 
-// Marks the key sentences AI and voice assistants should read aloud
-const speakable = {
+const webPage = {
   "@context": "https://schema.org",
-  "@type": "SpeakableSpecification",
-  cssSelector: ["h1", "h2", ".speakable"],
+  "@type": "WebPage",
+  "@id": `${SITE_URL}#webpage`,
+  url: SITE_URL,
+  name: SITE_NAME,
+  isPartOf: { "@id": `${SITE_URL}#website` },
+  about: { "@id": `${SITE_URL}#organization` },
+  inLanguage: "en-US",
+  speakable: {
+    "@type": "SpeakableSpecification",
+    cssSelector: ["h1", "h2", ".speakable"],
+  },
 };
 
 export { faqPage };
@@ -335,7 +343,7 @@ export { faqPage };
 export default function StructuredData() {
   const graph = {
     "@context": "https://schema.org",
-    "@graph": [organization, professionalService, website, breadcrumb, howTo, speakable],
+    "@graph": [organization, professionalService, website, webPage, breadcrumb, howTo],
   };
   return (
     <script

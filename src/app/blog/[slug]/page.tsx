@@ -45,12 +45,21 @@ export default async function BlogPost({
   const post = getPost(slug);
   if (!post) notFound();
 
+  const isoDate = new Date(post.publishDate).toISOString().split("T")[0];
+
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: post.title,
     description: post.metaDescription,
-    datePublished: post.publishDate,
+    datePublished: isoDate,
+    dateModified: isoDate,
+    image: {
+      "@type": "ImageObject",
+      url: `${SITE_URL}/blog/${slug}/opengraph-image`,
+      width: 1200,
+      height: 630,
+    },
     author: {
       "@type": "Organization",
       name: "Lobus Industries",

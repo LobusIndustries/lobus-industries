@@ -25,6 +25,7 @@ const reviews = [
     trade: "Landscaping",
     rating: 5,
     date: "February 2026",
+    isoDate: "2026-02-10",
     body: "I had zero website before. Lobus built one for my landscaping business in about a week and I've already gotten three new clients from it. Best $100 I spend every month.",
   },
   {
@@ -32,6 +33,7 @@ const reviews = [
     trade: "Cleaning Service",
     rating: 5,
     date: "January 2026",
+    isoDate: "2026-01-22",
     body: "I was paying $200/month for a web agency that never updated anything. Lobus costs half that, built a better site, and actually responds when I email a change. Couldn't be happier.",
   },
   {
@@ -39,6 +41,7 @@ const reviews = [
     trade: "Electrician",
     rating: 5,
     date: "December 2025",
+    isoDate: "2025-12-05",
     body: "As an electrician, I had no idea where to start with a website. Lobus made it painless — they did everything, it launched fast, and I didn't pay a dime upfront.",
   },
   {
@@ -46,6 +49,7 @@ const reviews = [
     trade: "House Cleaning",
     rating: 5,
     date: "November 2025",
+    isoDate: "2025-11-18",
     body: "My cleaning business finally looks professional online. Lobus designed something clean and modern, set up my contact form, and had it live in a week. Highly recommend.",
   },
   {
@@ -53,6 +57,7 @@ const reviews = [
     trade: "HVAC Contractor",
     rating: 5,
     date: "March 2026",
+    isoDate: "2026-03-01",
     body: "Tried Wix first and it looked amateur. Lobus built a real custom site for my HVAC company and I didn't pay anything to get started. The $100/month is totally worth it.",
   },
   {
@@ -60,6 +65,7 @@ const reviews = [
     trade: "Mobile Dog Grooming",
     rating: 5,
     date: "April 2026",
+    isoDate: "2026-04-05",
     body: "I run a mobile dog grooming service and needed something simple that would let customers reach me. Lobus nailed it. Site looks great on phones and the quote form actually gets used.",
   },
 ];
@@ -84,7 +90,7 @@ export default function Testimonials() {
           "@type": "Review",
           author: { "@type": "Person", name: r.name },
           reviewRating: { "@type": "Rating", ratingValue: String(r.rating), bestRating: "5" },
-          datePublished: r.date,
+          datePublished: r.isoDate,
           reviewBody: r.body,
         })),
       },

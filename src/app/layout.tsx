@@ -48,6 +48,9 @@ export const metadata: Metadata = {
   category: "Business Services",
   alternates: {
     canonical: SITE_URL,
+    types: {
+      "application/rss+xml": `${SITE_URL}/feed.xml`,
+    },
   },
   manifest: "/manifest.webmanifest",
   openGraph: {

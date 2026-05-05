@@ -47,10 +47,42 @@ const process = [
   { step: "05", title: "We keep it updated", body: "Phone number changed? New service added? Just email us. Updates are included in your $100/month with no cap on requests." },
 ];
 
+const aboutSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AboutPage",
+      "@id": `${SITE_URL}/about#webpage`,
+      url: `${SITE_URL}/about`,
+      name: "About Lobus Industries",
+      description:
+        "Lobus Industries builds professional websites for service-based small businesses. $0 upfront build cost, $100/month for hosting and ongoing updates.",
+      isPartOf: { "@id": `${SITE_URL}#website` },
+      about: { "@id": `${SITE_URL}#organization` },
+    },
+    {
+      "@type": "Organization",
+      "@id": `${SITE_URL}#organization`,
+      name: "Lobus Industries",
+      url: SITE_URL,
+      description:
+        "Lobus Industries builds professional websites for service-based small businesses. Free build. $100/month for hosting, SSL, backups, and ongoing content updates.",
+      foundingDate: "2025",
+      areaServed: { "@type": "Country", name: "United States" },
+      email: "lobusindustries@gmail.com",
+      sameAs: ["https://github.com/LobusIndustries"],
+    },
+  ],
+};
+
 export default function About() {
   return (
     <>
       <Nav />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutSchema) }}
+      />
       <main className="flex-1">
         {/* Hero */}
         <section className="relative overflow-hidden">
