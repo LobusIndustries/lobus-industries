@@ -138,11 +138,35 @@ function ContactForm() {
           type="tel"
           placeholder="(208) 555-0192"
         />
+        <SelectField
+          label="Type of business"
+          name="business_type"
+          required
+          options={[
+            "Plumber",
+            "Electrician",
+            "HVAC / Heating & Cooling",
+            "Landscaper / Lawn Care",
+            "Cleaning Service",
+            "Painter",
+            "Roofer",
+            "General Contractor",
+            "Handyman",
+            "Salon / Barber",
+            "Tutor / Instructor",
+            "Other",
+          ]}
+        />
+        <SelectField
+          label="Do you currently have a website?"
+          name="has_website"
+          required
+          options={["No website", "Yes, but it needs work", "Yes, it's fine — just exploring"]}
+        />
         <Field
-          label="What does your business do?"
-          name="about"
-          placeholder="Residential plumbing in Boise, ID"
-          textarea
+          label="City / Service area"
+          name="location"
+          placeholder="Boise, ID"
           required
         />
         <button
@@ -160,6 +184,34 @@ function ContactForm() {
         </p>
       </div>
     </form>
+  );
+}
+
+function SelectField({
+  label,
+  name,
+  options,
+  required,
+}: {
+  label: string;
+  name: string;
+  options: string[];
+  required?: boolean;
+}) {
+  const base =
+    "w-full rounded-lg border border-[var(--border-strong)] bg-white/[0.03] text-white px-3.5 py-2.5 text-sm focus:outline-none focus:border-[var(--accent)] focus:ring-2 focus:ring-[var(--accent)]/30 transition appearance-none";
+  return (
+    <label className="block">
+      <span className="block text-[10px] font-medium text-[var(--muted)] mb-1.5 uppercase tracking-[0.2em]">
+        {label}
+      </span>
+      <select name={name} required={required} defaultValue="" className={base}>
+        <option value="" disabled className="bg-[#07080d]">Select one…</option>
+        {options.map((o) => (
+          <option key={o} value={o} className="bg-[#07080d]">{o}</option>
+        ))}
+      </select>
+    </label>
   );
 }
 

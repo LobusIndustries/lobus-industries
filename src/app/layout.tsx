@@ -6,6 +6,7 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 import StructuredData from "./components/StructuredData";
 import ScrollAnimations from "./components/ScrollAnimations";
 import FloatingCTA from "./components/FloatingCTA";
+import LeadPopupWrapper from "./components/LeadPopupWrapper";
 import "./globals.css";
 
 const inter = Inter({
@@ -113,6 +114,7 @@ export default function RootLayout({
         <StructuredData />
         <ScrollAnimations />
         <FloatingCTA />
+        <LeadPopupWrapper />
         <Analytics />
         <SpeedInsights />
         <GoogleAnalytics gaId="G-9ZN2L9N6J6" />
