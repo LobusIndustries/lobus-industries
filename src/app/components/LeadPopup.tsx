@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState, useRef } from "react";
+import { createPortal } from "react-dom";
 import { sendGAEvent } from "@next/third-parties/google";
 
 const FORMSPREE_ENDPOINT = "https://formspree.io/f/mqewqdod";
@@ -78,8 +79,9 @@ export default function LeadPopup() {
 
   if (!open) return null;
 
-  return (
+  return createPortal(
     <div
+      data-portal
       className="fixed inset-0 z-50 flex items-center justify-center p-4"
       role="dialog"
       aria-modal="true"
@@ -159,7 +161,8 @@ export default function LeadPopup() {
           )}
         </div>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }
 
