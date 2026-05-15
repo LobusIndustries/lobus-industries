@@ -29,29 +29,8 @@ export default function LeadPopup() {
   }
 
   useEffect(() => {
-    // 15-second timer
     const timer = setTimeout(trigger, 15_000);
-
-    // Desktop: exit-intent when cursor leaves viewport upward
-    function onMouseLeave(e: MouseEvent) {
-      if (e.clientY <= 0) trigger();
-    }
-    document.addEventListener("mouseleave", onMouseLeave);
-
-    // Mobile: fire after user scrolls down 300px then back up past the top
-    let maxScroll = 0;
-    function onScroll() {
-      const y = window.scrollY;
-      if (y > maxScroll) maxScroll = y;
-      if (maxScroll > 300 && y < 50) trigger();
-    }
-    window.addEventListener("scroll", onScroll, { passive: true });
-
-    return () => {
-      clearTimeout(timer);
-      document.removeEventListener("mouseleave", onMouseLeave);
-      window.removeEventListener("scroll", onScroll);
-    };
+    return () => clearTimeout(timer);
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
