@@ -81,8 +81,7 @@ export default function LeadPopup() {
 
   return createPortal(
     <div
-      data-portal
-      className="fixed inset-0 z-50 flex items-center justify-center p-4"
+      style={{ position: "fixed", inset: 0, zIndex: 9999, display: "flex", alignItems: "center", justifyContent: "center", padding: "1rem" }}
       role="dialog"
       aria-modal="true"
       aria-label="Free website audit offer"
