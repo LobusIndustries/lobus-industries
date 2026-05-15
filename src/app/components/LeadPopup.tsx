@@ -5,7 +5,7 @@ import { createPortal } from "react-dom";
 import { sendGAEvent } from "@next/third-parties/google";
 
 const FORMSPREE_ENDPOINT = "https://formspree.io/f/mqewqdod";
-const STORAGE_KEY = "li_popup_dismissed";
+const STORAGE_KEY = "li_popup_v2";
 
 type Status = "idle" | "submitting" | "success" | "error";
 
