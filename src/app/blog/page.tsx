@@ -21,20 +21,47 @@ export const metadata: Metadata = {
 };
 
 export default function BlogIndex() {
-  const itemListSchema = {
+  const blogSchema = {
     "@context": "https://schema.org",
-    "@type": "ItemList",
-    name: "Lobus Industries Blog — Website Tips for Service Businesses",
-    description: "Practical advice on websites, local SEO, and getting found online for service businesses.",
-    url: `${SITE_URL}/blog`,
-    numberOfItems: posts.length,
-    itemListElement: posts.map((post, index) => ({
-      "@type": "ListItem",
-      position: index + 1,
-      url: `${SITE_URL}/blog/${post.slug}`,
-      name: post.title,
-      description: post.metaDescription,
-    })),
+    "@graph": [
+      {
+        "@type": "Blog",
+        "@id": `${SITE_URL}/blog#blog`,
+        name: "Lobus Industries Blog",
+        description: "Practical advice on websites, local SEO, and getting found online for service businesses.",
+        url: `${SITE_URL}/blog`,
+        inLanguage: "en-US",
+        publisher: { "@id": `${SITE_URL}#organization` },
+        blogPost: posts.map((post) => ({
+          "@type": "BlogPosting",
+          headline: post.title,
+          description: post.metaDescription,
+          url: `${SITE_URL}/blog/${post.slug}`,
+          datePublished: new Date(post.publishDate).toISOString().split("T")[0],
+        })),
+      },
+      {
+        "@type": "ItemList",
+        name: "Lobus Industries Blog — Website Tips for Service Businesses",
+        description: "Practical advice on websites, local SEO, and getting found online for service businesses.",
+        url: `${SITE_URL}/blog`,
+        numberOfItems: posts.length,
+        itemListElement: posts.map((post, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          url: `${SITE_URL}/blog/${post.slug}`,
+          name: post.title,
+          description: post.metaDescription,
+        })),
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+          { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE_URL}/blog` },
+        ],
+      },
+    ],
   };
 
   return (
@@ -42,7 +69,7 @@ export default function BlogIndex() {
       <Nav />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }}
       />
       <main className="flex-1">
         <section className="relative overflow-hidden">

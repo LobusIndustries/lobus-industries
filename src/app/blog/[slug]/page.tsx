@@ -47,31 +47,61 @@ export default async function BlogPost({
 
   const isoDate = new Date(post.publishDate).toISOString().split("T")[0];
 
+  const wordCount = post.sections.reduce((sum, s) => {
+    const paras = (s.paragraphs ?? []).join(" ");
+    const list = (s.list ?? []).map((l) => `${l.title} ${l.body}`).join(" ");
+    const callout = s.callout ?? "";
+    return sum + `${s.heading ?? ""} ${paras} ${list} ${callout}`.split(/\s+/).filter(Boolean).length;
+  }, 0);
+
   const articleSchema = {
     "@context": "https://schema.org",
-    "@type": "Article",
-    headline: post.title,
-    description: post.metaDescription,
-    datePublished: isoDate,
-    dateModified: isoDate,
-    image: {
-      "@type": "ImageObject",
-      url: `${SITE_URL}/blog/${slug}/opengraph-image`,
-      width: 1200,
-      height: 630,
-    },
-    author: {
-      "@type": "Organization",
-      name: "Lobus Industries",
-      url: SITE_URL,
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "Lobus Industries",
-      url: SITE_URL,
-      logo: { "@type": "ImageObject", url: `${SITE_URL}/icon.svg` },
-    },
-    mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/blog/${slug}` },
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": `${SITE_URL}/blog/${slug}#article`,
+        headline: post.title,
+        description: post.metaDescription,
+        datePublished: isoDate,
+        dateModified: isoDate,
+        wordCount,
+        articleSection: "Service Business Marketing",
+        inLanguage: "en-US",
+        image: {
+          "@type": "ImageObject",
+          url: `${SITE_URL}/blog/${slug}/opengraph-image`,
+          width: 1200,
+          height: 630,
+        },
+        author: {
+          "@type": "Organization",
+          "@id": `${SITE_URL}#organization`,
+          name: "Lobus Industries",
+          url: SITE_URL,
+        },
+        publisher: {
+          "@type": "Organization",
+          "@id": `${SITE_URL}#organization`,
+          name: "Lobus Industries",
+          url: SITE_URL,
+          logo: { "@type": "ImageObject", url: `${SITE_URL}/icon.svg` },
+        },
+        mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/blog/${slug}` },
+        isPartOf: { "@type": "Blog", "@id": `${SITE_URL}/blog#blog` },
+        about: {
+          "@type": "Thing",
+          name: post.relatedTrade?.label ?? "Service business websites",
+        },
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+          { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE_URL}/blog` },
+          { "@type": "ListItem", position: 3, name: post.title, item: `${SITE_URL}/blog/${slug}` },
+        ],
+      },
+    ],
   };
 
   const otherPosts = posts.filter((p) => p.slug !== slug).slice(0, 2);

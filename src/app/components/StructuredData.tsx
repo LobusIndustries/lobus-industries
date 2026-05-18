@@ -17,18 +17,51 @@ const organization = {
   "@type": "Organization",
   "@id": `${SITE_URL}#organization`,
   name: SITE_NAME,
+  legalName: "Lobus Industries",
+  alternateName: ["Lobus", "LobusIndustries"],
   url: SITE_URL,
-  logo: LOGO,
+  logo: {
+    "@type": "ImageObject",
+    url: LOGO,
+    width: 512,
+    height: 512,
+  },
+  image: `${SITE_URL}/opengraph-image`,
   email: EMAIL,
+  foundingDate: "2025",
+  slogan: "Websites that win customers for you.",
   description:
     "Lobus Industries builds professional websites for service-based businesses. $0 upfront build cost, $100/month flat for hosting and ongoing updates.",
+  knowsAbout: [
+    "Website design for service businesses",
+    "Local SEO",
+    "Lead generation",
+    "Small business marketing",
+    "Mobile-first web design",
+    "Google Business Profile optimization",
+    "Conversion-focused web design",
+    "Plumber websites",
+    "Electrician websites",
+    "HVAC company websites",
+    "Landscaper websites",
+    "Contractor websites",
+  ],
+  knowsLanguage: ["en-US"],
   sameAs: [
     "https://github.com/LobusIndustries",
+    "https://www.lobusindustries.com",
   ],
   contactPoint: [
     {
       "@type": "ContactPoint",
       contactType: "sales",
+      email: EMAIL,
+      availableLanguage: ["English"],
+      areaServed: "US",
+    },
+    {
+      "@type": "ContactPoint",
+      contactType: "customer support",
       email: EMAIL,
       availableLanguage: ["English"],
       areaServed: "US",
@@ -143,9 +176,30 @@ const professionalService = {
   review: reviews,
   description:
     "Professional website design, development, hosting, and ongoing maintenance for service-based small businesses. No build fee. Flat monthly hosting.",
-  areaServed: {
-    "@type": "Country",
-    name: "United States",
+  areaServed: [
+    { "@type": "Country", name: "United States" },
+    { "@type": "AdministrativeArea", name: "All 50 US States" },
+  ],
+  serviceType: [
+    "Website design",
+    "Website development",
+    "Website hosting",
+    "Local SEO",
+    "Lead-generation websites",
+    "Website maintenance",
+  ],
+  brand: { "@id": `${SITE_URL}#organization` },
+  makesOffer: {
+    "@type": "Offer",
+    name: "The Lobus Plan",
+    price: "100",
+    priceCurrency: "USD",
+    priceSpecification: {
+      "@type": "UnitPriceSpecification",
+      price: "100",
+      priceCurrency: "USD",
+      unitCode: "MON",
+    },
   },
   offers: {
     "@type": "Offer",
@@ -232,10 +286,19 @@ const website = {
   "@id": `${SITE_URL}#website`,
   url: SITE_URL,
   name: SITE_NAME,
+  alternateName: "Lobus",
   description:
     "Professional websites for service businesses. Free to build. $100/month to host.",
   publisher: { "@id": `${SITE_URL}#organization` },
   inLanguage: "en-US",
+  potentialAction: {
+    "@type": "SearchAction",
+    target: {
+      "@type": "EntryPoint",
+      urlTemplate: `${SITE_URL}/blog?q={search_term_string}`,
+    },
+    "query-input": "required name=search_term_string",
+  },
 };
 
 const faqPage = {
@@ -340,10 +403,56 @@ const webPage = {
 
 export { faqPage };
 
+const brand = {
+  "@context": "https://schema.org",
+  "@type": "Brand",
+  "@id": `${SITE_URL}#brand`,
+  name: SITE_NAME,
+  logo: LOGO,
+  url: SITE_URL,
+  slogan: "Websites that win customers for you.",
+};
+
+const localBusiness = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": `${SITE_URL}#localbusiness`,
+  name: SITE_NAME,
+  url: SITE_URL,
+  image: LOGO,
+  email: EMAIL,
+  priceRange: "$100/month",
+  description:
+    "Remote-first website design and hosting studio serving service businesses across the United States.",
+  areaServed: {
+    "@type": "Country",
+    name: "United States",
+  },
+  address: {
+    "@type": "PostalAddress",
+    addressCountry: "US",
+  },
+  openingHoursSpecification: [
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      opens: "09:00",
+      closes: "18:00",
+    },
+  ],
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "5.0",
+    reviewCount: "6",
+    bestRating: "5",
+    worstRating: "1",
+  },
+};
+
 export default function StructuredData() {
   const graph = {
     "@context": "https://schema.org",
-    "@graph": [organization, professionalService, website, webPage, breadcrumb, howTo],
+    "@graph": [organization, brand, professionalService, localBusiness, website, webPage, breadcrumb, howTo],
   };
   return (
     <script

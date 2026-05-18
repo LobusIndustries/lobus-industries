@@ -32,6 +32,11 @@ const tradeLinks = [
   { href: "/moving-company-websites", label: "Moving company websites" },
   { href: "/pool-service-websites", label: "Pool service websites" },
   { href: "/dog-grooming-websites", label: "Dog grooming websites" },
+  { href: "/barber-shop-websites", label: "Barber shop websites" },
+  { href: "/tutor-websites", label: "Tutor websites" },
+  { href: "/photographer-websites", label: "Photographer websites" },
+  { href: "/bookkeeper-websites", label: "Bookkeeper websites" },
+  { href: "/real-estate-agent-websites", label: "Real estate agent websites" },
 ];
 
 export default function Footer() {
@@ -92,14 +97,16 @@ export default function Footer() {
             </span>
           </div>
           <div className="text-xs text-[var(--muted-strong)] flex flex-wrap items-center gap-x-6 gap-y-2">
-            <a href="/#services" className="hover:text-white transition-colors">Services</a>
+            <a href="/services" className="hover:text-white transition-colors">Services</a>
             <a href="/pricing" className="hover:text-white transition-colors">Pricing</a>
-            <a href="/#faq" className="hover:text-white transition-colors">FAQ</a>
+            <a href="/faq" className="hover:text-white transition-colors">FAQ</a>
             <a href="/about" className="hover:text-white transition-colors">About</a>
+            <a href="/testimonials" className="hover:text-white transition-colors">Testimonials</a>
             <a href="/blog" className="hover:text-white transition-colors">Blog</a>
+            <a href="/website-design" className="hover:text-white transition-colors">Locations</a>
+            <a href="/alternatives" className="hover:text-white transition-colors">Alternatives</a>
+            <a href="/free-audit" className="hover:text-white transition-colors">Free audit</a>
             <a href="/referral" className="hover:text-white transition-colors">Referral program</a>
-            <a href="/wix-alternative" className="hover:text-white transition-colors">Wix alternative</a>
-            <a href="/squarespace-alternative" className="hover:text-white transition-colors">Squarespace alternative</a>
             <a href="/feed.xml" className="hover:text-white transition-colors">RSS</a>
             <a href="/privacy" className="hover:text-white transition-colors">Privacy</a>
             <a href="/tos" className="hover:text-white transition-colors">Terms</a>

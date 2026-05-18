@@ -305,6 +305,101 @@ const TRADES: Record<string, TradeConfig> = {
       },
     ],
   },
+  "barber-shop-websites": {
+    name: "Barbers & Barber Shops",
+    metaTitle: "Websites for Barber Shops — Free to Build, $100/mo to Host",
+    metaDescription:
+      "Professional websites for barbers and barber shops. Showcase your style, fill your chair, and get found on Google. $0 upfront, $100/month flat.",
+    headline: "A website as sharp as your fades.",
+    sub: "Walk-ins keep the lights on, but the best clients find you online. We build a site that shows your style and books your chair — free to build, $100/month to host.",
+    why: "New clients in your neighborhood Google barbers before stepping in. Without a site that shows your work and hours, you're invisible to the half of your future regulars who don't know your shop name yet.",
+    faqs: [
+      {
+        q: "Can my website show my style and team?",
+        a: "Yes — we showcase haircut photos, your barbers, and your shop atmosphere. The right images make new clients want to book before they even call.",
+      },
+      {
+        q: "Can clients book appointments online?",
+        a: "We include a booking request form and can integrate with most popular barber booking apps (Booksy, Square Appointments, Squire) if you already use one.",
+      },
+    ],
+  },
+  "tutor-websites": {
+    name: "Tutors",
+    metaTitle: "Websites for Tutors — Free to Build, $100/mo to Host",
+    metaDescription:
+      "Professional websites for private tutors and tutoring services. Reach parents, show credentials, and fill your schedule. $0 upfront, $100/month flat.",
+    headline: "A website parents trust before they hand you their kid.",
+    sub: "Parents don't hire tutors blindly. A professional site with your credentials, subjects, and reviews is what turns a Google search into a booked session.",
+    why: "Parents researching tutors compare three or four before reaching out. Without a polished site, you lose to whoever looks more credible — not whoever actually teaches better. We fix that.",
+    faqs: [
+      {
+        q: "Can I list my subjects and grade levels?",
+        a: "Yes — clear subject and grade tags make it instantly obvious whether a parent has found the right tutor. We also help with SEO for searches like 'algebra tutor near me.'",
+      },
+      {
+        q: "Can I show student outcomes or reviews?",
+        a: "Absolutely. A testimonials section with parent quotes is one of the highest-converting elements for tutoring sites. We make it look polished.",
+      },
+    ],
+  },
+  "photographer-websites": {
+    name: "Photographers",
+    metaTitle: "Websites for Photographers — Free to Build, $100/mo to Host",
+    metaDescription:
+      "Professional websites for photographers, including wedding, family, and brand photography. Showcase your portfolio and book clients. $0 upfront, $100/month flat.",
+    headline: "Let your portfolio do the booking.",
+    sub: "Couples and clients pick photographers based on how the photos look on screen. We build a fast, beautiful portfolio site that turns browsers into bookings — free to build, $100/month to host.",
+    why: "Instagram is rented land. A site you own is where serious clients book — and where your portfolio loads in full resolution on the device they're searching from. Without one, you're losing to photographers whose work is no better.",
+    faqs: [
+      {
+        q: "Will my photos load fast and look sharp?",
+        a: "Yes — we optimize for fast load times on every device while preserving photo quality. Slow portfolios lose clients before they ever fill out a contact form.",
+      },
+      {
+        q: "Can I have separate galleries by category?",
+        a: "Of course. Weddings, portraits, brand, real estate — we set up clear galleries so each potential client sees the work that matters to them.",
+      },
+    ],
+  },
+  "bookkeeper-websites": {
+    name: "Bookkeepers & Accountants",
+    metaTitle: "Websites for Bookkeepers & Accountants — Free to Build, $100/mo to Host",
+    metaDescription:
+      "Professional websites for bookkeepers, accountants, and tax preparers. Earn trust, list services, and book qualified clients. $0 upfront, $100/month flat.",
+    headline: "A site that earns trust before the first call.",
+    sub: "Bookkeeping clients hand over sensitive financials. A professional, secure-looking website is the difference between a serious lead and silence. Built for free, hosted for $100/month.",
+    why: "Bookkeepers and accountants live and die by referrals — but referrals still Google you before reaching out. Without a credible website, even warm leads cool off. A clean site closes the loop.",
+    faqs: [
+      {
+        q: "Can I list my services and pricing tiers?",
+        a: "Yes — clear service packages (monthly bookkeeping, tax prep, payroll, etc.) help filter qualified leads before they call. We structure it to highlight what you specialize in.",
+      },
+      {
+        q: "Do you use SSL and secure forms?",
+        a: "Yes — every Lobus site includes SSL and secure contact forms. That's table stakes for any financial professional.",
+      },
+    ],
+  },
+  "real-estate-agent-websites": {
+    name: "Real Estate Agents",
+    metaTitle: "Websites for Real Estate Agents — Free to Build, $100/mo to Host",
+    metaDescription:
+      "Professional websites for real estate agents and brokers. Stand out from your brokerage page, capture leads, and showcase listings. $0 upfront, $100/month flat.",
+    headline: "Your own site — not just a brokerage profile.",
+    sub: "Your brokerage page looks like every other agent's. A personal website with your story, listings, and lead forms is how you stand out and capture buyers your brokerage page never converts.",
+    why: "The agents who close the most deals own their own brand. Without a personal site, every Google search for your name leads to a generic brokerage profile — and a confused lead is a lost lead.",
+    faqs: [
+      {
+        q: "Can my site show my current listings?",
+        a: "Yes — we set up a listings section and can integrate with most MLS feeds or import listings manually. Updates are included in your monthly fee.",
+      },
+      {
+        q: "Will it work for buyer's agents too?",
+        a: "Absolutely. Buyer's agent sites focus on local market expertise, neighborhood guides, and lead capture forms — we tailor the site to whoever you serve.",
+      },
+    ],
+  },
   "dog-grooming-websites": {
     name: "Dog Groomers",
     metaTitle: "Websites for Dog Groomers — Free to Build, $100/mo to Host",
@@ -343,6 +438,11 @@ const RELATED: Record<string, string[]> = {
   "moving-company-websites": ["cleaning-websites", "handyman-websites", "auto-detailing-websites", "dog-grooming-websites"],
   "pool-service-websites": ["landscaper-websites", "pest-control-websites", "pressure-washing-websites", "cleaning-websites"],
   "dog-grooming-websites": ["personal-trainer-websites", "cleaning-websites", "moving-company-websites", "auto-detailing-websites"],
+  "barber-shop-websites": ["personal-trainer-websites", "photographer-websites", "tutor-websites", "dog-grooming-websites"],
+  "tutor-websites": ["bookkeeper-websites", "personal-trainer-websites", "photographer-websites", "real-estate-agent-websites"],
+  "photographer-websites": ["real-estate-agent-websites", "tutor-websites", "barber-shop-websites", "personal-trainer-websites"],
+  "bookkeeper-websites": ["real-estate-agent-websites", "tutor-websites", "photographer-websites", "personal-trainer-websites"],
+  "real-estate-agent-websites": ["photographer-websites", "bookkeeper-websites", "tutor-websites", "moving-company-websites"],
 };
 
 const GENERAL_FAQS = [
@@ -414,10 +514,13 @@ export default async function TradePage({
     "@graph": [
       {
         "@type": "Service",
+        "@id": `${SITE_URL}/${trade}#service`,
         name: `Website Design for ${config.name}`,
         description: config.metaDescription,
+        category: "Website design",
         provider: {
           "@type": "ProfessionalService",
+          "@id": `${SITE_URL}#service`,
           name: "Lobus Industries",
           url: SITE_URL,
         },
@@ -425,13 +528,33 @@ export default async function TradePage({
           "@type": "Offer",
           price: "100",
           priceCurrency: "USD",
+          priceSpecification: {
+            "@type": "UnitPriceSpecification",
+            price: "100",
+            priceCurrency: "USD",
+            unitCode: "MON",
+          },
+          availability: "https://schema.org/InStock",
           description: "$0 upfront build cost. $100/month for hosting, SSL, backups, and updates.",
         },
-        areaServed: { "@type": "Country", name: "United States" },
+        areaServed: [
+          { "@type": "Country", name: "United States" },
+          { "@type": "AdministrativeArea", name: "All 50 US States" },
+        ],
+        aggregateRating: {
+          "@type": "AggregateRating",
+          ratingValue: "5.0",
+          reviewCount: "6",
+          bestRating: "5",
+          worstRating: "1",
+        },
         url: `${SITE_URL}/${trade}`,
+        image: `${SITE_URL}/${trade}/opengraph-image`,
+        inLanguage: "en-US",
       },
       {
         "@type": "FAQPage",
+        "@id": `${SITE_URL}/${trade}#faq`,
         mainEntity: allFaqs.map((f) => ({
           "@type": "Question",
           name: f.q,
@@ -444,6 +567,20 @@ export default async function TradePage({
           { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
           { "@type": "ListItem", position: 2, name: config.name, item: `${SITE_URL}/${trade}` },
         ],
+      },
+      {
+        "@type": "WebPage",
+        "@id": `${SITE_URL}/${trade}#webpage`,
+        url: `${SITE_URL}/${trade}`,
+        name: config.metaTitle,
+        description: config.metaDescription,
+        inLanguage: "en-US",
+        isPartOf: { "@id": `${SITE_URL}#website` },
+        about: { "@id": `${SITE_URL}/${trade}#service` },
+        speakable: {
+          "@type": "SpeakableSpecification",
+          cssSelector: ["h1", "h2"],
+        },
       },
     ],
   };

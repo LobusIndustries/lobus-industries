@@ -2,20 +2,24 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import Logo from "./Logo";
 
 const links = [
   { href: "#services", label: "Services" },
   { href: "#industries", label: "Who we serve" },
   { href: "#process", label: "Process" },
-  { href: "#pricing", label: "Pricing" },
-  { href: "#faq", label: "FAQ" },
+  { href: "/pricing", label: "Pricing" },
+  { href: "/faq", label: "FAQ" },
   { href: "/about", label: "About" },
   { href: "/blog", label: "Blog" },
 ];
 
 export default function Nav() {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
+  const isHome = pathname === "/";
+  const resolveHref = (href: string) => (href.startsWith("#") && !isHome ? `/${href}` : href);
 
   return (
     <header className="sticky top-0 z-50 backdrop-blur-xl bg-[var(--background)]/60 border-b border-[var(--border)]">
@@ -30,7 +34,7 @@ export default function Nav() {
         <nav className="hidden md:flex items-center gap-8 text-sm text-[var(--muted)]">
           {links.map((l) =>
             l.href.startsWith("#") ? (
-              <a key={l.href} href={l.href} className="hover:text-white transition-colors">
+              <a key={l.href} href={resolveHref(l.href)} className="hover:text-white transition-colors">
                 {l.label}
               </a>
             ) : (
@@ -73,7 +77,7 @@ export default function Nav() {
               l.href.startsWith("#") ? (
                 <a
                   key={l.href}
-                  href={l.href}
+                  href={resolveHref(l.href)}
                   onClick={() => setOpen(false)}
                   className="text-sm text-[var(--muted-strong)] hover:text-white transition-colors py-2.5 border-b border-[var(--border)] last:border-0"
                 >

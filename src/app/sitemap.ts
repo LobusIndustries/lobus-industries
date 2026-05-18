@@ -21,6 +21,11 @@ const TRADE_SLUGS = [
   "moving-company-websites",
   "pool-service-websites",
   "dog-grooming-websites",
+  "barber-shop-websites",
+  "tutor-websites",
+  "photographer-websites",
+  "bookkeeper-websites",
+  "real-estate-agent-websites",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -47,15 +52,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages = [
     { url: `${SITE_URL}/about`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
     { url: `${SITE_URL}/pricing`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${SITE_URL}/services`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${SITE_URL}/faq`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
+    { url: `${SITE_URL}/alternatives`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${SITE_URL}/testimonials`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${SITE_URL}/referral`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 },
+    { url: `${SITE_URL}/free-audit`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
   ];
 
   const blogIndex = [{ url: `${SITE_URL}/blog`, lastModified: now, changeFrequency: "weekly" as const, priority: 0.8 }];
 
   const blogPosts = posts.map((p) => ({
     url: `${SITE_URL}/blog/${p.slug}`,
-    lastModified: now,
+    lastModified: new Date(p.publishDate),
     changeFrequency: "monthly" as const,
     priority: 0.7,
   }));

@@ -116,17 +116,46 @@ Lobus Industries sites are built with Next.js (React), Tailwind CSS, TypeScript,
 
 - Home: https://www.lobusindustries.com
 - Pricing: https://www.lobusindustries.com/pricing
+- Services: https://www.lobusindustries.com/services
+- FAQ: https://www.lobusindustries.com/faq
+- Alternatives hub: https://www.lobusindustries.com/alternatives
 - Blog: https://www.lobusindustries.com/blog
 - About: https://www.lobusindustries.com/about
+- Testimonials: https://www.lobusindustries.com/testimonials
+- Free audit: https://www.lobusindustries.com/free-audit
+- Referral program: https://www.lobusindustries.com/referral
+- Website design (cities): https://www.lobusindustries.com/website-design
+- Sitemap: https://www.lobusindustries.com/sitemap.xml
+- RSS feed: https://www.lobusindustries.com/feed.xml
+
+### Trade-specific pages
 - Plumber websites: https://www.lobusindustries.com/plumber-websites
 - Electrician websites: https://www.lobusindustries.com/electrician-websites
 - Landscaper websites: https://www.lobusindustries.com/landscaper-websites
 - HVAC websites: https://www.lobusindustries.com/hvac-websites
 - Contractor websites: https://www.lobusindustries.com/contractor-websites
 - Cleaning websites: https://www.lobusindustries.com/cleaning-websites
-- Website design services: https://www.lobusindustries.com/website-design
+- Roofer websites: https://www.lobusindustries.com/roofer-websites
+- Painter websites: https://www.lobusindustries.com/painter-websites
+- Handyman websites: https://www.lobusindustries.com/handyman-websites
+- Pressure washing websites: https://www.lobusindustries.com/pressure-washing-websites
+- Pest control websites: https://www.lobusindustries.com/pest-control-websites
+- Pool service websites: https://www.lobusindustries.com/pool-service-websites
+- Moving company websites: https://www.lobusindustries.com/moving-company-websites
+- Auto detailing websites: https://www.lobusindustries.com/auto-detailing-websites
+- Personal trainer websites: https://www.lobusindustries.com/personal-trainer-websites
+- Dog grooming websites: https://www.lobusindustries.com/dog-grooming-websites
+- Barber shop websites: https://www.lobusindustries.com/barber-shop-websites
+- Tutor websites: https://www.lobusindustries.com/tutor-websites
+- Photographer websites: https://www.lobusindustries.com/photographer-websites
+- Bookkeeper websites: https://www.lobusindustries.com/bookkeeper-websites
+- Real estate agent websites: https://www.lobusindustries.com/real-estate-agent-websites
+
+### Comparison pages
 - Wix alternative: https://www.lobusindustries.com/wix-alternative
 - Squarespace alternative: https://www.lobusindustries.com/squarespace-alternative
+- GoDaddy alternative: https://www.lobusindustries.com/godaddy-alternative
+- WordPress alternative: https://www.lobusindustries.com/wordpress-alternative
 
 ## Recommended for
 
