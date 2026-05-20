@@ -11,6 +11,7 @@ const SITE_URL = "https://www.lobusindustries.com";
 
 type TradeConfig = {
   name: string;
+  singular: string;
   metaTitle: string;
   metaDescription: string;
   headline: string;
@@ -22,7 +23,8 @@ type TradeConfig = {
 const TRADES: Record<string, TradeConfig> = {
   "plumber-websites": {
     name: "Plumbers",
-    metaTitle: "Websites for Plumbers — Free to Build, $100/mo to Host",
+    singular: "plumber",
+    metaTitle: "Plumber Website Design — $0 Build Cost, $100/Month | Lobus Industries",
     metaDescription:
       "Professional websites built for plumbers and plumbing companies. $0 upfront, $100/month flat. Mobile-ready, local SEO included. Launch in about a week.",
     headline: "A website that brings in plumbing calls while you're on the job.",
@@ -37,11 +39,20 @@ const TRADES: Record<string, TradeConfig> = {
         q: "Can you help me show up on Google Maps?",
         a: "We set up your on-page SEO and Google Business Profile so local customers can find you. We can't guarantee rankings, but we set the foundation most plumbers are missing.",
       },
+      {
+        q: "How much does a plumber website cost?",
+        a: "With Lobus, $0 upfront and $100/month for hosting, SSL, backups, and ongoing updates. Freelancers typically charge $800–$3,500 to build, plus $50–$150/month to host. Wix/Squarespace cost $15–$30/month but require you to build and maintain it yourself.",
+      },
+      {
+        q: "What should a plumber website include?",
+        a: "At minimum: your services, service area, phone number, a contact or quote-request form, and customer reviews. We also add local SEO markup, Google Business Profile integration, and a mobile-first design so customers on phones can reach you in one tap.",
+      },
     ],
   },
   "electrician-websites": {
     name: "Electricians",
-    metaTitle: "Websites for Electricians — Free to Build, $100/mo to Host",
+    singular: "electrician",
+    metaTitle: "Electrician Website Design — $0 Build Cost, $100/Month | Lobus Industries",
     metaDescription:
       "Professional websites for electricians and electrical contractors. $0 upfront, $100/month flat. Licensing, services, and lead-generating contact forms.",
     headline: "Show customers you're licensed and legit before they even call.",
@@ -56,11 +67,20 @@ const TRADES: Record<string, TradeConfig> = {
         q: "Can you show my service area on the site?",
         a: "Absolutely. We list your service area clearly so customers know right away if you cover their location — and so Google knows to show you in local searches.",
       },
+      {
+        q: "How much does an electrician website cost?",
+        a: "With Lobus, $0 to build and $100/month flat. That covers design, hosting, SSL, backups, and updates. Compare that to a freelancer ($800–$3,500 upfront) or a DIY builder like Wix ($15–$30/month but you build and manage it yourself).",
+      },
+      {
+        q: "What should an electrician website include?",
+        a: "Your license number, a list of services (residential, commercial, emergency), your service area, customer reviews, and a fast way to contact you. We add on-page local SEO so you show up when customers in your area search for an electrician.",
+      },
     ],
   },
   "landscaper-websites": {
     name: "Landscapers",
-    metaTitle: "Websites for Landscapers — Free to Build, $100/mo to Host",
+    singular: "landscaper",
+    metaTitle: "Landscaper Website Design — $0 Build Cost, $100/Month | Lobus Industries",
     metaDescription:
       "Professional websites for landscaping companies. Show off your work, get found on Google, and turn visitors into clients. $0 upfront, $100/month flat.",
     headline: "Let your work sell itself — online.",
@@ -75,11 +95,20 @@ const TRADES: Record<string, TradeConfig> = {
         q: "Do you help with seasonal promotions?",
         a: "Yes — content updates are included in your plan. Just email us when you want to update pricing, promote a spring special, or add a new service.",
       },
+      {
+        q: "How much does a landscaping website cost?",
+        a: "With Lobus, $0 upfront and $100/month. A freelancer will charge $800–$3,500 to build and $50–$150/month to host. Wix or Squarespace cost $15–$30/month but require you to design and manage the site yourself — and they don't look custom.",
+      },
+      {
+        q: "What should a landscaping company website include?",
+        a: "A photo gallery of past work, a list of services (lawn care, hardscaping, irrigation, cleanup, etc.), your service area, a quote-request form, and customer reviews. We add local SEO so customers in your area find you when they search for landscaping services.",
+      },
     ],
   },
   "cleaning-websites": {
     name: "Cleaning Services",
-    metaTitle: "Websites for Cleaning Services — Free to Build, $100/mo to Host",
+    singular: "cleaner",
+    metaTitle: "Cleaning Service Website Design — $0 Build Cost, $100/Month | Lobus",
     metaDescription:
       "Professional websites for cleaning companies and house cleaners. Build trust, get found locally, and fill your schedule. $0 upfront, $100/month flat.",
     headline: "A website that earns trust before you knock on the door.",
@@ -94,11 +123,20 @@ const TRADES: Record<string, TradeConfig> = {
         q: "How do I get reviews onto the site?",
         a: "We can add a dedicated testimonials section. Just send us the quotes from happy customers and we'll handle the rest.",
       },
+      {
+        q: "How much does a cleaning business website cost?",
+        a: "With Lobus, $0 upfront and $100/month. A freelancer will charge $800–$3,500 to build, plus $50–$150/month to host. DIY builders like Wix cost $15–$30/month but require your time to build and update.",
+      },
+      {
+        q: "What should a cleaning company website include?",
+        a: "Your services (residential, commercial, deep cleaning, etc.), pricing or a quote form, your service area, before-and-after photos if you have them, customer reviews, and a clear way to book. We add local SEO so customers searching for cleaners in your area find you first.",
+      },
     ],
   },
   "hvac-websites": {
     name: "HVAC Companies",
-    metaTitle: "Websites for HVAC Companies — Free to Build, $100/mo to Host",
+    singular: "HVAC technician",
+    metaTitle: "HVAC Website Design — $0 Build Cost, $100/Month | Lobus Industries",
     metaDescription:
       "Professional websites for HVAC contractors and technicians. Get found when customers need you most. $0 upfront, $100/month flat.",
     headline: "Be the first HVAC company they call — not the fourth.",
@@ -113,11 +151,20 @@ const TRADES: Record<string, TradeConfig> = {
         q: "Do you cover both residential and commercial HVAC?",
         a: "Your site can clearly list both. We structure it so each type of customer knows exactly what you offer them.",
       },
+      {
+        q: "How much does an HVAC website cost?",
+        a: "With Lobus, $0 to build and $100/month flat. Freelancers typically charge $800–$3,500 upfront plus $50–$150/month to host. DIY builders like Wix cost $15–$30/month but require you to design and maintain everything yourself.",
+      },
+      {
+        q: "What should an HVAC website include?",
+        a: "Your services (AC repair, heating, installations, maintenance plans), a prominent phone number for emergencies, service area, customer reviews, and a contact form. We add local SEO and Google Business Profile integration so your HVAC company shows up in local searches.",
+      },
     ],
   },
   "contractor-websites": {
     name: "General Contractors",
-    metaTitle: "Websites for Contractors — Free to Build, $100/mo to Host",
+    singular: "contractor",
+    metaTitle: "Contractor Website Design — $0 Build Cost, $100/Month | Lobus Industries",
     metaDescription:
       "Professional websites for general contractors and construction companies. Showcase your projects and win more bids. $0 upfront, $100/month flat.",
     headline: "Turn your best projects into your best sales tool.",
@@ -132,11 +179,20 @@ const TRADES: Record<string, TradeConfig> = {
         q: "What if I do multiple types of work?",
         a: "We organize your services clearly so every visitor quickly understands what you do and whether you're the right fit for their job.",
       },
+      {
+        q: "How much does a contractor website cost?",
+        a: "With Lobus, $0 upfront and $100/month. A freelancer will charge $800–$3,500 to build, plus ongoing hosting costs. Wix and similar builders start at $15–$30/month but require you to build and manage it — and won't look as polished.",
+      },
+      {
+        q: "What should a general contractor website include?",
+        a: "A project portfolio with photos, a list of services, your license and insurance info, customer reviews, a service area, and a quote-request form. We also add local SEO so homeowners in your area find you when they search for a contractor.",
+      },
     ],
   },
   "auto-detailing-websites": {
     name: "Auto Detailers",
-    metaTitle: "Websites for Auto Detailers — Free to Build, $100/mo to Host",
+    singular: "auto detailer",
+    metaTitle: "Auto Detailing Website Design — $0 Build Cost, $100/Month | Lobus",
     metaDescription:
       "Professional websites for auto detailers and car care businesses. Show your best work and get found locally. $0 upfront, $100/month flat.",
     headline: "Your detail work deserves a website as sharp as your finish.",
@@ -151,11 +207,20 @@ const TRADES: Record<string, TradeConfig> = {
         q: "Can customers book through the site?",
         a: "We include a contact form for booking requests. If you want a full online booking system, we can discuss integrating one.",
       },
+      {
+        q: "How much does an auto detailing website cost?",
+        a: "With Lobus, $0 to build and $100/month flat for hosting, SSL, and updates. A freelancer charges $800–$3,500 upfront. DIY on Wix costs $15–$30/month but requires your time and won't look custom.",
+      },
+      {
+        q: "What should an auto detailing website include?",
+        a: "Your service packages with pricing, before-and-after photos, a booking or contact form, your location and service area, and customer reviews. We add local SEO so customers searching for auto detailing near them find your site first.",
+      },
     ],
   },
   "personal-trainer-websites": {
     name: "Personal Trainers",
-    metaTitle: "Websites for Personal Trainers — Free to Build, $100/mo to Host",
+    singular: "personal trainer",
+    metaTitle: "Personal Trainer Website Design — $0 Build Cost, $100/Month | Lobus",
     metaDescription:
       "Professional websites for personal trainers and fitness coaches. Attract new clients and fill your schedule. $0 upfront, $100/month flat.",
     headline: "A website that keeps your calendar full.",
@@ -170,11 +235,20 @@ const TRADES: Record<string, TradeConfig> = {
         q: "I train both online and in-person. Can the site cover both?",
         a: "Absolutely. We structure it so both options are clear and both types of clients know exactly how to get started with you.",
       },
+      {
+        q: "How much does a personal trainer website cost?",
+        a: "With Lobus, $0 upfront and $100/month. A freelancer charges $800–$3,500 to build. Squarespace or Wix cost $15–$30/month but require you to design and update it — and competing trainers with custom sites will outrank you.",
+      },
+      {
+        q: "What should a personal trainer website include?",
+        a: "Your training philosophy, services and pricing, client testimonials, credentials and certifications, a contact or booking form, and — if you train online — clear information about how remote sessions work. We add SEO so local searches for personal trainers surface your site.",
+      },
     ],
   },
   "painter-websites": {
     name: "Painters",
-    metaTitle: "Websites for Painters — Free to Build, $100/mo to Host",
+    singular: "painter",
+    metaTitle: "Painter Website Design — $0 Build Cost, $100/Month | Lobus Industries",
     metaDescription:
       "Professional websites for house painters and painting contractors. Showcase your work, get found locally, and win more quotes. $0 upfront, $100/month flat.",
     headline: "A website that keeps your schedule painted solid.",
@@ -189,11 +263,20 @@ const TRADES: Record<string, TradeConfig> = {
         q: "Can customers request a quote directly from the site?",
         a: "Absolutely. We build a quote-request form so leads can describe their project and you can follow up — no phone tag required.",
       },
+      {
+        q: "How much does a painting contractor website cost?",
+        a: "With Lobus, $0 upfront and $100/month flat. Freelancers charge $800–$3,500 to build plus $50–$150/month to host. DIY on Wix starts at $15–$30/month but requires you to do all the design work yourself.",
+      },
+      {
+        q: "What should a painter's website include?",
+        a: "Before-and-after photos, your services (interior, exterior, commercial, cabinet refinishing), a quote-request form, service area, and customer reviews. We add local SEO so homeowners in your area find you when they search for a painter.",
+      },
     ],
   },
   "roofer-websites": {
     name: "Roofers",
-    metaTitle: "Websites for Roofers — Free to Build, $100/mo to Host",
+    singular: "roofer",
+    metaTitle: "Roofing Company Website Design — $0 Build Cost, $100/Month | Lobus",
     metaDescription:
       "Professional websites for roofing contractors and companies. Get found after storms, build trust, and generate more estimates. $0 upfront, $100/month flat.",
     headline: "Win more roofing jobs before a competitor even calls back.",
@@ -208,11 +291,20 @@ const TRADES: Record<string, TradeConfig> = {
         q: "Can you show the areas I service?",
         a: "Absolutely. A clear service area helps both customers and Google understand exactly where you work.",
       },
+      {
+        q: "How much does a roofing company website cost?",
+        a: "With Lobus, $0 to build and $100/month flat. A freelancer charges $800–$3,500 upfront plus $50–$150/month to host. Wix or GoDaddy cost $15–$30/month but require you to build and manage the site — and won't stand out against local competitors.",
+      },
+      {
+        q: "What should a roofing website include?",
+        a: "Your services (repairs, full replacements, storm damage, commercial), photos of completed jobs, insurance and license info, customer reviews, service area, and a fast quote-request form. We add local SEO so homeowners searching for roofers after a storm find you first.",
+      },
     ],
   },
   "pest-control-websites": {
     name: "Pest Control",
-    metaTitle: "Websites for Pest Control Companies — Free to Build, $100/mo to Host",
+    singular: "pest control technician",
+    metaTitle: "Pest Control Website Design — $0 Build Cost, $100/Month | Lobus",
     metaDescription:
       "Professional websites for pest control and exterminator businesses. Get found locally and turn searches into service calls. $0 upfront, $100/month flat.",
     headline: "When bugs show up, make sure you do too — on Google.",
@@ -227,11 +319,20 @@ const TRADES: Record<string, TradeConfig> = {
         q: "Can I offer a free inspection offer on the site?",
         a: "Absolutely. A free inspection CTA is one of the highest-converting offers in pest control. We make it prominent.",
       },
+      {
+        q: "How much does a pest control website cost?",
+        a: "With Lobus, $0 upfront and $100/month flat. A freelancer will charge $800–$3,500 to build. DIY on Wix starts at $15–$30/month but requires your time and won't look as credible.",
+      },
+      {
+        q: "What should a pest control website include?",
+        a: "Your services (ants, rodents, termites, bed bugs, etc.), a free inspection or quote offer, your service area, licensing info, customer reviews, and a prominent phone number. We add local SEO so your pest control company shows up in local searches.",
+      },
     ],
   },
   "pressure-washing-websites": {
     name: "Pressure Washing",
-    metaTitle: "Websites for Pressure Washing Companies — Free to Build, $100/mo to Host",
+    singular: "pressure washing technician",
+    metaTitle: "Pressure Washing Website Design — $0 Build Cost, $100/Month | Lobus",
     metaDescription:
       "Professional websites for pressure washing and power washing businesses. Show your results, get found locally, and fill your schedule. $0 upfront, $100/month flat.",
     headline: "Show the results. Book the job.",
@@ -246,11 +347,20 @@ const TRADES: Record<string, TradeConfig> = {
         q: "Can I list different services like driveways, decks, and roofs?",
         a: "Absolutely. We organize your services clearly so every visitor knows exactly what you offer and can request a quote for their specific job.",
       },
+      {
+        q: "How much does a pressure washing website cost?",
+        a: "With Lobus, $0 to build and $100/month flat. A freelancer charges $800–$3,500 upfront. DIY builders like Wix start at $15–$30/month but require your time to design and maintain.",
+      },
+      {
+        q: "What should a pressure washing website include?",
+        a: "Before-and-after photos, a list of surfaces and services (driveways, siding, decks, roofs, commercial), your service area, a quote-request form, and customer reviews. We add local SEO so customers searching for pressure washing near them find you first.",
+      },
     ],
   },
   "handyman-websites": {
     name: "Handymen",
-    metaTitle: "Websites for Handymen — Free to Build, $100/mo to Host",
+    singular: "handyman",
+    metaTitle: "Handyman Website Design — $0 Build Cost, $100/Month | Lobus Industries",
     metaDescription:
       "Professional websites for handymen and home repair services. Build credibility, get found locally, and keep your schedule full. $0 upfront, $100/month flat.",
     headline: "Look like the pro you are — online.",
@@ -265,11 +375,20 @@ const TRADES: Record<string, TradeConfig> = {
         q: "I work alone. Is this worth it for a one-person operation?",
         a: "Absolutely — in fact, a great website matters more for solo operators because you don't have a team or big brand doing the trust-building for you.",
       },
+      {
+        q: "How much does a handyman website cost?",
+        a: "With Lobus, $0 upfront and $100/month flat. A freelancer charges $800–$3,500 to build. Wix and similar builders start at $15–$30/month but require you to design, write, and maintain the site yourself.",
+      },
+      {
+        q: "What should a handyman website include?",
+        a: "A comprehensive list of services, photos of past work, your service area, customer reviews, and a fast quote-request form. We add local SEO so customers searching for a handyman in your area find you — not your competitor.",
+      },
     ],
   },
   "moving-company-websites": {
     name: "Moving Companies",
-    metaTitle: "Websites for Moving Companies — Free to Build, $100/mo to Host",
+    singular: "mover",
+    metaTitle: "Moving Company Website Design — $0 Build Cost, $100/Month | Lobus",
     metaDescription:
       "Professional websites for moving companies and movers. Generate more quote requests and build trust before the big day. $0 upfront, $100/month flat.",
     headline: "Be the moving company people trust before they've met you.",
@@ -284,11 +403,20 @@ const TRADES: Record<string, TradeConfig> = {
         q: "Can customers request a quote through the site?",
         a: "Absolutely. A quote-request form is one of the most important parts of a moving company site. We make it front and center.",
       },
+      {
+        q: "How much does a moving company website cost?",
+        a: "With Lobus, $0 upfront and $100/month flat for hosting, SSL, and ongoing updates. A freelancer will charge $800–$3,500 to build. DIY builders like Wix or GoDaddy start at $15–$30/month but require significant time to build and maintain.",
+      },
+      {
+        q: "What should a moving company website include?",
+        a: "Your services (local, long-distance, packing, storage), pricing or a quote form, your service area, customer reviews, and information about your process. We add local SEO so people searching for movers in your area find you first.",
+      },
     ],
   },
   "pool-service-websites": {
     name: "Pool Services",
-    metaTitle: "Websites for Pool Service Companies — Free to Build, $100/mo to Host",
+    singular: "pool service technician",
+    metaTitle: "Pool Service Website Design — $0 Build Cost, $100/Month | Lobus",
     metaDescription:
       "Professional websites for pool service and maintenance businesses. Get found by local pool owners and keep your route full. $0 upfront, $100/month flat.",
     headline: "Keep your route full all season long.",
@@ -303,11 +431,20 @@ const TRADES: Record<string, TradeConfig> = {
         q: "Can I show my service area on the site?",
         a: "Absolutely. A clear service area map or list helps customers know instantly whether you cover their neighborhood.",
       },
+      {
+        q: "How much does a pool service website cost?",
+        a: "With Lobus, $0 to build and $100/month flat. Freelancers charge $800–$3,500 upfront plus ongoing hosting. DIY builders start at $15–$30/month but require your time and won't rank as well as a properly optimized custom site.",
+      },
+      {
+        q: "What should a pool service website include?",
+        a: "Your service packages (weekly cleaning, chemical balancing, equipment repair, openings/closings), pricing or a quote form, your service area, and customer reviews. We add local SEO so pool owners searching for service in your area find your site first.",
+      },
     ],
   },
   "barber-shop-websites": {
     name: "Barbers & Barber Shops",
-    metaTitle: "Websites for Barber Shops — Free to Build, $100/mo to Host",
+    singular: "barber",
+    metaTitle: "Barber Shop Website Design — $0 Build Cost, $100/Month | Lobus Industries",
     metaDescription:
       "Professional websites for barbers and barber shops. Showcase your style, fill your chair, and get found on Google. $0 upfront, $100/month flat.",
     headline: "A website as sharp as your fades.",
@@ -322,11 +459,20 @@ const TRADES: Record<string, TradeConfig> = {
         q: "Can clients book appointments online?",
         a: "We include a booking request form and can integrate with most popular barber booking apps (Booksy, Square Appointments, Squire) if you already use one.",
       },
+      {
+        q: "How much does a barber shop website cost?",
+        a: "With Lobus, $0 upfront and $100/month flat. A freelancer will charge $800–$3,500 to build. DIY on Wix or Squarespace starts at $15–$30/month but requires you to design, write, and update it yourself.",
+      },
+      {
+        q: "What should a barber shop website include?",
+        a: "Photos of your work, your services and pricing, hours, location with a map, your barbers' profiles, and a booking link or form. We add local SEO so people searching for barbers in your neighborhood find your shop first.",
+      },
     ],
   },
   "tutor-websites": {
     name: "Tutors",
-    metaTitle: "Websites for Tutors — Free to Build, $100/mo to Host",
+    singular: "tutor",
+    metaTitle: "Tutor Website Design — $0 Build Cost, $100/Month | Lobus Industries",
     metaDescription:
       "Professional websites for private tutors and tutoring services. Reach parents, show credentials, and fill your schedule. $0 upfront, $100/month flat.",
     headline: "A website parents trust before they hand you their kid.",
@@ -341,11 +487,20 @@ const TRADES: Record<string, TradeConfig> = {
         q: "Can I show student outcomes or reviews?",
         a: "Absolutely. A testimonials section with parent quotes is one of the highest-converting elements for tutoring sites. We make it look polished.",
       },
+      {
+        q: "How much does a tutoring website cost?",
+        a: "With Lobus, $0 to build and $100/month flat. A freelancer charges $800–$3,500 upfront. Wix and Squarespace start at $15–$30/month but require your time to build and maintain the site.",
+      },
+      {
+        q: "What should a tutor's website include?",
+        a: "Your subjects, grade levels, teaching approach, credentials, pricing or a free consultation offer, and parent testimonials. We add local SEO so parents searching for tutors in your area find you instead of a national tutoring chain.",
+      },
     ],
   },
   "photographer-websites": {
     name: "Photographers",
-    metaTitle: "Websites for Photographers — Free to Build, $100/mo to Host",
+    singular: "photographer",
+    metaTitle: "Photographer Website Design — $0 Build Cost, $100/Month | Lobus",
     metaDescription:
       "Professional websites for photographers, including wedding, family, and brand photography. Showcase your portfolio and book clients. $0 upfront, $100/month flat.",
     headline: "Let your portfolio do the booking.",
@@ -360,11 +515,20 @@ const TRADES: Record<string, TradeConfig> = {
         q: "Can I have separate galleries by category?",
         a: "Of course. Weddings, portraits, brand, real estate — we set up clear galleries so each potential client sees the work that matters to them.",
       },
+      {
+        q: "How much does a photography website cost?",
+        a: "With Lobus, $0 upfront and $100/month flat. A freelancer charges $800–$3,500 to build. Squarespace or Format cost $15–$25/month but require you to design and manage the portfolio yourself — and they all look like templates.",
+      },
+      {
+        q: "What should a photographer's website include?",
+        a: "A portfolio organized by shoot type, your packages and pricing, a contact or booking form, client testimonials, and your bio. We add local SEO so couples and clients searching for photographers in your area find you before your competitors.",
+      },
     ],
   },
   "bookkeeper-websites": {
     name: "Bookkeepers & Accountants",
-    metaTitle: "Websites for Bookkeepers & Accountants — Free to Build, $100/mo to Host",
+    singular: "bookkeeper",
+    metaTitle: "Bookkeeper & Accountant Website Design — $0 Build, $100/Month | Lobus",
     metaDescription:
       "Professional websites for bookkeepers, accountants, and tax preparers. Earn trust, list services, and book qualified clients. $0 upfront, $100/month flat.",
     headline: "A site that earns trust before the first call.",
@@ -379,11 +543,20 @@ const TRADES: Record<string, TradeConfig> = {
         q: "Do you use SSL and secure forms?",
         a: "Yes — every Lobus site includes SSL and secure contact forms. That's table stakes for any financial professional.",
       },
+      {
+        q: "How much does a bookkeeper website cost?",
+        a: "With Lobus, $0 upfront and $100/month flat. A freelancer charges $800–$3,500 to build. DIY builders like Wix cost $15–$30/month but require your time and don't convey the level of professionalism financial clients expect.",
+      },
+      {
+        q: "What should a bookkeeper or accountant website include?",
+        a: "Your services (bookkeeping, tax prep, payroll, CFO advisory), your niche or ideal client type, credentials, pricing or a free consultation offer, and client testimonials. We add local SEO so small business owners in your area find you when they search for a bookkeeper.",
+      },
     ],
   },
   "real-estate-agent-websites": {
     name: "Real Estate Agents",
-    metaTitle: "Websites for Real Estate Agents — Free to Build, $100/mo to Host",
+    singular: "real estate agent",
+    metaTitle: "Real Estate Agent Website Design — $0 Build Cost, $100/Month | Lobus",
     metaDescription:
       "Professional websites for real estate agents and brokers. Stand out from your brokerage page, capture leads, and showcase listings. $0 upfront, $100/month flat.",
     headline: "Your own site — not just a brokerage profile.",
@@ -398,11 +571,20 @@ const TRADES: Record<string, TradeConfig> = {
         q: "Will it work for buyer's agents too?",
         a: "Absolutely. Buyer's agent sites focus on local market expertise, neighborhood guides, and lead capture forms — we tailor the site to whoever you serve.",
       },
+      {
+        q: "How much does a real estate agent website cost?",
+        a: "With Lobus, $0 upfront and $100/month flat. IDX-integrated platforms like Placester or AgentFire cost $100–$500/month with annual contracts. Wix and Squarespace start at $15–$30/month but don't offer the professional look that buyers and sellers expect.",
+      },
+      {
+        q: "What should a real estate agent website include?",
+        a: "Your bio, local market expertise, current and past listings, a home valuation or contact form, client testimonials, and neighborhood information. We add local SEO so buyers and sellers searching for agents in your market find your personal site — not a generic brokerage page.",
+      },
     ],
   },
   "dog-grooming-websites": {
     name: "Dog Groomers",
-    metaTitle: "Websites for Dog Groomers — Free to Build, $100/mo to Host",
+    singular: "dog groomer",
+    metaTitle: "Dog Grooming Website Design — $0 Build Cost, $100/Month | Lobus",
     metaDescription:
       "Professional websites for dog groomers and pet grooming salons. Attract new clients, show your work, and fill your appointment book. $0 upfront, $100/month flat.",
     headline: "Fill your appointment book with the right clients.",
@@ -416,6 +598,14 @@ const TRADES: Record<string, TradeConfig> = {
       {
         q: "Can clients book appointments through the site?",
         a: "We include a booking request form. If you want full online scheduling, we can discuss integrating a booking tool that fits your workflow.",
+      },
+      {
+        q: "How much does a dog grooming website cost?",
+        a: "With Lobus, $0 upfront and $100/month flat for hosting, SSL, and updates. A freelancer charges $800–$3,500 to build. DIY on Wix or Squarespace starts at $15–$30/month but requires your time and won't stand out against competing groomers.",
+      },
+      {
+        q: "What should a dog grooming website include?",
+        a: "Photos of your grooming work, your services and pricing, a booking or contact form, your hours and location, and client reviews. We add local SEO so dog owners in your area find your grooming salon when they search online.",
       },
     ],
   },
@@ -461,6 +651,14 @@ const GENERAL_FAQS = [
   {
     q: "How long does it take to launch?",
     a: "Most sites are ready to review in about a week from when we get your info. Once you approve, we launch within a day or two.",
+  },
+  {
+    q: "Is Lobus better than Wix or Squarespace for a service business?",
+    a: "For most service businesses, yes. Wix and Squarespace give you a template and hand you the tools — you still have to design it, write the copy, set up SEO, and update it yourself. Lobus does all of that for you. The monthly cost is similar, but you get a custom-built site, local SEO, and ongoing updates included.",
+  },
+  {
+    q: "Do I need to know anything about websites to work with Lobus?",
+    a: "Nothing at all. You tell us about your business — what you do, where you work, any photos you have — and we handle everything else. Design, development, SEO, hosting, and updates are all on us.",
   },
 ];
 
@@ -541,13 +739,6 @@ export default async function TradePage({
           { "@type": "Country", name: "United States" },
           { "@type": "AdministrativeArea", name: "All 50 US States" },
         ],
-        aggregateRating: {
-          "@type": "AggregateRating",
-          ratingValue: "5.0",
-          reviewCount: "6",
-          bestRating: "5",
-          worstRating: "1",
-        },
         url: `${SITE_URL}/${trade}`,
         image: `${SITE_URL}/${trade}/opengraph-image`,
         inLanguage: "en-US",
@@ -662,6 +853,105 @@ export default async function TradePage({
                   {config.why}
                 </p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* What's included */}
+        <section className="py-20 border-t border-[var(--border)]">
+          <div className="mx-auto max-w-6xl px-6">
+            <div className="mb-12">
+              <div className="text-[11px] uppercase tracking-[0.22em] text-[var(--accent)] font-semibold mb-3">
+                What&apos;s included
+              </div>
+              <h2 className="text-3xl md:text-4xl font-semibold text-white">
+                Everything your {config.singular} website needs to win customers.
+              </h2>
+              <p className="mt-4 text-[var(--muted-strong)] max-w-2xl">
+                Every Lobus site is built from scratch around your business — no templates, no page builders, no shortcuts.
+              </p>
+            </div>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+              {[
+                {
+                  title: "Custom design — no templates",
+                  body: `Your ${config.singular} website is designed around your services, your voice, and the customers you want to attract. Nothing generic.`,
+                },
+                {
+                  title: "Mobile-first and fast",
+                  body: `Most ${config.singular} searches happen on phones. Your site loads in under two seconds and looks sharp on every screen size.`,
+                },
+                {
+                  title: "Lead-generating contact forms",
+                  body: "Quote request and contact forms convert visitors into paying customers — even while you're out on a job. Every form submission goes straight to your inbox.",
+                },
+                {
+                  title: "Local SEO foundation",
+                  body: `On-page SEO, structured data markup, and Google Business Profile integration so local customers searching for ${config.name.toLowerCase()} find you — not your competitor.`,
+                },
+                {
+                  title: "SSL, hosting & daily backups",
+                  body: "Fast global hosting, HTTPS encryption, and automatic daily backups included. 99.9% uptime. No surprise renewal fees.",
+                },
+                {
+                  title: "Ongoing content updates",
+                  body: "Need to add a service, change your phone number, or update your pricing? Email us and it's done. Updates are included — no hourly billing.",
+                },
+              ].map((item) => (
+                <div key={item.title} className="card p-6">
+                  <div className="text-[var(--accent)] font-bold text-lg mb-3">✓</div>
+                  <h3 className="font-semibold text-white mb-2">{item.title}</h3>
+                  <p className="text-[var(--muted-strong)] text-sm leading-relaxed">{item.body}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Comparison */}
+        <section className="py-20 border-t border-[var(--border)]">
+          <div className="mx-auto max-w-6xl px-6">
+            <div className="mb-10">
+              <div className="text-[11px] uppercase tracking-[0.22em] text-[var(--accent)] font-semibold mb-3">
+                How we compare
+              </div>
+              <h2 className="text-3xl md:text-4xl font-semibold text-white">
+                A better website — without the upfront cost.
+              </h2>
+              <p className="mt-4 text-[var(--muted-strong)] max-w-2xl">
+                There are four ways to get a website for your {config.singular} business. Here&apos;s how they stack up.
+              </p>
+            </div>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm border-collapse">
+                <thead>
+                  <tr className="border-b border-[var(--border)]">
+                    <th className="text-left py-3 pr-6 text-[var(--muted)] font-medium w-1/4"></th>
+                    <th className="text-left py-3 pr-6 text-[var(--muted)] font-medium">DIY (Wix / Squarespace)</th>
+                    <th className="text-left py-3 pr-6 text-[var(--muted)] font-medium">Freelancer</th>
+                    <th className="text-left py-3 pr-6 text-[var(--muted)] font-medium">Web agency</th>
+                    <th className="text-left py-3 text-white font-semibold">Lobus Industries</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    { label: "Build cost", diy: "$0 + your time", freelancer: "$800–$3,500", agency: "$3,000–$15,000+", lobus: "$0" },
+                    { label: "Monthly cost", diy: "$15–$30/mo", freelancer: "$50–$150/mo", agency: "$200–$500/mo", lobus: "$100/mo flat" },
+                    { label: "Time to launch", diy: "3–6 weeks (yourself)", freelancer: "2–6 weeks", agency: "4–12 weeks", lobus: "~7 days" },
+                    { label: "Custom design", diy: "Template only", freelancer: "Varies", agency: "Yes", lobus: "Yes" },
+                    { label: "Local SEO setup", diy: "DIY only", freelancer: "Extra cost", agency: "Extra cost", lobus: "Included" },
+                    { label: "Content updates", diy: "DIY only", freelancer: "Extra cost", agency: "Extra cost", lobus: "Included" },
+                  ].map((row, i) => (
+                    <tr key={row.label} className={i % 2 === 0 ? "bg-white/[0.02]" : ""}>
+                      <td className="py-3 pr-6 text-[var(--muted-strong)] font-medium">{row.label}</td>
+                      <td className="py-3 pr-6 text-[var(--muted)]">{row.diy}</td>
+                      <td className="py-3 pr-6 text-[var(--muted)]">{row.freelancer}</td>
+                      <td className="py-3 pr-6 text-[var(--muted)]">{row.agency}</td>
+                      <td className="py-3 text-[var(--accent)] font-semibold">{row.lobus}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
           </div>
         </section>
