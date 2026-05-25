@@ -162,6 +162,51 @@ const TOP_TRADES: Record<string, TradeInfo> = {
       { q: "Can [city] customers book appointments through my website?", a: "We can integrate with booking tools like Vagaro, GlossGenius, or a simple contact form so [city] pet owners can request appointments directly." },
     ],
   },
+  "barber-shop-websites": {
+    name: "Barbers & Barber Shops",
+    singular: "barber",
+    why: "New clients in [city] Google barbers before stepping in. Without a site that shows your work, hours, and style, you're invisible to half your future regulars who don't know your shop name yet.",
+    faqs: [
+      { q: "Do I need a website for my [city] barber shop?", a: "Yes — new clients in [city] search online before walking in. A site with photos of your work, your hours, and a booking link turns those searches into regulars." },
+      { q: "Can [city] clients book appointments through my website?", a: "We include a booking request form and can link directly to apps like Booksy, Squire, or Square Appointments if you already use one." },
+    ],
+  },
+  "tutor-websites": {
+    name: "Tutors",
+    singular: "tutor",
+    why: "Parents in [city] researching tutors compare several options before reaching out. Without a polished site, you lose to whoever looks more credible — not whoever actually teaches better.",
+    faqs: [
+      { q: "Can I list my subjects and grade levels for [city] parents?", a: "Yes — clear subject and grade tags make it instantly obvious whether you're the right fit. We also optimize for searches like 'algebra tutor [city].'" },
+      { q: "How do I show student outcomes to [city] families?", a: "A testimonials section with parent quotes is one of the highest-converting elements for tutoring sites. We make it look polished and prominent." },
+    ],
+  },
+  "photographer-websites": {
+    name: "Photographers",
+    singular: "photographer",
+    why: "Couples and clients in [city] compare portfolios before reaching out. Instagram is rented land — a site you own is where serious [city] clients book and where your portfolio loads in full resolution on the device they're searching from.",
+    faqs: [
+      { q: "Will my photos load fast for [city] clients?", a: "Yes — we optimize for fast load times while preserving photo quality. Slow portfolios lose [city] clients before they ever fill out a contact form." },
+      { q: "Can I have separate galleries for [city] clients by shoot type?", a: "Of course — weddings, portraits, brand, real estate. We set up clear galleries so each [city] client sees the work that matters to them." },
+    ],
+  },
+  "bookkeeper-websites": {
+    name: "Bookkeepers & Accountants",
+    singular: "bookkeeper",
+    why: "Bookkeepers and accountants in [city] live and die by referrals — but referrals still Google you before reaching out. Without a credible website, even warm [city] leads cool off. A clean site closes the loop.",
+    faqs: [
+      { q: "Can I list my services and pricing for [city] businesses?", a: "Yes — clear service packages (monthly bookkeeping, tax prep, payroll, etc.) help filter qualified [city] leads before they call." },
+      { q: "Do you use SSL and secure forms for [city] clients?", a: "Yes — every Lobus site includes SSL and secure contact forms. That's table stakes for any [city] financial professional." },
+    ],
+  },
+  "real-estate-agent-websites": {
+    name: "Real Estate Agents",
+    singular: "real estate agent",
+    why: "The agents who close the most deals in [city] own their own brand. Without a personal site, every Google search for your name leads to a generic brokerage profile — and a confused [city] lead is a lost lead.",
+    faqs: [
+      { q: "Can my [city] real estate site show my current listings?", a: "Yes — we set up a listings section and can integrate with most MLS feeds or import listings manually. Updates are included in your monthly fee." },
+      { q: "Will it work for buyer's agents in [city]?", a: "Absolutely. Buyer's agent sites focus on [city] market expertise, neighborhood guides, and lead capture forms — we tailor the site to whoever you serve." },
+    ],
+  },
 };
 
 const TOP_CITY_SLUGS = [
