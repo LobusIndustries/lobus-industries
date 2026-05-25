@@ -32,7 +32,16 @@ export default function robots(): MetadataRoute.Robots {
 
   return {
     rules: [
-      { userAgent: "*", allow: "/" },
+      {
+        userAgent: "*",
+        allow: "/",
+        disallow: [
+          "/_next/static/",
+          "/_next/image",
+          "/api/",
+          "/opengraph-image",
+        ],
+      },
       ...aiBots.map((ua) => ({ userAgent: ua, allow: "/" })),
     ],
     sitemap: `${SITE_URL}/sitemap.xml`,
