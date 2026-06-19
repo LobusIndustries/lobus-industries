@@ -58,7 +58,7 @@ export default function FAQ() {
                   +
                 </span>
               </summary>
-              <p className="mt-3 text-[var(--muted-strong)] leading-relaxed text-[15px]">
+              <p className="speakable mt-3 text-[var(--muted-strong)] leading-relaxed text-[15px]">
                 {f.a}
               </p>
             </details>

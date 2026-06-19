@@ -21,7 +21,7 @@ export default function Hero() {
             <span className="text-accent-gradient">customers for you.</span>
           </h1>
 
-          <p className="mt-7 text-lg md:text-xl text-[var(--muted-strong)] max-w-2xl leading-relaxed">
+          <p className="speakable mt-7 text-lg md:text-xl text-[var(--muted-strong)] max-w-2xl leading-relaxed">
             Lobus Industries builds professional websites for service-based
             businesses. We don&apos;t charge you to build it. You only pay
             <span className="text-white font-semibold"> $100/month </span>
